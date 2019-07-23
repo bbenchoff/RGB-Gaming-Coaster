@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<circle x="0" y="0" locked="yes" radius="32.89" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="28.73" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="24.57" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="20.56" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="16.39" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="12.27" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="8.27" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.1524" layer="21"/>
+<wire x1="0" y1="36" x2="36" y2="0" width="0.1524" layer="46" curve="-90" locked="yes"/>
+<wire x1="36" y1="0" x2="0" y2="-36" width="0.1524" layer="46" curve="-90" locked="yes"/>
+<wire x1="0" y1="-36" x2="-36" y2="0" width="0.1524" layer="46" curve="-90" locked="yes"/>
+<wire x1="-36" y1="0" x2="0" y2="36" width="0.1524" layer="46" curve="-90" locked="yes"/>
+<wire x1="0" y1="36" x2="36" y2="0" width="0.1524" layer="20" curve="-90"/>
+<wire x1="36" y1="0" x2="0" y2="-36" width="0.1524" layer="20" curve="-90"/>
+<wire x1="0" y1="-36" x2="-36" y2="0" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-36" y1="0" x2="0" y2="36" width="0.1524" layer="20" curve="-90"/>
+</plain>
+<libraries>
+<library name="CircleLEDs">
+<packages>
+<package name="SMD-4">
+<smd name="PIN1" x="0.4" y="0.4" dx="0.4" dy="0.4" layer="1"/>
+<smd name="PIN2" x="0.4" y="-0.4" dx="0.4" dy="0.4" layer="1"/>
+<smd name="PIN3" x="-0.4" y="-0.4" dx="0.4" dy="0.4" layer="1"/>
+<smd name="PIN4" x="-0.4" y="0.4" dx="0.4" dy="0.4" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="0" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="0" y2="0.2" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.2" y2="0" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0" x2="0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0" x2="0" y2="0.2" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
+</class>
+</classes>
+<designrules name="default *">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="LED1-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="32.89" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED1-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.478521875" y="32.583659375" locked="yes" smashed="yes" rot="R97.8"/>
+<element name="LED1-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.873615625" y="31.67035" locked="yes" smashed="yes" rot="R105.6"/>
+<element name="LED1-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-13.1034125" y="30.167078125" locked="yes" smashed="yes" rot="R113.5"/>
+<element name="LED1-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-17.089115625" y="28.101853125" locked="yes" smashed="yes" rot="R121.3"/>
+<element name="LED1-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.75648125" y="25.51314375" locked="yes" smashed="yes" rot="R129.1"/>
+<element name="LED1-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-24.03719375" y="22.449171875" locked="yes" smashed="yes" rot="R136.9"/>
+<element name="LED1-1-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-26.870140625" y="18.967015625" locked="yes" smashed="yes" rot="R144.8"/>
+<element name="LED1-1-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-29.20254375" y="15.1315375" locked="yes" smashed="yes" rot="R152.6"/>
+<element name="LED1-1-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-30.9909625" y="11.014190625" locked="yes" smashed="yes" rot="R160.4"/>
+<element name="LED1-1-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-32.202075" y="6.69166875" locked="yes" smashed="yes" rot="R168.2"/>
+<element name="LED1-1-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-32.813325" y="2.24449375" locked="yes" smashed="yes" rot="R176"/>
+<element name="LED1-1-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-32.813325" y="-2.24449375" locked="yes" smashed="yes" rot="R184"/>
+<element name="LED1-1-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-32.202075" y="-6.69166875" locked="yes" smashed="yes" rot="R191.8"/>
+<element name="LED1-1-15" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-30.9909625" y="-11.014190625" locked="yes" smashed="yes" rot="R199.6"/>
+<element name="LED1-1-16" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-29.20254375" y="-15.1315375" locked="yes" smashed="yes" rot="R207.4"/>
+<element name="LED1-1-17" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-26.870140625" y="-18.967015625" locked="yes" smashed="yes" rot="R215.2"/>
+<element name="LED1-1-18" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-24.03719375" y="-22.449171875" locked="yes" smashed="yes" rot="R223.1"/>
+<element name="LED1-1-19" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.75648125" y="-25.51314375" locked="yes" smashed="yes" rot="R230.9"/>
+<element name="LED1-1-20" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-17.089115625" y="-28.101853125" locked="yes" smashed="yes" rot="R238.7"/>
+<element name="LED1-1-21" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-13.1034125" y="-30.167078125" locked="yes" smashed="yes" rot="R246.5"/>
+<element name="LED1-1-22" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.873615625" y="-31.67035" locked="yes" smashed="yes" rot="R254.4"/>
+<element name="LED1-1-23" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.478521875" y="-32.583659375" locked="yes" smashed="yes" rot="R262.2"/>
+<element name="LED1-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-32.89" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED1-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.478521875" y="-32.583659375" locked="yes" smashed="yes" rot="R277.8"/>
+<element name="LED1-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.873615625" y="-31.67035" locked="yes" smashed="yes" rot="R285.6"/>
+<element name="LED1-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="13.1034125" y="-30.167078125" smashed="yes" rot="R293.5"/>
+<element name="LED1-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="17.089115625" y="-28.101853125" locked="yes" smashed="yes" rot="R301.3"/>
+<element name="LED1-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.75648125" y="-25.51314375" locked="yes" smashed="yes" rot="R309.1"/>
+<element name="LED1-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="24.03719375" y="-22.449171875" locked="yes" smashed="yes" rot="R316.9"/>
+<element name="LED1-2-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="26.870140625" y="-18.967015625" locked="yes" smashed="yes" rot="R324.8"/>
+<element name="LED1-2-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="29.20254375" y="-15.1315375" locked="yes" smashed="yes" rot="R332.6"/>
+<element name="LED1-2-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="30.9909625" y="-11.014190625" locked="yes" smashed="yes" rot="R340.4"/>
+<element name="LED1-2-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="32.202075" y="-6.69166875" locked="yes" smashed="yes" rot="R348.2"/>
+<element name="LED1-2-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="32.813325" y="-2.24449375" locked="yes" smashed="yes" rot="R356"/>
+<element name="LED1-2-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="32.813325" y="2.24449375" locked="yes" smashed="yes" rot="R4"/>
+<element name="LED1-2-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="32.202075" y="6.69166875" locked="yes" smashed="yes" rot="R11.8"/>
+<element name="LED1-2-15" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="30.9909625" y="11.014190625" locked="yes" smashed="yes" rot="R19.6"/>
+<element name="LED1-2-16" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="29.20254375" y="15.1315375" locked="yes" smashed="yes" rot="R27.4"/>
+<element name="LED1-2-17" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="26.870140625" y="18.967015625" locked="yes" smashed="yes" rot="R35.2"/>
+<element name="LED1-2-18" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="24.03719375" y="22.449171875" locked="yes" smashed="yes" rot="R43.1"/>
+<element name="LED1-2-19" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.75648125" y="25.51314375" locked="yes" smashed="yes" rot="R50.9"/>
+<element name="LED1-2-20" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="17.089115625" y="28.101853125" locked="yes" smashed="yes" rot="R58.7"/>
+<element name="LED1-2-21" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="13.1034125" y="30.167078125" locked="yes" smashed="yes" rot="R66.5"/>
+<element name="LED1-2-22" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.873615625" y="31.67035" locked="yes" smashed="yes" rot="R74.4"/>
+<element name="LED1-2-23" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.478521875" y="32.583659375" locked="yes" smashed="yes" rot="R82.2"/>
+<element name="LED2-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="28.73" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED2-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.4943625" y="28.3762875" locked="yes" smashed="yes" rot="R99"/>
+<element name="LED2-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.878059375" y="27.323853125" locked="yes" smashed="yes" rot="R108"/>
+<element name="LED2-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-13.043146875" y="25.59861875" locked="yes" smashed="yes" rot="R117"/>
+<element name="LED2-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.88706875" y="23.243059375" locked="yes" smashed="yes" rot="R126"/>
+<element name="LED2-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.315178125" y="20.315178125" locked="yes" smashed="yes" rot="R135"/>
+<element name="LED2-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-23.243059375" y="16.88706875" locked="yes" smashed="yes" rot="R144"/>
+<element name="LED2-1-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-25.59861875" y="13.043146875" locked="yes" smashed="yes" rot="R153"/>
+<element name="LED2-1-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-27.323853125" y="8.878059375" locked="yes" smashed="yes" rot="R162"/>
+<element name="LED2-1-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-28.3762875" y="4.4943625" locked="yes" smashed="yes" rot="R171"/>
+<element name="LED2-1-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-28.73" y="0" locked="yes" smashed="yes" rot="R180"/>
+<element name="LED2-1-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-28.3762875" y="-4.4943625" locked="yes" smashed="yes" rot="R189"/>
+<element name="LED2-1-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-27.323853125" y="-8.878059375" locked="yes" smashed="yes" rot="R198"/>
+<element name="LED2-1-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-25.59861875" y="-13.043146875" locked="yes" smashed="yes" rot="R207"/>
+<element name="LED2-1-15" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-23.243059375" y="-16.88706875" locked="yes" smashed="yes" rot="R216"/>
+<element name="LED2-1-16" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.315178125" y="-20.315178125" locked="yes" smashed="yes" rot="R225"/>
+<element name="LED2-1-17" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.88706875" y="-23.243059375" locked="yes" smashed="yes" rot="R234"/>
+<element name="LED2-1-18" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-13.043146875" y="-25.59861875" locked="yes" smashed="yes" rot="R243"/>
+<element name="LED2-1-19" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.878059375" y="-27.323853125" locked="yes" smashed="yes" rot="R252"/>
+<element name="LED2-1-20" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.4943625" y="-28.3762875" locked="yes" smashed="yes" rot="R261"/>
+<element name="LED2-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-28.73" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED2-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.4943625" y="-28.3762875" locked="yes" smashed="yes" rot="R279"/>
+<element name="LED2-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.878059375" y="-27.323853125" locked="yes" smashed="yes" rot="R288"/>
+<element name="LED2-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="13.043146875" y="-25.59861875" locked="yes" smashed="yes" rot="R297"/>
+<element name="LED2-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.88706875" y="-23.243059375" locked="yes" smashed="yes" rot="R306"/>
+<element name="LED2-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.315178125" y="-20.315178125" locked="yes" smashed="yes" rot="R315"/>
+<element name="LED2-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="23.243059375" y="-16.88706875" locked="yes" smashed="yes" rot="R324"/>
+<element name="LED2-2-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="25.59861875" y="-13.043146875" locked="yes" smashed="yes" rot="R333"/>
+<element name="LED2-2-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="27.323853125" y="-8.878059375" locked="yes" smashed="yes" rot="R342"/>
+<element name="LED2-2-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="28.3762875" y="-4.4943625" locked="yes" smashed="yes" rot="R351"/>
+<element name="LED2-2-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="28.73" y="0" locked="yes" smashed="yes"/>
+<element name="LED2-2-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="28.3762875" y="4.4943625" locked="yes" smashed="yes" rot="R9"/>
+<element name="LED2-2-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="27.323853125" y="8.878059375" locked="yes" smashed="yes" rot="R18"/>
+<element name="LED2-2-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="25.59861875" y="13.043146875" locked="yes" smashed="yes" rot="R27"/>
+<element name="LED2-2-15" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="23.243059375" y="16.88706875" locked="yes" smashed="yes" rot="R36"/>
+<element name="LED2-2-16" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.315178125" y="20.315178125" locked="yes" smashed="yes" rot="R45"/>
+<element name="LED2-2-17" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.88706875" y="23.243059375" locked="yes" smashed="yes" rot="R54"/>
+<element name="LED2-2-18" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="13.043146875" y="25.59861875" locked="yes" smashed="yes" rot="R63"/>
+<element name="LED2-2-19" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.878059375" y="27.323853125" locked="yes" smashed="yes" rot="R72"/>
+<element name="LED2-2-20" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.4943625" y="28.3762875" locked="yes" smashed="yes" rot="R81"/>
+<element name="LED3-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="24.57" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED3-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.514725" y="24.15165" locked="yes" smashed="yes" rot="R100.5"/>
+<element name="LED3-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.875709375" y="22.91084375" locked="yes" smashed="yes" rot="R111.2"/>
+<element name="LED3-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-12.9344375" y="20.889834375" locked="yes" smashed="yes" rot="R121.7"/>
+<element name="LED3-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.552703125" y="18.15745" locked="yes" smashed="yes" rot="R132.4"/>
+<element name="LED3-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-19.607284375" y="14.806734375" locked="yes" smashed="yes" rot="R142.9"/>
+<element name="LED3-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-21.9941625" y="10.951790625" locked="yes" smashed="yes" rot="R153.5"/>
+<element name="LED3-1-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-23.63205625" y="6.7239" locked="yes" smashed="yes" rot="R164.1"/>
+<element name="LED3-1-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-24.4651875" y="2.267034375" locked="yes" smashed="yes" rot="R174.7"/>
+<element name="LED3-1-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-24.4651875" y="-2.267034375" locked="yes" smashed="yes" rot="R185.3"/>
+<element name="LED3-1-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-23.63205625" y="-6.7239" locked="yes" smashed="yes" rot="R195.9"/>
+<element name="LED3-1-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-21.9941625" y="-10.951790625" locked="yes" smashed="yes" rot="R206.5"/>
+<element name="LED3-1-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-19.607284375" y="-14.806734375" locked="yes" smashed="yes" rot="R217.1"/>
+<element name="LED3-1-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.552703125" y="-18.15745" locked="yes" smashed="yes" rot="R227.6"/>
+<element name="LED3-1-15" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-12.9344375" y="-20.889834375" locked="yes" smashed="yes" rot="R238.3"/>
+<element name="LED3-1-16" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.875709375" y="-22.91084375" locked="yes" smashed="yes" rot="R248.8"/>
+<element name="LED3-1-17" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.514725" y="-24.15165" locked="yes" smashed="yes" rot="R259.5"/>
+<element name="LED3-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-24.57" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED3-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.514725" y="-24.15165" locked="yes" smashed="yes" rot="R280.5"/>
+<element name="LED3-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.875709375" y="-22.91084375" locked="yes" smashed="yes" rot="R291.2"/>
+<element name="LED3-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="12.9344375" y="-20.889834375" locked="yes" smashed="yes" rot="R301.7"/>
+<element name="LED3-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.552703125" y="-18.15745" locked="yes" smashed="yes" rot="R312.4"/>
+<element name="LED3-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="19.607284375" y="-14.806734375" locked="yes" smashed="yes" rot="R322.9"/>
+<element name="LED3-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="21.9941625" y="-10.951790625" locked="yes" smashed="yes" rot="R333.5"/>
+<element name="LED3-2-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="23.63205625" y="-6.7239" locked="yes" smashed="yes" rot="R344.1"/>
+<element name="LED3-2-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="24.4651875" y="-2.267034375" locked="yes" smashed="yes" rot="R354.7"/>
+<element name="LED3-2-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="24.4651875" y="2.267034375" locked="yes" smashed="yes" rot="R5.3"/>
+<element name="LED3-2-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="23.63205625" y="6.7239" locked="yes" smashed="yes" rot="R15.9"/>
+<element name="LED3-2-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="21.9941625" y="10.951790625" locked="yes" smashed="yes" rot="R26.5"/>
+<element name="LED3-2-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="19.607284375" y="14.806734375" locked="yes" smashed="yes" rot="R37.1"/>
+<element name="LED3-2-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.552703125" y="18.15745" locked="yes" smashed="yes" rot="R47.6"/>
+<element name="LED3-2-15" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="12.9344375" y="20.889834375" locked="yes" smashed="yes" rot="R58.3"/>
+<element name="LED3-2-16" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.875709375" y="22.91084375" locked="yes" smashed="yes" rot="R68.8"/>
+<element name="LED3-2-17" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.514725" y="24.15165" locked="yes" smashed="yes" rot="R79.5"/>
+<element name="LED4-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="20.56" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED4-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.57503125" y="20.04451875" locked="yes" smashed="yes" rot="R102.8"/>
+<element name="LED4-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.92065" y="18.52391875" locked="yes" smashed="yes" rot="R115.8"/>
+<element name="LED4-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-12.81895" y="16.07445625" locked="yes" smashed="yes" rot="R128.6"/>
+<element name="LED4-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.07445625" y="12.81895" locked="yes" smashed="yes" rot="R141.4"/>
+<element name="LED4-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-18.52391875" y="8.92065" locked="yes" smashed="yes" rot="R154.2"/>
+<element name="LED4-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.04451875" y="4.57503125" locked="yes" smashed="yes" rot="R167.2"/>
+<element name="LED4-1-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.56" y="0" locked="yes" smashed="yes" rot="R180"/>
+<element name="LED4-1-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-20.04451875" y="-4.57503125" locked="yes" smashed="yes" rot="R192.8"/>
+<element name="LED4-1-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-18.52391875" y="-8.92065" locked="yes" smashed="yes" rot="R205.8"/>
+<element name="LED4-1-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.07445625" y="-12.81895" locked="yes" smashed="yes" rot="R218.6"/>
+<element name="LED4-1-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-12.81895" y="-16.07445625" locked="yes" smashed="yes" rot="R231.4"/>
+<element name="LED4-1-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.92065" y="-18.52391875" locked="yes" smashed="yes" rot="R244.2"/>
+<element name="LED4-1-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.57503125" y="-20.04451875" locked="yes" smashed="yes" rot="R257.2"/>
+<element name="LED4-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-20.56" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED4-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.57503125" y="-20.04451875" locked="yes" smashed="yes" rot="R282.8"/>
+<element name="LED4-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.92065" y="-18.52391875" locked="yes" smashed="yes" rot="R295.8"/>
+<element name="LED4-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="12.81895" y="-16.07445625" locked="yes" smashed="yes" rot="R308.6"/>
+<element name="LED4-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.07445625" y="-12.81895" locked="yes" smashed="yes" rot="R321.4"/>
+<element name="LED4-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="18.52391875" y="-8.92065" locked="yes" smashed="yes" rot="R334.2"/>
+<element name="LED4-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.04451875" y="-4.57503125" locked="yes" smashed="yes" rot="R347.2"/>
+<element name="LED4-2-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.56" y="0" locked="yes" smashed="yes"/>
+<element name="LED4-2-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="20.04451875" y="4.57503125" locked="yes" smashed="yes" rot="R12.8"/>
+<element name="LED4-2-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="18.52391875" y="8.92065" locked="yes" smashed="yes" rot="R25.8"/>
+<element name="LED4-2-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.07445625" y="12.81895" locked="yes" smashed="yes" rot="R38.6"/>
+<element name="LED4-2-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="12.81895" y="16.07445625" locked="yes" smashed="yes" rot="R51.4"/>
+<element name="LED4-2-13" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.92065" y="18.52391875" locked="yes" smashed="yes" rot="R64.2"/>
+<element name="LED4-2-14" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.57503125" y="20.04451875" locked="yes" smashed="yes" rot="R77.2"/>
+<element name="LED5-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="16.39" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED5-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.24204375" y="15.831525" locked="yes" smashed="yes" rot="R105"/>
+<element name="LED5-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.195" y="14.19415625" locked="yes" smashed="yes" rot="R120"/>
+<element name="LED5-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-11.58948125" y="11.58948125" locked="yes" smashed="yes" rot="R135"/>
+<element name="LED5-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-14.19415625" y="8.195" locked="yes" smashed="yes" rot="R150"/>
+<element name="LED5-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-15.831525" y="4.24204375" locked="yes" smashed="yes" rot="R165"/>
+<element name="LED5-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-16.39" y="0" locked="yes" smashed="yes" rot="R180"/>
+<element name="LED5-1-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-15.831525" y="-4.24204375" locked="yes" smashed="yes" rot="R195"/>
+<element name="LED5-1-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-14.19415625" y="-8.195" locked="yes" smashed="yes" rot="R210"/>
+<element name="LED5-1-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-11.58948125" y="-11.58948125" locked="yes" smashed="yes" rot="R225"/>
+<element name="LED5-1-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.195" y="-14.19415625" locked="yes" smashed="yes" rot="R240"/>
+<element name="LED5-1-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.24204375" y="-15.831525" locked="yes" smashed="yes" rot="R255"/>
+<element name="LED5-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-16.39" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED5-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.24204375" y="-15.831525" locked="yes" smashed="yes" rot="R285"/>
+<element name="LED5-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.195" y="-14.19415625" locked="yes" smashed="yes" rot="R300"/>
+<element name="LED5-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="11.58948125" y="-11.58948125" locked="yes" smashed="yes" rot="R315"/>
+<element name="LED5-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="14.19415625" y="-8.195" locked="yes" smashed="yes" rot="R330"/>
+<element name="LED5-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="15.831525" y="-4.24204375" locked="yes" smashed="yes" rot="R345"/>
+<element name="LED5-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="16.39" y="0" locked="yes" smashed="yes"/>
+<element name="LED5-2-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="15.831525" y="4.24204375" locked="yes" smashed="yes" rot="R15"/>
+<element name="LED5-2-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="14.19415625" y="8.195" locked="yes" smashed="yes" rot="R30"/>
+<element name="LED5-2-10" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="11.58948125" y="11.58948125" locked="yes" smashed="yes" rot="R45"/>
+<element name="LED5-2-11" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.195" y="14.19415625" locked="yes" smashed="yes" rot="R60"/>
+<element name="LED5-2-12" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.24204375" y="15.831525" locked="yes" smashed="yes" rot="R75"/>
+<element name="LED6-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="12.27" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED6-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.1965875" y="11.530028125" locked="yes" smashed="yes" rot="R110"/>
+<element name="LED6-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-7.887003125" y="9.399365625" locked="yes" smashed="yes" rot="R130"/>
+<element name="LED6-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-10.62613125" y="6.135" locked="yes" smashed="yes" rot="R150"/>
+<element name="LED6-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-12.083590625" y="2.1306625" locked="yes" smashed="yes" rot="R170"/>
+<element name="LED6-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-12.083590625" y="-2.1306625" locked="yes" smashed="yes" rot="R190"/>
+<element name="LED6-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-10.62613125" y="-6.135" locked="yes" smashed="yes" rot="R210"/>
+<element name="LED6-1-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-7.887003125" y="-9.399365625" locked="yes" smashed="yes" rot="R230"/>
+<element name="LED6-1-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-4.1965875" y="-11.530028125" locked="yes" smashed="yes" rot="R250"/>
+<element name="LED6-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-12.27" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED6-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.1965875" y="-11.530028125" locked="yes" smashed="yes" rot="R290"/>
+<element name="LED6-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="7.887003125" y="-9.399365625" locked="yes" smashed="yes" rot="R310"/>
+<element name="LED6-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="10.62613125" y="-6.135" locked="yes" smashed="yes" rot="R330"/>
+<element name="LED6-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="12.083590625" y="-2.1306625" locked="yes" smashed="yes" rot="R350"/>
+<element name="LED6-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="12.083590625" y="2.1306625" locked="yes" smashed="yes" rot="R10"/>
+<element name="LED6-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="10.62613125" y="6.135" locked="yes" smashed="yes" rot="R30"/>
+<element name="LED6-2-8" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="7.887003125" y="9.399365625" locked="yes" smashed="yes" rot="R50"/>
+<element name="LED6-2-9" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="4.1965875" y="11.530028125" locked="yes" smashed="yes" rot="R70"/>
+<element name="LED7-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="8.27" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED7-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-3.58821875" y="7.4510125" locked="yes" smashed="yes" rot="R115.8"/>
+<element name="LED7-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-6.465746875" y="5.156259375" locked="yes" smashed="yes" rot="R141.4"/>
+<element name="LED7-1-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.062653125" y="1.840246875" locked="yes" smashed="yes" rot="R167.2"/>
+<element name="LED7-1-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-8.062653125" y="-1.840246875" locked="yes" smashed="yes" rot="R192.8"/>
+<element name="LED7-1-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-6.465746875" y="-5.156259375" locked="yes" smashed="yes" rot="R218.6"/>
+<element name="LED7-1-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-3.58821875" y="-7.4510125" locked="yes" smashed="yes" rot="R244.2"/>
+<element name="LED7-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-8.27" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED7-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="3.58821875" y="-7.4510125" locked="yes" smashed="yes" rot="R295.8"/>
+<element name="LED7-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="6.465746875" y="-5.156259375" locked="yes" smashed="yes" rot="R321.4"/>
+<element name="LED7-2-4" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.062653125" y="-1.840246875" locked="yes" smashed="yes" rot="R347.2"/>
+<element name="LED7-2-5" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="8.062653125" y="1.840246875" locked="yes" smashed="yes" rot="R12.8"/>
+<element name="LED7-2-6" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="6.465746875" y="5.156259375" locked="yes" smashed="yes" rot="R38.6"/>
+<element name="LED7-2-7" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="3.58821875" y="7.4510125" locked="yes" smashed="yes" rot="R64.2"/>
+<element name="LED8-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="4" locked="yes" smashed="yes" rot="R90"/>
+<element name="LED8-1-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-3.464103125" y="2" locked="yes" smashed="yes" rot="R150"/>
+<element name="LED8-1-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="-3.464103125" y="-2" locked="yes" smashed="yes" rot="R210"/>
+<element name="LED8-2-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="-4" locked="yes" smashed="yes" rot="R270"/>
+<element name="LED8-2-2" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="3.464103125" y="-2" locked="yes" smashed="yes" rot="R330"/>
+<element name="LED8-2-3" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="3.464103125" y="2" locked="yes" smashed="yes" rot="R30"/>
+<element name="LED9-1-1" library="CircleLEDs" package="SMD-4" value="IN-B101FCH" x="0" y="0" locked="yes" smashed="yes"/>
+</elements>
+<signals>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+<errors>
+<approved hash="4,1,f7672aca8e4f03a1"/>
+<approved hash="4,1,586dc2c2c2c65869"/>
+<approved hash="4,1,cfd649a6834ed521"/>
+<approved hash="4,1,51e1ebb3d5268ea7"/>
+<approved hash="4,1,09c744c9fd1d7609"/>
+<approved hash="4,1,5666ad57b0de4304"/>
+<approved hash="4,1,774a53afc8fa3264"/>
+<approved hash="4,1,c77b0147786c44bc"/>
+<approved hash="4,1,0a44132d248d1a04"/>
+<approved hash="4,1,3436a95aa64111aa"/>
+<approved hash="4,1,3ba23cbedbfb104f"/>
+<approved hash="4,1,6cfe2adc358b02d7"/>
+<approved hash="4,1,8a5edee9d9a5f78b"/>
+<approved hash="4,1,fb2c8c81674f27d4"/>
+<approved hash="4,1,eb65ef34edd14dcf"/>
+<approved hash="4,1,6f495f9d5458f872"/>
+<approved hash="4,1,307907915cb78488"/>
+<approved hash="4,1,94dc00e234c01984"/>
+<approved hash="4,1,91667093755906a3"/>
+<approved hash="4,1,a05d28d4c0903b19"/>
+<approved hash="4,1,05e03ae96dc575dd"/>
+<approved hash="4,1,358a2aeaccb73654"/>
+<approved hash="4,1,2da442d02b9c99df"/>
+<approved hash="4,1,c3f56d3547f8b13a"/>
+<approved hash="4,1,314929c0687c01cb"/>
+<approved hash="4,1,f714f3d2f1b45129"/>
+<approved hash="4,1,b1495561797706f7"/>
+<approved hash="4,1,780d93a1e4523b34"/>
+<approved hash="4,1,0b4ba15d2dc200c6"/>
+<approved hash="4,1,142a0c8c9f02828f"/>
+<approved hash="4,1,b0a7727a38d071fe"/>
+<approved hash="4,1,55a7c7e9f004aea9"/>
+<approved hash="4,1,b16bd6c9a7d38621"/>
+<approved hash="4,1,b389252b8cff9383"/>
+<approved hash="4,1,c98dcdf2b020b276"/>
+<approved hash="4,1,957ba2d5da36bd0c"/>
+<approved hash="4,1,4748412c780db47e"/>
+<approved hash="4,1,85f54b0ac96dd79d"/>
+<approved hash="4,1,cabb976051bad4e1"/>
+<approved hash="4,1,cda6ca4ed5f85c2b"/>
+<approved hash="4,1,1caaf28c8f49e3e1"/>
+<approved hash="4,1,64fdb23fe0e82e30"/>
+<approved hash="4,1,5c96faf863dcc531"/>
+<approved hash="4,1,bf23bd75ce8efaf1"/>
+<approved hash="4,1,f668e45ebceba712"/>
+<approved hash="4,1,3ed1c82ca1b21c05"/>
+<approved hash="4,1,555a36e087cefa46"/>
+<approved hash="4,1,4d2bd136c93b5621"/>
+<approved hash="4,1,69914a44b002b6d0"/>
+<approved hash="4,1,f669e76012f618a6"/>
+<approved hash="4,1,097b085dc5cecec2"/>
+<approved hash="4,1,91945d0babdd2b75"/>
+<approved hash="4,1,23bb707b29334517"/>
+<approved hash="4,1,bbf7788d06aa5dd0"/>
+<approved hash="4,1,3199bc683b225e51"/>
+<approved hash="4,1,7f1bf09059d9d100"/>
+<approved hash="4,1,86f9a41117c28fe4"/>
+<approved hash="4,1,8dd68519cd174b5e"/>
+<approved hash="4,1,00bc952b06755e2f"/>
+<approved hash="4,1,5aa01c4ef18669dd"/>
+<approved hash="4,1,7ed3b79a2facbffc"/>
+<approved hash="4,1,882e7c4be23ca76e"/>
+<approved hash="4,1,96a9ff66f2ffa1a6"/>
+<approved hash="4,1,09798dbcb87bb883"/>
+<approved hash="4,1,4852368c7c77be49"/>
+<approved hash="4,1,6abd6f43ea600937"/>
+<approved hash="4,1,d281ff7bae6702d5"/>
+<approved hash="4,1,922d56a4df2d85e4"/>
+<approved hash="4,1,b6202db33959f88b"/>
+<approved hash="4,1,686591eb27b57b54"/>
+<approved hash="4,1,127234dcee1c63bd"/>
+<approved hash="4,1,6df410f66d172464"/>
+<approved hash="4,1,7437aa6cb453bd92"/>
+<approved hash="4,1,c918528ce146c4e9"/>
+<approved hash="4,1,844df438bcd548af"/>
+<approved hash="4,1,c45ad402535a5783"/>
+<approved hash="4,1,40edb9de8fa84c8c"/>
+<approved hash="4,1,d6ec0148ceb94dbd"/>
+<approved hash="4,1,de52f1ff4a689d60"/>
+<approved hash="4,1,85401eaf3b37b25f"/>
+<approved hash="4,1,298beb011f450228"/>
+<approved hash="4,1,1b5b4bbbc8003a44"/>
+<approved hash="4,1,6110c8a2cc7f55dc"/>
+<approved hash="4,1,81500e20dde00212"/>
+<approved hash="4,1,c645cb53feed83fb"/>
+<approved hash="4,1,86720bf4ae445862"/>
+<approved hash="4,1,fcb76624fa03f0df"/>
+<approved hash="4,1,6d3902cc344c36c7"/>
+<approved hash="4,1,e76d45f17b0e96a4"/>
+<approved hash="4,1,e405379e65fbdaf5"/>
+<approved hash="4,1,963728f83d016c4a"/>
+<approved hash="4,1,57fe9e77320f5f23"/>
+<approved hash="4,1,8e1dc0ede8411e94"/>
+<approved hash="4,1,ed8747d4570ee0d6"/>
+<approved hash="4,1,1cbc37a5c1722290"/>
+<approved hash="4,1,e31f2d7c756b321b"/>
+<approved hash="4,1,15fae3bff16d1c69"/>
+<approved hash="4,1,c2f5b5cd0e707362"/>
+<approved hash="4,1,d2e62e7a989fa034"/>
+<approved hash="4,1,d03e400e2abe0d72"/>
+<approved hash="4,1,a8a4eec8987cff56"/>
+<approved hash="4,1,5ecfb0123bb5d0b0"/>
+<approved hash="4,1,e62fa64b4f0de720"/>
+<approved hash="4,1,bee8e9717867e0f3"/>
+<approved hash="4,1,c0f06657819be1ac"/>
+<approved hash="4,1,088d2ae69f351e8a"/>
+<approved hash="4,1,d99856d8c0fd7246"/>
+<approved hash="4,1,4923f65aac4a275d"/>
+<approved hash="4,1,47e7e8dffab0f9ee"/>
+<approved hash="4,1,612a55c4a91c0652"/>
+<approved hash="4,1,f1335bc4fa8da4b0"/>
+<approved hash="4,1,1b68942493ecac8e"/>
+<approved hash="4,1,081a069a4a866707"/>
+<approved hash="4,1,af50a50238ec398f"/>
+<approved hash="4,1,f624a5f65d45f7fe"/>
+<approved hash="4,1,6772d7d1a964361f"/>
+<approved hash="4,1,d670b1e2a31bb96c"/>
+<approved hash="4,1,60ff2bf6f9060969"/>
+<approved hash="4,1,cba3f47109ba1eb0"/>
+<approved hash="4,1,bf21d3a8090dbb67"/>
+<approved hash="4,1,668e74a4ef3992fd"/>
+<approved hash="4,1,84ff65dd6ca8637e"/>
+<approved hash="4,1,75f04a7f99420966"/>
+<approved hash="4,1,b6110b519e2f58c7"/>
+<approved hash="4,1,644c5911f8138984"/>
+<approved hash="4,1,e0c67ac2e666ec39"/>
+<approved hash="4,1,308e01d069bb35db"/>
+<approved hash="4,1,0653c8566aab9865"/>
+<approved hash="4,1,9ac3006a006e9ac7"/>
+<approved hash="4,1,5faf7b5f11dc27b5"/>
+<approved hash="4,1,aecfbf96154ba868"/>
+<approved hash="4,1,89abf036a82b4e48"/>
+<approved hash="4,1,29c74b4d383ad7bf"/>
+<approved hash="4,1,50a4f3986b2292c8"/>
+<approved hash="4,1,85890a9c37284caf"/>
+<approved hash="4,1,91d674cf675b2578"/>
+<approved hash="4,1,00812d4d532567c0"/>
+<approved hash="4,1,7be587fefcc8cf2e"/>
+<approved hash="4,1,52bbd5f2c59b5667"/>
+<approved hash="4,1,a67b04a204a6a67f"/>
+<approved hash="4,1,810cb77d4e494223"/>
+<approved hash="4,1,ba6ef68482f64a03"/>
+<approved hash="4,1,ecfb5f32c4a5c947"/>
+<approved hash="4,1,5ca5fe7afe7e5ca1"/>
+<approved hash="4,1,ff966539653dff92"/>
+<approved hash="4,1,fb5e59815985fb5a"/>
+<approved hash="4,1,aed857806fcdb68f"/>
+<approved hash="4,1,d089b53b889b93aa"/>
+<approved hash="4,1,f7c08d7171f624b0"/>
+<approved hash="4,1,0ab987a12518aa92"/>
+<approved hash="4,1,0180a359a35d0184"/>
+<approved hash="4,1,ccbc568ed51a77b1"/>
+<approved hash="4,1,12c3fee19be8a56c"/>
+<approved hash="4,1,d02c9ae1e13c5559"/>
+<approved hash="4,1,456f82632d51f288"/>
+<approved hash="4,1,9fe2a986bc52ec4b"/>
+<approved hash="4,1,95598b32bd05134e"/>
+<approved hash="4,1,d2f15aeb0c295751"/>
+<approved hash="4,1,3219f82c209acdfd"/>
+<approved hash="4,1,9d79f459a5a9e5ab"/>
+<approved hash="4,1,a22d278513b33ab0"/>
+<approved hash="4,1,3d38a791a7953d3c"/>
+<approved hash="4,1,b206e02ddb24a14e"/>
+<approved hash="4,1,3cb0d5b35dc2bd15"/>
+<approved hash="4,1,796cbb46755d387f"/>
+<approved hash="4,1,5cc2bdbcb1c3688f"/>
+<approved hash="4,1,af86bf86fa7c86b1"/>
+<approved hash="4,1,8feaaca39bbc8263"/>
+<approved hash="4,1,3340bf693745897e"/>
+<approved hash="4,1,dfface780d37ebdb"/>
+<approved hash="4,1,a22defc2a0c91fd7"/>
+<approved hash="4,1,228a7c517562eef6"/>
+<approved hash="4,1,e0b655f9e7599221"/>
+<approved hash="4,1,e5197ea6157719d3"/>
+<approved hash="4,1,50123f6b60f11b8d"/>
+<approved hash="4,1,bb48b8974f0caf69"/>
+<approved hash="4,1,19f039cb5f9023ff"/>
+<approved hash="4,1,f5b5a024f483830b"/>
+<approved hash="4,1,e38b47b8e20220be"/>
+<approved hash="4,1,a19fc937c97efd09"/>
+<approved hash="4,1,d845c7e0c01b5195"/>
+<approved hash="4,1,505a9684cb7bd511"/>
+<approved hash="4,1,76a94f8349ecbadd"/>
+<approved hash="4,1,7f90b1ed6763a70a"/>
+</errors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
+</eagle>
