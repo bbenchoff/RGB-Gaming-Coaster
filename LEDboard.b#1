@@ -3111,237 +3111,39 @@ design rules under a new name.</description>
 </signal>
 <signal name="U2CS15">
 <contactref element="R61" pad="2"/>
-<contactref element="LED4-2-2" pad="PIN2"/>
-<contactref element="LED4-2-1" pad="PIN2"/>
-<contactref element="LED5-2-1" pad="PIN2"/>
-<contactref element="LED5-2-2" pad="PIN2"/>
-<contactref element="LED5-2-3" pad="PIN2"/>
-<contactref element="LED5-2-4" pad="PIN2"/>
-<contactref element="LED5-2-5" pad="PIN2"/>
-<contactref element="LED5-2-6" pad="PIN2"/>
-<contactref element="LED5-2-7" pad="PIN2"/>
-<wire x1="-0.4" y1="-20.96" x2="-51.22" y2="-170.942" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.4" y1="-16.79" x2="-0.4" y2="-20.96" width="0" layer="19" extent="1-1"/>
-<wire x1="3.9592" y1="-16.321421875" x2="-0.4" y2="-16.79" width="0" layer="19" extent="1-1"/>
-<wire x1="4.273590625" y1="-20.523196875" x2="3.9592" y2="-16.321421875" width="0" layer="19" extent="1-1"/>
-<wire x1="8.0485875" y1="-14.740565625" x2="3.9592" y2="-16.321421875" width="0" layer="19" extent="1-1"/>
-<wire x1="11.58948125" y1="-12.155165625" x2="8.0485875" y2="-14.740565625" width="0" layer="19" extent="1-1"/>
-<wire x1="14.340565625" y1="-8.741409375" x2="11.58948125" y2="-12.155165625" width="0" layer="19" extent="1-1"/>
-<wire x1="16.114365625" y1="-4.731940625" x2="14.340565625" y2="-8.741409375" width="0" layer="19" extent="1-1"/>
-<wire x1="16.79" y1="-0.4" x2="16.114365625" y2="-4.731940625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS14">
 <contactref element="R62" pad="2"/>
-<contactref element="LED4-2-2" pad="PIN4"/>
-<contactref element="LED4-2-1" pad="PIN4"/>
-<contactref element="LED5-2-1" pad="PIN4"/>
-<contactref element="LED5-2-2" pad="PIN4"/>
-<contactref element="LED5-2-3" pad="PIN4"/>
-<contactref element="LED5-2-4" pad="PIN4"/>
-<contactref element="LED5-2-5" pad="PIN4"/>
-<contactref element="LED5-2-6" pad="PIN4"/>
-<contactref element="LED5-2-7" pad="PIN4"/>
-<wire x1="0.4" y1="-20.16" x2="-47.918" y2="-170.942" width="0" layer="19" extent="1-1"/>
-<wire x1="0.4" y1="-15.99" x2="0.4" y2="-20.16" width="0" layer="19" extent="1-1"/>
-<wire x1="4.524884375" y1="-15.341625" x2="0.4" y2="-15.99" width="0" layer="19" extent="1-1"/>
-<wire x1="8.341409375" y1="-13.64774375" x2="4.524884375" y2="-15.341625" width="0" layer="19" extent="1-1"/>
-<wire x1="11.58948125" y1="-11.02379375" x2="8.341409375" y2="-13.64774375" width="0" layer="19" extent="1-1"/>
-<wire x1="14.04774375" y1="-7.6485875" x2="11.58948125" y2="-11.02379375" width="0" layer="19" extent="1-1"/>
-<wire x1="15.54868125" y1="-3.75214375" x2="14.04774375" y2="-7.6485875" width="0" layer="19" extent="1-1"/>
-<wire x1="15.99" y1="0.4" x2="15.54868125" y2="-3.75214375" width="0" layer="19" extent="1-1"/>
-<wire x1="4.87646875" y1="-19.5658375" x2="4.524884375" y2="-15.341625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS13">
 <contactref element="R63" pad="2"/>
-<contactref element="LED4-2-2" pad="PIN3"/>
-<contactref element="LED4-2-1" pad="PIN3"/>
-<contactref element="LED5-2-1" pad="PIN3"/>
-<contactref element="LED5-2-2" pad="PIN3"/>
-<contactref element="LED5-2-3" pad="PIN3"/>
-<contactref element="LED5-2-4" pad="PIN3"/>
-<contactref element="LED5-2-5" pad="PIN3"/>
-<contactref element="LED5-2-6" pad="PIN3"/>
-<contactref element="LED5-2-7" pad="PIN3"/>
-<wire x1="-0.4" y1="-20.16" x2="-44.616" y2="-170.942" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.4" y1="-15.99" x2="-0.4" y2="-20.16" width="0" layer="19" extent="1-1"/>
-<wire x1="3.75214375" y1="-15.54868125" x2="-0.4" y2="-15.99" width="0" layer="19" extent="1-1"/>
-<wire x1="7.6485875" y1="-14.04774375" x2="3.75214375" y2="-15.54868125" width="0" layer="19" extent="1-1"/>
-<wire x1="11.02379375" y1="-11.58948125" x2="7.6485875" y2="-14.04774375" width="0" layer="19" extent="1-1"/>
-<wire x1="13.64774375" y1="-8.341409375" x2="11.02379375" y2="-11.58948125" width="0" layer="19" extent="1-1"/>
-<wire x1="15.341625" y1="-4.524884375" x2="13.64774375" y2="-8.341409375" width="0" layer="19" extent="1-1"/>
-<wire x1="15.99" y1="-0.4" x2="15.341625" y2="-4.524884375" width="0" layer="19" extent="1-1"/>
-<wire x1="4.09635" y1="-19.743078125" x2="3.75214375" y2="-15.54868125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS12">
 <contactref element="R64" pad="2"/>
-<contactref element="LED5-2-8" pad="PIN2"/>
-<contactref element="LED5-2-9" pad="PIN2"/>
-<contactref element="LED5-2-10" pad="PIN2"/>
-<contactref element="LED5-2-11" pad="PIN2"/>
-<contactref element="LED5-2-12" pad="PIN2"/>
-<contactref element="LED6-2-9" pad="PIN2"/>
-<contactref element="LED6-2-8" pad="PIN2"/>
-<contactref element="LED6-2-7" pad="PIN2"/>
-<contactref element="LED6-2-6" pad="PIN2"/>
-<wire x1="12.546971875" y1="1.806196875" x2="-41.314" y2="-170.942" width="0" layer="19" extent="1-1"/>
-<wire x1="16.321421875" y1="3.9592" x2="12.546971875" y2="1.806196875" width="0" layer="19" extent="1-1"/>
-<wire x1="14.740565625" y1="8.0485875" x2="16.321421875" y2="3.9592" width="0" layer="19" extent="1-1"/>
-<wire x1="11.172540625" y1="5.9885875" x2="14.740565625" y2="8.0485875" width="0" layer="19" extent="1-1"/>
-<wire x1="12.155165625" y1="11.58948125" x2="14.740565625" y2="8.0485875" width="0" layer="19" extent="1-1"/>
-<wire x1="8.450534375" y1="9.448665625" x2="12.155165625" y2="11.58948125" width="0" layer="19" extent="1-1"/>
-<wire x1="8.741409375" y1="14.340565625" x2="12.155165625" y2="11.58948125" width="0" layer="19" extent="1-1"/>
-<wire x1="4.731940625" y1="16.114365625" x2="8.741409375" y2="14.340565625" width="0" layer="19" extent="1-1"/>
-<wire x1="4.709271875" y1="11.769096875" x2="4.731940625" y2="16.114365625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS11">
 <contactref element="R65" pad="2"/>
-<contactref element="LED5-2-8" pad="PIN4"/>
-<contactref element="LED5-2-9" pad="PIN4"/>
-<contactref element="LED5-2-10" pad="PIN4"/>
-<contactref element="LED5-2-11" pad="PIN4"/>
-<contactref element="LED5-2-12" pad="PIN4"/>
-<contactref element="LED6-2-9" pad="PIN4"/>
-<contactref element="LED6-2-8" pad="PIN4"/>
-<contactref element="LED6-2-7" pad="PIN4"/>
-<contactref element="LED6-2-6" pad="PIN4"/>
-<wire x1="11.62020625" y1="2.455125" x2="-38.012" y2="-170.942" width="0" layer="19" extent="1-1"/>
-<wire x1="10.07971875" y1="6.281409375" x2="11.62020625" y2="2.455125" width="0" layer="19" extent="1-1"/>
-<wire x1="13.64774375" y1="8.341409375" x2="10.07971875" y2="6.281409375" width="0" layer="19" extent="1-1"/>
-<wire x1="7.32346875" y1="9.3500625" x2="10.07971875" y2="6.281409375" width="0" layer="19" extent="1-1"/>
-<wire x1="3.6839" y1="11.29095625" x2="7.32346875" y2="9.3500625" width="0" layer="19" extent="1-1"/>
-<wire x1="11.02379375" y1="11.58948125" x2="13.64774375" y2="8.341409375" width="0" layer="19" extent="1-1"/>
-<wire x1="7.6485875" y1="14.04774375" x2="11.02379375" y2="11.58948125" width="0" layer="19" extent="1-1"/>
-<wire x1="15.341625" y1="4.524884375" x2="13.64774375" y2="8.341409375" width="0" layer="19" extent="1-1"/>
-<wire x1="3.75214375" y1="15.54868125" x2="7.6485875" y2="14.04774375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS10">
 <contactref element="R66" pad="2"/>
-<contactref element="LED5-2-8" pad="PIN3"/>
-<contactref element="LED5-2-9" pad="PIN3"/>
-<contactref element="LED5-2-10" pad="PIN3"/>
-<contactref element="LED5-2-11" pad="PIN3"/>
-<contactref element="LED5-2-12" pad="PIN3"/>
-<contactref element="LED6-2-9" pad="PIN3"/>
-<contactref element="LED6-2-8" pad="PIN3"/>
-<contactref element="LED6-2-7" pad="PIN3"/>
-<contactref element="LED6-2-6" pad="PIN3"/>
-<wire x1="11.759125" y1="1.667278125" x2="-34.71" y2="-170.942" width="0" layer="19" extent="1-1"/>
-<wire x1="10.47971875" y1="5.5885875" x2="11.759125" y2="1.667278125" width="0" layer="19" extent="1-1"/>
-<wire x1="14.04774375" y1="7.6485875" x2="10.47971875" y2="5.5885875" width="0" layer="19" extent="1-1"/>
-<wire x1="7.936303125" y1="8.83583125" x2="10.47971875" y2="5.5885875" width="0" layer="19" extent="1-1"/>
-<wire x1="4.43565625" y1="11.017340625" x2="7.936303125" y2="8.83583125" width="0" layer="19" extent="1-1"/>
-<wire x1="11.58948125" y1="11.02379375" x2="14.04774375" y2="7.6485875" width="0" layer="19" extent="1-1"/>
-<wire x1="8.341409375" y1="13.64774375" x2="11.58948125" y2="11.02379375" width="0" layer="19" extent="1-1"/>
-<wire x1="15.54868125" y1="3.75214375" x2="14.04774375" y2="7.6485875" width="0" layer="19" extent="1-1"/>
-<wire x1="4.524884375" y1="15.341625" x2="8.341409375" y2="13.64774375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS9">
 <contactref element="R67" pad="2"/>
-<contactref element="LED6-2-5" pad="PIN2"/>
-<contactref element="LED6-2-4" pad="PIN2"/>
-<contactref element="LED6-2-3" pad="PIN2"/>
-<contactref element="LED6-2-2" pad="PIN2"/>
-<contactref element="LED6-2-1" pad="PIN2"/>
-<contactref element="LED7-2-1" pad="PIN2"/>
-<contactref element="LED7-2-2" pad="PIN2"/>
-<contactref element="LED7-2-3" pad="PIN2"/>
-<contactref element="LED7-2-4" pad="PIN2"/>
-<wire x1="-0.4" y1="-12.67" x2="-51.22" y2="-174.244" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.4" y1="-8.67" x2="-0.4" y2="-12.67" width="0" layer="19" extent="1-1"/>
-<wire x1="3.40218125" y1="-7.98523125" x2="-0.4" y2="-8.67" width="0" layer="19" extent="1-1"/>
-<wire x1="6.528803125" y1="-5.71841875" x2="3.40218125" y2="-7.98523125" width="0" layer="19" extent="1-1"/>
-<wire x1="8.364090625" y1="-2.318925" x2="6.528803125" y2="-5.71841875" width="0" layer="19" extent="1-1"/>
-<wire x1="12.408053125" y1="-2.59404375" x2="8.364090625" y2="-2.318925" width="0" layer="19" extent="1-1"/>
-<wire x1="3.957515625" y1="-12.0427125" x2="3.40218125" y2="-7.98523125" width="0" layer="19" extent="1-1"/>
-<wire x1="10.772540625" y1="-6.681409375" x2="6.528803125" y2="-5.71841875" width="0" layer="19" extent="1-1"/>
-<wire x1="7.8377" y1="-9.962896875" x2="3.957515625" y2="-12.0427125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS8">
 <contactref element="R68" pad="2"/>
-<contactref element="LED6-2-5" pad="PIN4"/>
-<contactref element="LED6-2-4" pad="PIN4"/>
-<contactref element="LED6-2-3" pad="PIN4"/>
-<contactref element="LED6-2-2" pad="PIN4"/>
-<contactref element="LED6-2-1" pad="PIN4"/>
-<contactref element="LED7-2-1" pad="PIN4"/>
-<contactref element="LED7-2-2" pad="PIN4"/>
-<contactref element="LED7-2-3" pad="PIN4"/>
-<contactref element="LED7-2-4" pad="PIN4"/>
-<wire x1="0.4" y1="-11.87" x2="-47.918" y2="-174.244" width="0" layer="19" extent="1-1"/>
-<wire x1="0.4" y1="-7.87" x2="0.4" y2="-11.87" width="0" layer="19" extent="1-1"/>
-<wire x1="3.774253125" y1="-6.916790625" x2="0.4" y2="-7.87" width="0" layer="19" extent="1-1"/>
-<wire x1="6.4026875" y1="-4.594096875" x2="3.774253125" y2="-6.916790625" width="0" layer="19" extent="1-1"/>
-<wire x1="7.7612125" y1="-1.361565625" x2="6.4026875" y2="-4.594096875" width="0" layer="19" extent="1-1"/>
-<wire x1="11.759125" y1="-1.667278125" x2="7.7612125" y2="-1.361565625" width="0" layer="19" extent="1-1"/>
-<wire x1="4.43565625" y1="-11.017340625" x2="0.4" y2="-11.87" width="0" layer="19" extent="1-1"/>
-<wire x1="10.47971875" y1="-5.5885875" x2="11.759125" y2="-1.667278125" width="0" layer="19" extent="1-1"/>
-<wire x1="7.936303125" y1="-8.83583125" x2="4.43565625" y2="-11.017340625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS7">
 <contactref element="R69" pad="2"/>
-<contactref element="LED6-2-5" pad="PIN3"/>
-<contactref element="LED6-2-4" pad="PIN3"/>
-<contactref element="LED6-2-3" pad="PIN3"/>
-<contactref element="LED6-2-2" pad="PIN3"/>
-<contactref element="LED6-2-1" pad="PIN3"/>
-<contactref element="LED7-2-1" pad="PIN3"/>
-<contactref element="LED7-2-2" pad="PIN3"/>
-<contactref element="LED7-2-3" pad="PIN3"/>
-<contactref element="LED7-2-4" pad="PIN3"/>
-<wire x1="-0.4" y1="-11.87" x2="-44.616" y2="-174.244" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.4" y1="-7.87" x2="-0.4" y2="-11.87" width="0" layer="19" extent="1-1"/>
-<wire x1="3.053996875" y1="-7.264975" x2="-0.4" y2="-7.87" width="0" layer="19" extent="1-1"/>
-<wire x1="5.903584375" y1="-5.219315625" x2="3.053996875" y2="-7.264975" width="0" layer="19" extent="1-1"/>
-<wire x1="7.583971875" y1="-2.141684375" x2="5.903584375" y2="-5.219315625" width="0" layer="19" extent="1-1"/>
-<wire x1="11.62020625" y1="-2.455125" x2="7.583971875" y2="-2.141684375" width="0" layer="19" extent="1-1"/>
-<wire x1="3.6839" y1="-11.29095625" x2="3.053996875" y2="-7.264975" width="0" layer="19" extent="1-1"/>
-<wire x1="10.07971875" y1="-6.281409375" x2="11.62020625" y2="-2.455125" width="0" layer="19" extent="1-1"/>
-<wire x1="7.32346875" y1="-9.3500625" x2="3.6839" y2="-11.29095625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS6">
 <contactref element="R70" pad="2"/>
-<contactref element="LED7-2-5" pad="PIN2"/>
-<contactref element="LED7-2-6" pad="PIN2"/>
-<contactref element="LED7-2-7" pad="PIN2"/>
-<contactref element="LED8-2-3" pad="PIN2"/>
-<contactref element="LED8-2-2" pad="PIN2"/>
-<contactref element="LED8-2-1" pad="PIN2"/>
-<wire x1="-0.4" y1="-4.4" x2="-41.314" y2="-174.244" width="0" layer="19" extent="1-1"/>
-<wire x1="3.6105125" y1="-2.546409375" x2="-0.4" y2="-4.4" width="0" layer="19" extent="1-1"/>
-<wire x1="4.0105125" y1="1.8535875" x2="3.6105125" y2="-2.546409375" width="0" layer="19" extent="1-1"/>
-<wire x1="7.02790625" y1="5.0932" x2="4.0105125" y2="1.8535875" width="0" layer="19" extent="1-1"/>
-<wire x1="4.1224375" y1="7.637046875" x2="7.02790625" y2="5.0932" width="0" layer="19" extent="1-1"/>
-<wire x1="8.54133125" y1="1.53880625" x2="7.02790625" y2="5.0932" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS5">
 <contactref element="R71" pad="2"/>
-<contactref element="LED7-2-5" pad="PIN4"/>
-<contactref element="LED7-2-6" pad="PIN4"/>
-<contactref element="LED7-2-7" pad="PIN4"/>
-<contactref element="LED8-2-3" pad="PIN4"/>
-<contactref element="LED8-2-2" pad="PIN4"/>
-<contactref element="LED8-2-1" pad="PIN4"/>
-<wire x1="0.4" y1="-3.6" x2="-38.012" y2="-174.244" width="0" layer="19" extent="1-1"/>
-<wire x1="3.317690625" y1="-1.4535875" x2="0.4" y2="-3.6" width="0" layer="19" extent="1-1"/>
-<wire x1="2.917690625" y1="2.146409375" x2="3.317690625" y2="-1.4535875" width="0" layer="19" extent="1-1"/>
-<wire x1="5.903584375" y1="5.219315625" x2="2.917690625" y2="2.146409375" width="0" layer="19" extent="1-1"/>
-<wire x1="7.583971875" y1="2.141684375" x2="5.903584375" y2="5.219315625" width="0" layer="19" extent="1-1"/>
-<wire x1="3.053996875" y1="7.264975" x2="5.903584375" y2="5.219315625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2CS4">
 <contactref element="R72" pad="2"/>
-<contactref element="LED7-2-5" pad="PIN3"/>
-<contactref element="LED7-2-6" pad="PIN3"/>
-<contactref element="LED7-2-7" pad="PIN3"/>
-<contactref element="LED8-2-3" pad="PIN3"/>
-<contactref element="LED8-2-2" pad="PIN3"/>
-<contactref element="LED8-2-1" pad="PIN3"/>
-<wire x1="-0.4" y1="-3.6" x2="-34.71" y2="-174.244" width="0" layer="19" extent="1-1"/>
-<wire x1="2.917690625" y1="-2.146409375" x2="-0.4" y2="-3.6" width="0" layer="19" extent="1-1"/>
-<wire x1="3.317690625" y1="1.4535875" x2="2.917690625" y2="-2.146409375" width="0" layer="19" extent="1-1"/>
-<wire x1="6.4026875" y1="4.594096875" x2="3.317690625" y2="1.4535875" width="0" layer="19" extent="1-1"/>
-<wire x1="7.7612125" y1="1.361565625" x2="6.4026875" y2="4.594096875" width="0" layer="19" extent="1-1"/>
-<wire x1="3.774253125" y1="6.916790625" x2="6.4026875" y2="4.594096875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

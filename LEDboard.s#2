@@ -5642,102 +5642,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="858.52" y1="340.36" x2="876.3" y2="340.36" width="0.1524" layer="91"/>
 <label x="866.14" y="340.36" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED1-2-1" gate="G$1" pin="RED"/>
-<wire x1="495.3" y1="355.6" x2="485.14" y2="355.6" width="0.1524" layer="91"/>
-<label x="485.14" y="355.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="340.36" x2="485.14" y2="340.36" width="0.1524" layer="91"/>
-<label x="485.14" y="340.36" size="1.778" layer="95"/>
-<pinref part="LED1-2-2" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="325.12" x2="485.14" y2="325.12" width="0.1524" layer="91"/>
-<label x="485.14" y="325.12" size="1.778" layer="95"/>
-<pinref part="LED1-2-3" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="309.88" x2="485.14" y2="309.88" width="0.1524" layer="91"/>
-<label x="485.14" y="309.88" size="1.778" layer="95"/>
-<pinref part="LED1-2-4" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="294.64" x2="485.14" y2="294.64" width="0.1524" layer="91"/>
-<label x="485.14" y="294.64" size="1.778" layer="95"/>
-<pinref part="LED1-2-5" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="279.4" x2="485.14" y2="279.4" width="0.1524" layer="91"/>
-<label x="485.14" y="279.4" size="1.778" layer="95"/>
-<pinref part="LED1-2-6" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="264.16" x2="485.14" y2="264.16" width="0.1524" layer="91"/>
-<label x="485.14" y="264.16" size="1.778" layer="95"/>
-<pinref part="LED1-2-7" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="248.92" x2="485.14" y2="248.92" width="0.1524" layer="91"/>
-<label x="485.14" y="248.92" size="1.778" layer="95"/>
-<pinref part="LED1-2-8" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="233.68" x2="485.14" y2="233.68" width="0.1524" layer="91"/>
-<label x="485.14" y="233.68" size="1.778" layer="95"/>
-<pinref part="LED1-2-9" gate="G$1" pin="RED"/>
-</segment>
 </net>
 <net name="U2CS38" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="850.9" y1="337.82" x2="876.3" y2="337.82" width="0.1524" layer="91"/>
 <label x="866.14" y="337.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED1-2-1" gate="G$1" pin="BLU"/>
-<wire x1="495.3" y1="353.06" x2="485.14" y2="353.06" width="0.1524" layer="91"/>
-<label x="485.14" y="353.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="337.82" x2="485.14" y2="337.82" width="0.1524" layer="91"/>
-<label x="485.14" y="337.82" size="1.778" layer="95"/>
-<pinref part="LED1-2-2" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="322.58" x2="485.14" y2="322.58" width="0.1524" layer="91"/>
-<label x="485.14" y="322.58" size="1.778" layer="95"/>
-<pinref part="LED1-2-3" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="307.34" x2="485.14" y2="307.34" width="0.1524" layer="91"/>
-<label x="485.14" y="307.34" size="1.778" layer="95"/>
-<pinref part="LED1-2-4" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="292.1" x2="485.14" y2="292.1" width="0.1524" layer="91"/>
-<label x="485.14" y="292.1" size="1.778" layer="95"/>
-<pinref part="LED1-2-5" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="276.86" x2="485.14" y2="276.86" width="0.1524" layer="91"/>
-<label x="485.14" y="276.86" size="1.778" layer="95"/>
-<pinref part="LED1-2-6" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="261.62" x2="485.14" y2="261.62" width="0.1524" layer="91"/>
-<label x="485.14" y="261.62" size="1.778" layer="95"/>
-<pinref part="LED1-2-7" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="246.38" x2="485.14" y2="246.38" width="0.1524" layer="91"/>
-<label x="485.14" y="246.38" size="1.778" layer="95"/>
-<pinref part="LED1-2-8" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="231.14" x2="485.14" y2="231.14" width="0.1524" layer="91"/>
-<label x="485.14" y="231.14" size="1.778" layer="95"/>
-<pinref part="LED1-2-9" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="U2CS37" class="0">
@@ -5746,102 +5656,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="843.28" y1="335.28" x2="876.3" y2="335.28" width="0.1524" layer="91"/>
 <label x="866.14" y="335.28" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED1-2-1" gate="G$1" pin="GRN"/>
-<wire x1="495.3" y1="350.52" x2="485.14" y2="350.52" width="0.1524" layer="91"/>
-<label x="485.14" y="350.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="335.28" x2="485.14" y2="335.28" width="0.1524" layer="91"/>
-<label x="485.14" y="335.28" size="1.778" layer="95"/>
-<pinref part="LED1-2-2" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="320.04" x2="485.14" y2="320.04" width="0.1524" layer="91"/>
-<label x="485.14" y="320.04" size="1.778" layer="95"/>
-<pinref part="LED1-2-3" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="304.8" x2="485.14" y2="304.8" width="0.1524" layer="91"/>
-<label x="485.14" y="304.8" size="1.778" layer="95"/>
-<pinref part="LED1-2-4" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="289.56" x2="485.14" y2="289.56" width="0.1524" layer="91"/>
-<label x="485.14" y="289.56" size="1.778" layer="95"/>
-<pinref part="LED1-2-5" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="274.32" x2="485.14" y2="274.32" width="0.1524" layer="91"/>
-<label x="485.14" y="274.32" size="1.778" layer="95"/>
-<pinref part="LED1-2-6" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="259.08" x2="485.14" y2="259.08" width="0.1524" layer="91"/>
-<label x="485.14" y="259.08" size="1.778" layer="95"/>
-<pinref part="LED1-2-7" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="243.84" x2="485.14" y2="243.84" width="0.1524" layer="91"/>
-<label x="485.14" y="243.84" size="1.778" layer="95"/>
-<pinref part="LED1-2-8" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="228.6" x2="485.14" y2="228.6" width="0.1524" layer="91"/>
-<label x="485.14" y="228.6" size="1.778" layer="95"/>
-<pinref part="LED1-2-9" gate="G$1" pin="GRN"/>
-</segment>
 </net>
 <net name="U2CS36" class="0">
 <segment>
 <wire x1="858.52" y1="332.74" x2="876.3" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 <label x="866.14" y="332.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED1-2-10" gate="G$1" pin="RED"/>
-<wire x1="495.3" y1="218.44" x2="485.14" y2="218.44" width="0.1524" layer="91"/>
-<label x="485.14" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="203.2" x2="485.14" y2="203.2" width="0.1524" layer="91"/>
-<label x="485.14" y="203.2" size="1.778" layer="95"/>
-<pinref part="LED1-2-11" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="187.96" x2="485.14" y2="187.96" width="0.1524" layer="91"/>
-<label x="485.14" y="187.96" size="1.778" layer="95"/>
-<pinref part="LED1-2-12" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="172.72" x2="485.14" y2="172.72" width="0.1524" layer="91"/>
-<label x="485.14" y="172.72" size="1.778" layer="95"/>
-<pinref part="LED1-2-13" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="157.48" x2="485.14" y2="157.48" width="0.1524" layer="91"/>
-<label x="485.14" y="157.48" size="1.778" layer="95"/>
-<pinref part="LED1-2-14" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="142.24" x2="485.14" y2="142.24" width="0.1524" layer="91"/>
-<label x="485.14" y="142.24" size="1.778" layer="95"/>
-<pinref part="LED1-2-15" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="127" x2="485.14" y2="127" width="0.1524" layer="91"/>
-<label x="485.14" y="127" size="1.778" layer="95"/>
-<pinref part="LED1-2-16" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="111.76" x2="485.14" y2="111.76" width="0.1524" layer="91"/>
-<label x="485.14" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED1-2-17" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="96.52" x2="485.14" y2="96.52" width="0.1524" layer="91"/>
-<label x="485.14" y="96.52" size="1.778" layer="95"/>
-<pinref part="LED1-2-18" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="U2CS35" class="0">
@@ -5850,102 +5670,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R41" gate="G$1" pin="2"/>
 <label x="866.14" y="330.2" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED1-2-10" gate="G$1" pin="BLU"/>
-<wire x1="495.3" y1="215.9" x2="485.14" y2="215.9" width="0.1524" layer="91"/>
-<label x="485.14" y="215.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="200.66" x2="485.14" y2="200.66" width="0.1524" layer="91"/>
-<label x="485.14" y="200.66" size="1.778" layer="95"/>
-<pinref part="LED1-2-11" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="185.42" x2="485.14" y2="185.42" width="0.1524" layer="91"/>
-<label x="485.14" y="185.42" size="1.778" layer="95"/>
-<pinref part="LED1-2-12" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="170.18" x2="485.14" y2="170.18" width="0.1524" layer="91"/>
-<label x="485.14" y="170.18" size="1.778" layer="95"/>
-<pinref part="LED1-2-13" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="154.94" x2="485.14" y2="154.94" width="0.1524" layer="91"/>
-<label x="485.14" y="154.94" size="1.778" layer="95"/>
-<pinref part="LED1-2-14" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="139.7" x2="485.14" y2="139.7" width="0.1524" layer="91"/>
-<label x="485.14" y="139.7" size="1.778" layer="95"/>
-<pinref part="LED1-2-15" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="124.46" x2="485.14" y2="124.46" width="0.1524" layer="91"/>
-<label x="485.14" y="124.46" size="1.778" layer="95"/>
-<pinref part="LED1-2-16" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="109.22" x2="485.14" y2="109.22" width="0.1524" layer="91"/>
-<label x="485.14" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED1-2-17" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="93.98" x2="485.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="485.14" y="93.98" size="1.778" layer="95"/>
-<pinref part="LED1-2-18" gate="G$1" pin="BLU"/>
-</segment>
 </net>
 <net name="U2CS34" class="0">
 <segment>
 <wire x1="843.28" y1="327.66" x2="876.3" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="2"/>
 <label x="866.14" y="327.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED1-2-10" gate="G$1" pin="GRN"/>
-<wire x1="495.3" y1="213.36" x2="485.14" y2="213.36" width="0.1524" layer="91"/>
-<label x="485.14" y="213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="198.12" x2="485.14" y2="198.12" width="0.1524" layer="91"/>
-<label x="485.14" y="198.12" size="1.778" layer="95"/>
-<pinref part="LED1-2-11" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="182.88" x2="485.14" y2="182.88" width="0.1524" layer="91"/>
-<label x="485.14" y="182.88" size="1.778" layer="95"/>
-<pinref part="LED1-2-12" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="167.64" x2="485.14" y2="167.64" width="0.1524" layer="91"/>
-<label x="485.14" y="167.64" size="1.778" layer="95"/>
-<pinref part="LED1-2-13" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="152.4" x2="485.14" y2="152.4" width="0.1524" layer="91"/>
-<label x="485.14" y="152.4" size="1.778" layer="95"/>
-<pinref part="LED1-2-14" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="137.16" x2="485.14" y2="137.16" width="0.1524" layer="91"/>
-<label x="485.14" y="137.16" size="1.778" layer="95"/>
-<pinref part="LED1-2-15" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="121.92" x2="485.14" y2="121.92" width="0.1524" layer="91"/>
-<label x="485.14" y="121.92" size="1.778" layer="95"/>
-<pinref part="LED1-2-16" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="106.68" x2="485.14" y2="106.68" width="0.1524" layer="91"/>
-<label x="485.14" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED1-2-17" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="91.44" x2="485.14" y2="91.44" width="0.1524" layer="91"/>
-<label x="485.14" y="91.44" size="1.778" layer="95"/>
-<pinref part="LED1-2-18" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 <net name="U2CS33" class="0">
@@ -5954,102 +5684,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R43" gate="G$1" pin="2"/>
 <label x="866.14" y="325.12" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED1-2-19" gate="G$1" pin="RED"/>
-<wire x1="495.3" y1="81.28" x2="485.14" y2="81.28" width="0.1524" layer="91"/>
-<label x="485.14" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="66.04" x2="485.14" y2="66.04" width="0.1524" layer="91"/>
-<label x="485.14" y="66.04" size="1.778" layer="95"/>
-<pinref part="LED1-2-20" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="50.8" x2="485.14" y2="50.8" width="0.1524" layer="91"/>
-<label x="485.14" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED1-2-21" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="35.56" x2="485.14" y2="35.56" width="0.1524" layer="91"/>
-<label x="485.14" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED1-2-22" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="20.32" x2="485.14" y2="20.32" width="0.1524" layer="91"/>
-<label x="485.14" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED1-2-23" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="20.32" x2="541.02" y2="20.32" width="0.1524" layer="91"/>
-<label x="541.02" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED2-2-20" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="35.56" x2="541.02" y2="35.56" width="0.1524" layer="91"/>
-<label x="541.02" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED2-2-19" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="50.8" x2="541.02" y2="50.8" width="0.1524" layer="91"/>
-<label x="541.02" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED2-2-18" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="66.04" x2="541.02" y2="66.04" width="0.1524" layer="91"/>
-<label x="541.02" y="66.04" size="1.778" layer="95"/>
-<pinref part="LED2-2-17" gate="G$1" pin="RED"/>
-</segment>
 </net>
 <net name="U2CS32" class="0">
 <segment>
 <wire x1="850.9" y1="322.58" x2="876.3" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="2"/>
 <label x="866.14" y="322.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED1-2-19" gate="G$1" pin="BLU"/>
-<wire x1="495.3" y1="78.74" x2="485.14" y2="78.74" width="0.1524" layer="91"/>
-<label x="485.14" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="63.5" x2="485.14" y2="63.5" width="0.1524" layer="91"/>
-<label x="485.14" y="63.5" size="1.778" layer="95"/>
-<pinref part="LED1-2-20" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="48.26" x2="485.14" y2="48.26" width="0.1524" layer="91"/>
-<label x="485.14" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED1-2-21" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="33.02" x2="485.14" y2="33.02" width="0.1524" layer="91"/>
-<label x="485.14" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED1-2-22" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="17.78" x2="485.14" y2="17.78" width="0.1524" layer="91"/>
-<label x="485.14" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED1-2-23" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="17.78" x2="541.02" y2="17.78" width="0.1524" layer="91"/>
-<label x="541.02" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED2-2-20" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="33.02" x2="541.02" y2="33.02" width="0.1524" layer="91"/>
-<label x="541.02" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED2-2-19" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="48.26" x2="541.02" y2="48.26" width="0.1524" layer="91"/>
-<label x="541.02" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED2-2-18" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="63.5" x2="541.02" y2="63.5" width="0.1524" layer="91"/>
-<label x="541.02" y="63.5" size="1.778" layer="95"/>
-<pinref part="LED2-2-17" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="U2CS31" class="0">
@@ -6058,102 +5698,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R45" gate="G$1" pin="2"/>
 <label x="866.14" y="320.04" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED1-2-19" gate="G$1" pin="GRN"/>
-<wire x1="495.3" y1="76.2" x2="485.14" y2="76.2" width="0.1524" layer="91"/>
-<label x="485.14" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="60.96" x2="485.14" y2="60.96" width="0.1524" layer="91"/>
-<label x="485.14" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED1-2-20" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="45.72" x2="485.14" y2="45.72" width="0.1524" layer="91"/>
-<label x="485.14" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED1-2-21" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="30.48" x2="485.14" y2="30.48" width="0.1524" layer="91"/>
-<label x="485.14" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED1-2-22" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="495.3" y1="15.24" x2="485.14" y2="15.24" width="0.1524" layer="91"/>
-<label x="485.14" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED1-2-23" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="15.24" x2="541.02" y2="15.24" width="0.1524" layer="91"/>
-<label x="541.02" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED2-2-20" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="30.48" x2="541.02" y2="30.48" width="0.1524" layer="91"/>
-<label x="541.02" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED2-2-19" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="45.72" x2="541.02" y2="45.72" width="0.1524" layer="91"/>
-<label x="541.02" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED2-2-18" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="60.96" x2="541.02" y2="60.96" width="0.1524" layer="91"/>
-<label x="541.02" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED2-2-17" gate="G$1" pin="GRN"/>
-</segment>
 </net>
 <net name="U2CS30" class="0">
 <segment>
 <wire x1="858.52" y1="317.5" x2="876.3" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="2"/>
 <label x="866.14" y="317.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED2-2-16" gate="G$1" pin="RED"/>
-<wire x1="551.18" y1="81.28" x2="541.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="541.02" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="96.52" x2="541.02" y2="96.52" width="0.1524" layer="91"/>
-<label x="541.02" y="96.52" size="1.778" layer="95"/>
-<pinref part="LED2-2-15" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="111.76" x2="541.02" y2="111.76" width="0.1524" layer="91"/>
-<label x="541.02" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED2-2-14" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="127" x2="541.02" y2="127" width="0.1524" layer="91"/>
-<label x="541.02" y="127" size="1.778" layer="95"/>
-<pinref part="LED2-2-13" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="142.24" x2="541.02" y2="142.24" width="0.1524" layer="91"/>
-<label x="541.02" y="142.24" size="1.778" layer="95"/>
-<pinref part="LED2-2-12" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="157.48" x2="541.02" y2="157.48" width="0.1524" layer="91"/>
-<label x="541.02" y="157.48" size="1.778" layer="95"/>
-<pinref part="LED2-2-11" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="172.72" x2="541.02" y2="172.72" width="0.1524" layer="91"/>
-<label x="541.02" y="172.72" size="1.778" layer="95"/>
-<pinref part="LED2-2-10" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="187.96" x2="541.02" y2="187.96" width="0.1524" layer="91"/>
-<label x="541.02" y="187.96" size="1.778" layer="95"/>
-<pinref part="LED2-2-9" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="203.2" x2="541.02" y2="203.2" width="0.1524" layer="91"/>
-<label x="541.02" y="203.2" size="1.778" layer="95"/>
-<pinref part="LED2-2-8" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="U2CS29" class="0">
@@ -6162,102 +5712,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R47" gate="G$1" pin="2"/>
 <label x="866.14" y="314.96" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED2-2-16" gate="G$1" pin="BLU"/>
-<wire x1="551.18" y1="78.74" x2="541.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="541.02" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="93.98" x2="541.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="541.02" y="93.98" size="1.778" layer="95"/>
-<pinref part="LED2-2-15" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="109.22" x2="541.02" y2="109.22" width="0.1524" layer="91"/>
-<label x="541.02" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED2-2-14" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="124.46" x2="541.02" y2="124.46" width="0.1524" layer="91"/>
-<label x="541.02" y="124.46" size="1.778" layer="95"/>
-<pinref part="LED2-2-13" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="139.7" x2="541.02" y2="139.7" width="0.1524" layer="91"/>
-<label x="541.02" y="139.7" size="1.778" layer="95"/>
-<pinref part="LED2-2-12" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="154.94" x2="541.02" y2="154.94" width="0.1524" layer="91"/>
-<label x="541.02" y="154.94" size="1.778" layer="95"/>
-<pinref part="LED2-2-11" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="170.18" x2="541.02" y2="170.18" width="0.1524" layer="91"/>
-<label x="541.02" y="170.18" size="1.778" layer="95"/>
-<pinref part="LED2-2-10" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="185.42" x2="541.02" y2="185.42" width="0.1524" layer="91"/>
-<label x="541.02" y="185.42" size="1.778" layer="95"/>
-<pinref part="LED2-2-9" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="200.66" x2="541.02" y2="200.66" width="0.1524" layer="91"/>
-<label x="541.02" y="200.66" size="1.778" layer="95"/>
-<pinref part="LED2-2-8" gate="G$1" pin="BLU"/>
-</segment>
 </net>
 <net name="U2CS28" class="0">
 <segment>
 <wire x1="843.28" y1="312.42" x2="876.3" y2="312.42" width="0.1524" layer="91"/>
 <pinref part="R48" gate="G$1" pin="2"/>
 <label x="866.14" y="312.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED2-2-16" gate="G$1" pin="GRN"/>
-<wire x1="551.18" y1="76.2" x2="541.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="541.02" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="91.44" x2="541.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="541.02" y="91.44" size="1.778" layer="95"/>
-<pinref part="LED2-2-15" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="106.68" x2="541.02" y2="106.68" width="0.1524" layer="91"/>
-<label x="541.02" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED2-2-14" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="121.92" x2="541.02" y2="121.92" width="0.1524" layer="91"/>
-<label x="541.02" y="121.92" size="1.778" layer="95"/>
-<pinref part="LED2-2-13" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="137.16" x2="541.02" y2="137.16" width="0.1524" layer="91"/>
-<label x="541.02" y="137.16" size="1.778" layer="95"/>
-<pinref part="LED2-2-12" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="152.4" x2="541.02" y2="152.4" width="0.1524" layer="91"/>
-<label x="541.02" y="152.4" size="1.778" layer="95"/>
-<pinref part="LED2-2-11" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="167.64" x2="541.02" y2="167.64" width="0.1524" layer="91"/>
-<label x="541.02" y="167.64" size="1.778" layer="95"/>
-<pinref part="LED2-2-10" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="182.88" x2="541.02" y2="182.88" width="0.1524" layer="91"/>
-<label x="541.02" y="182.88" size="1.778" layer="95"/>
-<pinref part="LED2-2-9" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="198.12" x2="541.02" y2="198.12" width="0.1524" layer="91"/>
-<label x="541.02" y="198.12" size="1.778" layer="95"/>
-<pinref part="LED2-2-8" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 <net name="U2CS27" class="0">
@@ -6266,102 +5726,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R49" gate="G$1" pin="2"/>
 <label x="866.14" y="309.88" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED2-2-7" gate="G$1" pin="RED"/>
-<wire x1="551.18" y1="218.44" x2="541.02" y2="218.44" width="0.1524" layer="91"/>
-<label x="541.02" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="233.68" x2="541.02" y2="233.68" width="0.1524" layer="91"/>
-<label x="541.02" y="233.68" size="1.778" layer="95"/>
-<pinref part="LED2-2-6" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="248.92" x2="541.02" y2="248.92" width="0.1524" layer="91"/>
-<label x="541.02" y="248.92" size="1.778" layer="95"/>
-<pinref part="LED2-2-5" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="264.16" x2="541.02" y2="264.16" width="0.1524" layer="91"/>
-<label x="541.02" y="264.16" size="1.778" layer="95"/>
-<pinref part="LED2-2-4" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="279.4" x2="541.02" y2="279.4" width="0.1524" layer="91"/>
-<label x="541.02" y="279.4" size="1.778" layer="95"/>
-<pinref part="LED2-2-3" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="294.64" x2="541.02" y2="294.64" width="0.1524" layer="91"/>
-<label x="541.02" y="294.64" size="1.778" layer="95"/>
-<pinref part="LED2-2-2" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="309.88" x2="541.02" y2="309.88" width="0.1524" layer="91"/>
-<label x="541.02" y="309.88" size="1.778" layer="95"/>
-<pinref part="LED2-2-1" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="264.16" x2="596.9" y2="264.16" width="0.1524" layer="91"/>
-<label x="596.9" y="264.16" size="1.778" layer="95"/>
-<pinref part="LED3-2-1" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="248.92" x2="596.9" y2="248.92" width="0.1524" layer="91"/>
-<label x="596.9" y="248.92" size="1.778" layer="95"/>
-<pinref part="LED3-2-2" gate="G$1" pin="RED"/>
-</segment>
 </net>
 <net name="U2CS26" class="0">
 <segment>
 <wire x1="850.9" y1="307.34" x2="876.3" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="R50" gate="G$1" pin="2"/>
 <label x="866.14" y="307.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED2-2-7" gate="G$1" pin="BLU"/>
-<wire x1="551.18" y1="215.9" x2="541.02" y2="215.9" width="0.1524" layer="91"/>
-<label x="541.02" y="215.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="231.14" x2="541.02" y2="231.14" width="0.1524" layer="91"/>
-<label x="541.02" y="231.14" size="1.778" layer="95"/>
-<pinref part="LED2-2-6" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="246.38" x2="541.02" y2="246.38" width="0.1524" layer="91"/>
-<label x="541.02" y="246.38" size="1.778" layer="95"/>
-<pinref part="LED2-2-5" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="261.62" x2="541.02" y2="261.62" width="0.1524" layer="91"/>
-<label x="541.02" y="261.62" size="1.778" layer="95"/>
-<pinref part="LED2-2-4" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="276.86" x2="541.02" y2="276.86" width="0.1524" layer="91"/>
-<label x="541.02" y="276.86" size="1.778" layer="95"/>
-<pinref part="LED2-2-3" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="292.1" x2="541.02" y2="292.1" width="0.1524" layer="91"/>
-<label x="541.02" y="292.1" size="1.778" layer="95"/>
-<pinref part="LED2-2-2" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="307.34" x2="541.02" y2="307.34" width="0.1524" layer="91"/>
-<label x="541.02" y="307.34" size="1.778" layer="95"/>
-<pinref part="LED2-2-1" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="261.62" x2="596.9" y2="261.62" width="0.1524" layer="91"/>
-<label x="596.9" y="261.62" size="1.778" layer="95"/>
-<pinref part="LED3-2-1" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="246.38" x2="596.9" y2="246.38" width="0.1524" layer="91"/>
-<label x="596.9" y="246.38" size="1.778" layer="95"/>
-<pinref part="LED3-2-2" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="U2CS25" class="0">
@@ -6370,102 +5740,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R51" gate="G$1" pin="2"/>
 <label x="866.14" y="304.8" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED2-2-7" gate="G$1" pin="GRN"/>
-<wire x1="551.18" y1="213.36" x2="541.02" y2="213.36" width="0.1524" layer="91"/>
-<label x="541.02" y="213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="228.6" x2="541.02" y2="228.6" width="0.1524" layer="91"/>
-<label x="541.02" y="228.6" size="1.778" layer="95"/>
-<pinref part="LED2-2-6" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="243.84" x2="541.02" y2="243.84" width="0.1524" layer="91"/>
-<label x="541.02" y="243.84" size="1.778" layer="95"/>
-<pinref part="LED2-2-5" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="259.08" x2="541.02" y2="259.08" width="0.1524" layer="91"/>
-<label x="541.02" y="259.08" size="1.778" layer="95"/>
-<pinref part="LED2-2-4" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="274.32" x2="541.02" y2="274.32" width="0.1524" layer="91"/>
-<label x="541.02" y="274.32" size="1.778" layer="95"/>
-<pinref part="LED2-2-3" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="289.56" x2="541.02" y2="289.56" width="0.1524" layer="91"/>
-<label x="541.02" y="289.56" size="1.778" layer="95"/>
-<pinref part="LED2-2-2" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="551.18" y1="304.8" x2="541.02" y2="304.8" width="0.1524" layer="91"/>
-<label x="541.02" y="304.8" size="1.778" layer="95"/>
-<pinref part="LED2-2-1" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="259.08" x2="596.9" y2="259.08" width="0.1524" layer="91"/>
-<label x="596.9" y="259.08" size="1.778" layer="95"/>
-<pinref part="LED3-2-1" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="243.84" x2="596.9" y2="243.84" width="0.1524" layer="91"/>
-<label x="596.9" y="243.84" size="1.778" layer="95"/>
-<pinref part="LED3-2-2" gate="G$1" pin="GRN"/>
-</segment>
 </net>
 <net name="U2CS24" class="0">
 <segment>
 <wire x1="858.52" y1="302.26" x2="876.3" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="R52" gate="G$1" pin="2"/>
 <label x="866.14" y="302.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED3-2-3" gate="G$1" pin="RED"/>
-<wire x1="607.06" y1="233.68" x2="596.9" y2="233.68" width="0.1524" layer="91"/>
-<label x="596.9" y="233.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="218.44" x2="596.9" y2="218.44" width="0.1524" layer="91"/>
-<label x="596.9" y="218.44" size="1.778" layer="95"/>
-<pinref part="LED3-2-4" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="203.2" x2="596.9" y2="203.2" width="0.1524" layer="91"/>
-<label x="596.9" y="203.2" size="1.778" layer="95"/>
-<pinref part="LED3-2-5" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="187.96" x2="596.9" y2="187.96" width="0.1524" layer="91"/>
-<label x="596.9" y="187.96" size="1.778" layer="95"/>
-<pinref part="LED3-2-6" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="172.72" x2="596.9" y2="172.72" width="0.1524" layer="91"/>
-<label x="596.9" y="172.72" size="1.778" layer="95"/>
-<pinref part="LED3-2-7" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="157.48" x2="596.9" y2="157.48" width="0.1524" layer="91"/>
-<label x="596.9" y="157.48" size="1.778" layer="95"/>
-<pinref part="LED3-2-8" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="142.24" x2="596.9" y2="142.24" width="0.1524" layer="91"/>
-<label x="596.9" y="142.24" size="1.778" layer="95"/>
-<pinref part="LED3-2-9" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="127" x2="596.9" y2="127" width="0.1524" layer="91"/>
-<label x="596.9" y="127" size="1.778" layer="95"/>
-<pinref part="LED3-2-10" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="111.76" x2="596.9" y2="111.76" width="0.1524" layer="91"/>
-<label x="596.9" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED3-2-11" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="U2CS23" class="0">
@@ -6474,102 +5754,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R53" gate="G$1" pin="2"/>
 <label x="866.14" y="299.72" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED3-2-3" gate="G$1" pin="BLU"/>
-<wire x1="607.06" y1="231.14" x2="596.9" y2="231.14" width="0.1524" layer="91"/>
-<label x="596.9" y="231.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="215.9" x2="596.9" y2="215.9" width="0.1524" layer="91"/>
-<label x="596.9" y="215.9" size="1.778" layer="95"/>
-<pinref part="LED3-2-4" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="200.66" x2="596.9" y2="200.66" width="0.1524" layer="91"/>
-<label x="596.9" y="200.66" size="1.778" layer="95"/>
-<pinref part="LED3-2-5" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="185.42" x2="596.9" y2="185.42" width="0.1524" layer="91"/>
-<label x="596.9" y="185.42" size="1.778" layer="95"/>
-<pinref part="LED3-2-6" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="170.18" x2="596.9" y2="170.18" width="0.1524" layer="91"/>
-<label x="596.9" y="170.18" size="1.778" layer="95"/>
-<pinref part="LED3-2-7" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="154.94" x2="596.9" y2="154.94" width="0.1524" layer="91"/>
-<label x="596.9" y="154.94" size="1.778" layer="95"/>
-<pinref part="LED3-2-8" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="139.7" x2="596.9" y2="139.7" width="0.1524" layer="91"/>
-<label x="596.9" y="139.7" size="1.778" layer="95"/>
-<pinref part="LED3-2-9" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="124.46" x2="596.9" y2="124.46" width="0.1524" layer="91"/>
-<label x="596.9" y="124.46" size="1.778" layer="95"/>
-<pinref part="LED3-2-10" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="109.22" x2="596.9" y2="109.22" width="0.1524" layer="91"/>
-<label x="596.9" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED3-2-11" gate="G$1" pin="BLU"/>
-</segment>
 </net>
 <net name="U2CS22" class="0">
 <segment>
 <wire x1="843.28" y1="297.18" x2="876.3" y2="297.18" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="2"/>
 <label x="866.14" y="297.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED3-2-3" gate="G$1" pin="GRN"/>
-<wire x1="607.06" y1="228.6" x2="596.9" y2="228.6" width="0.1524" layer="91"/>
-<label x="596.9" y="228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="213.36" x2="596.9" y2="213.36" width="0.1524" layer="91"/>
-<label x="596.9" y="213.36" size="1.778" layer="95"/>
-<pinref part="LED3-2-4" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="198.12" x2="596.9" y2="198.12" width="0.1524" layer="91"/>
-<label x="596.9" y="198.12" size="1.778" layer="95"/>
-<pinref part="LED3-2-5" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="182.88" x2="596.9" y2="182.88" width="0.1524" layer="91"/>
-<label x="596.9" y="182.88" size="1.778" layer="95"/>
-<pinref part="LED3-2-6" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="167.64" x2="596.9" y2="167.64" width="0.1524" layer="91"/>
-<label x="596.9" y="167.64" size="1.778" layer="95"/>
-<pinref part="LED3-2-7" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="152.4" x2="596.9" y2="152.4" width="0.1524" layer="91"/>
-<label x="596.9" y="152.4" size="1.778" layer="95"/>
-<pinref part="LED3-2-8" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="137.16" x2="596.9" y2="137.16" width="0.1524" layer="91"/>
-<label x="596.9" y="137.16" size="1.778" layer="95"/>
-<pinref part="LED3-2-9" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="121.92" x2="596.9" y2="121.92" width="0.1524" layer="91"/>
-<label x="596.9" y="121.92" size="1.778" layer="95"/>
-<pinref part="LED3-2-10" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="106.68" x2="596.9" y2="106.68" width="0.1524" layer="91"/>
-<label x="596.9" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED3-2-11" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 <net name="U2CS21" class="0">
@@ -6578,102 +5768,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R55" gate="G$1" pin="2"/>
 <label x="866.14" y="294.64" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED3-2-12" gate="G$1" pin="RED"/>
-<wire x1="607.06" y1="96.52" x2="596.9" y2="96.52" width="0.1524" layer="91"/>
-<label x="596.9" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="81.28" x2="596.9" y2="81.28" width="0.1524" layer="91"/>
-<label x="596.9" y="81.28" size="1.778" layer="95"/>
-<pinref part="LED3-2-13" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="66.04" x2="596.9" y2="66.04" width="0.1524" layer="91"/>
-<label x="596.9" y="66.04" size="1.778" layer="95"/>
-<pinref part="LED3-2-14" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="50.8" x2="596.9" y2="50.8" width="0.1524" layer="91"/>
-<label x="596.9" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED3-2-15" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="35.56" x2="596.9" y2="35.56" width="0.1524" layer="91"/>
-<label x="596.9" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED3-2-16" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="20.32" x2="596.9" y2="20.32" width="0.1524" layer="91"/>
-<label x="596.9" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED3-2-17" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="20.32" x2="655.32" y2="20.32" width="0.1524" layer="91"/>
-<label x="655.32" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED4-2-14" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="35.56" x2="655.32" y2="35.56" width="0.1524" layer="91"/>
-<label x="655.32" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED4-2-13" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="50.8" x2="655.32" y2="50.8" width="0.1524" layer="91"/>
-<label x="655.32" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED4-2-12" gate="G$1" pin="RED"/>
-</segment>
 </net>
 <net name="U2CS20" class="0">
 <segment>
 <wire x1="850.9" y1="292.1" x2="876.3" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="2"/>
 <label x="866.14" y="292.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED3-2-12" gate="G$1" pin="BLU"/>
-<wire x1="607.06" y1="93.98" x2="596.9" y2="93.98" width="0.1524" layer="91"/>
-<label x="596.9" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="78.74" x2="596.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="596.9" y="78.74" size="1.778" layer="95"/>
-<pinref part="LED3-2-13" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="63.5" x2="596.9" y2="63.5" width="0.1524" layer="91"/>
-<label x="596.9" y="63.5" size="1.778" layer="95"/>
-<pinref part="LED3-2-14" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="48.26" x2="596.9" y2="48.26" width="0.1524" layer="91"/>
-<label x="596.9" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED3-2-15" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="33.02" x2="596.9" y2="33.02" width="0.1524" layer="91"/>
-<label x="596.9" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED3-2-16" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="17.78" x2="596.9" y2="17.78" width="0.1524" layer="91"/>
-<label x="596.9" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED3-2-17" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="17.78" x2="655.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="655.32" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED4-2-14" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="33.02" x2="655.32" y2="33.02" width="0.1524" layer="91"/>
-<label x="655.32" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED4-2-13" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="48.26" x2="655.32" y2="48.26" width="0.1524" layer="91"/>
-<label x="655.32" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED4-2-12" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="U2CS19" class="0">
@@ -6682,102 +5782,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R57" gate="G$1" pin="2"/>
 <label x="866.14" y="289.56" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED3-2-12" gate="G$1" pin="GRN"/>
-<wire x1="607.06" y1="91.44" x2="596.9" y2="91.44" width="0.1524" layer="91"/>
-<label x="596.9" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="76.2" x2="596.9" y2="76.2" width="0.1524" layer="91"/>
-<label x="596.9" y="76.2" size="1.778" layer="95"/>
-<pinref part="LED3-2-13" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="60.96" x2="596.9" y2="60.96" width="0.1524" layer="91"/>
-<label x="596.9" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED3-2-14" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="45.72" x2="596.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="596.9" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED3-2-15" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="30.48" x2="596.9" y2="30.48" width="0.1524" layer="91"/>
-<label x="596.9" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED3-2-16" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="607.06" y1="15.24" x2="596.9" y2="15.24" width="0.1524" layer="91"/>
-<label x="596.9" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED3-2-17" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="15.24" x2="655.32" y2="15.24" width="0.1524" layer="91"/>
-<label x="655.32" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED4-2-14" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="30.48" x2="655.32" y2="30.48" width="0.1524" layer="91"/>
-<label x="655.32" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED4-2-13" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="45.72" x2="655.32" y2="45.72" width="0.1524" layer="91"/>
-<label x="655.32" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED4-2-12" gate="G$1" pin="GRN"/>
-</segment>
 </net>
 <net name="U2CS18" class="0">
 <segment>
 <wire x1="858.52" y1="287.02" x2="876.3" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="R58" gate="G$1" pin="2"/>
 <label x="866.14" y="287.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED4-2-11" gate="G$1" pin="RED"/>
-<wire x1="665.48" y1="66.04" x2="655.32" y2="66.04" width="0.1524" layer="91"/>
-<label x="655.32" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="81.28" x2="655.32" y2="81.28" width="0.1524" layer="91"/>
-<label x="655.32" y="81.28" size="1.778" layer="95"/>
-<pinref part="LED4-2-10" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="96.52" x2="655.32" y2="96.52" width="0.1524" layer="91"/>
-<label x="655.32" y="96.52" size="1.778" layer="95"/>
-<pinref part="LED4-2-9" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="111.76" x2="655.32" y2="111.76" width="0.1524" layer="91"/>
-<label x="655.32" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED4-2-8" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="127" x2="655.32" y2="127" width="0.1524" layer="91"/>
-<label x="655.32" y="127" size="1.778" layer="95"/>
-<pinref part="LED4-2-7" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="142.24" x2="655.32" y2="142.24" width="0.1524" layer="91"/>
-<label x="655.32" y="142.24" size="1.778" layer="95"/>
-<pinref part="LED4-2-6" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="157.48" x2="655.32" y2="157.48" width="0.1524" layer="91"/>
-<label x="655.32" y="157.48" size="1.778" layer="95"/>
-<pinref part="LED4-2-5" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="172.72" x2="655.32" y2="172.72" width="0.1524" layer="91"/>
-<label x="655.32" y="172.72" size="1.778" layer="95"/>
-<pinref part="LED4-2-4" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="187.96" x2="655.32" y2="187.96" width="0.1524" layer="91"/>
-<label x="655.32" y="187.96" size="1.778" layer="95"/>
-<pinref part="LED4-2-3" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="U2CS17" class="0">
@@ -6786,111 +5796,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R59" gate="G$1" pin="2"/>
 <label x="866.14" y="284.48" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED4-2-11" gate="G$1" pin="BLU"/>
-<wire x1="665.48" y1="63.5" x2="655.32" y2="63.5" width="0.1524" layer="91"/>
-<label x="655.32" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="78.74" x2="655.32" y2="78.74" width="0.1524" layer="91"/>
-<label x="655.32" y="78.74" size="1.778" layer="95"/>
-<pinref part="LED4-2-10" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="93.98" x2="655.32" y2="93.98" width="0.1524" layer="91"/>
-<label x="655.32" y="93.98" size="1.778" layer="95"/>
-<pinref part="LED4-2-9" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="109.22" x2="655.32" y2="109.22" width="0.1524" layer="91"/>
-<label x="655.32" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED4-2-8" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="124.46" x2="655.32" y2="124.46" width="0.1524" layer="91"/>
-<label x="655.32" y="124.46" size="1.778" layer="95"/>
-<pinref part="LED4-2-7" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="139.7" x2="655.32" y2="139.7" width="0.1524" layer="91"/>
-<label x="655.32" y="139.7" size="1.778" layer="95"/>
-<pinref part="LED4-2-6" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="154.94" x2="655.32" y2="154.94" width="0.1524" layer="91"/>
-<label x="655.32" y="154.94" size="1.778" layer="95"/>
-<pinref part="LED4-2-5" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="170.18" x2="655.32" y2="170.18" width="0.1524" layer="91"/>
-<label x="655.32" y="170.18" size="1.778" layer="95"/>
-<pinref part="LED4-2-4" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="185.42" x2="655.32" y2="185.42" width="0.1524" layer="91"/>
-<label x="655.32" y="185.42" size="1.778" layer="95"/>
-<pinref part="LED4-2-3" gate="G$1" pin="BLU"/>
-</segment>
 </net>
 <net name="U2CS16" class="0">
 <segment>
 <wire x1="843.28" y1="281.94" x2="876.3" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="R60" gate="G$1" pin="2"/>
 <label x="866.14" y="281.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED4-2-11" gate="G$1" pin="GRN"/>
-<wire x1="665.48" y1="60.96" x2="657.86" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="60.96" x2="655.32" y2="60.96" width="0.1524" layer="91"/>
-<label x="655.32" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="76.2" x2="657.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="76.2" x2="655.32" y2="76.2" width="0.1524" layer="91"/>
-<label x="655.32" y="76.2" size="1.778" layer="95"/>
-<pinref part="LED4-2-10" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="91.44" x2="657.86" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="91.44" x2="655.32" y2="91.44" width="0.1524" layer="91"/>
-<label x="655.32" y="91.44" size="1.778" layer="95"/>
-<pinref part="LED4-2-9" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="106.68" x2="657.86" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="106.68" x2="655.32" y2="106.68" width="0.1524" layer="91"/>
-<label x="655.32" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED4-2-8" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="121.92" x2="657.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="121.92" x2="655.32" y2="121.92" width="0.1524" layer="91"/>
-<label x="655.32" y="121.92" size="1.778" layer="95"/>
-<pinref part="LED4-2-7" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="137.16" x2="657.86" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="137.16" x2="655.32" y2="137.16" width="0.1524" layer="91"/>
-<label x="655.32" y="137.16" size="1.778" layer="95"/>
-<pinref part="LED4-2-6" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="152.4" x2="657.86" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="152.4" x2="655.32" y2="152.4" width="0.1524" layer="91"/>
-<label x="655.32" y="152.4" size="1.778" layer="95"/>
-<pinref part="LED4-2-5" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="167.64" x2="657.86" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="167.64" x2="655.32" y2="167.64" width="0.1524" layer="91"/>
-<label x="655.32" y="167.64" size="1.778" layer="95"/>
-<pinref part="LED4-2-4" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="182.88" x2="657.86" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="657.86" y1="182.88" x2="655.32" y2="182.88" width="0.1524" layer="91"/>
-<label x="655.32" y="182.88" size="1.778" layer="95"/>
-<pinref part="LED4-2-3" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 <net name="U2CS15" class="0">
@@ -6899,102 +5810,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R61" gate="G$1" pin="2"/>
 <label x="866.14" y="279.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED4-2-2" gate="G$1" pin="RED"/>
-<wire x1="665.48" y1="203.2" x2="655.32" y2="203.2" width="0.1524" layer="91"/>
-<label x="655.32" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="218.44" x2="655.32" y2="218.44" width="0.1524" layer="91"/>
-<label x="655.32" y="218.44" size="1.778" layer="95"/>
-<pinref part="LED4-2-1" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="187.96" x2="711.2" y2="187.96" width="0.1524" layer="91"/>
-<label x="711.2" y="187.96" size="1.778" layer="95"/>
-<pinref part="LED5-2-1" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="172.72" x2="711.2" y2="172.72" width="0.1524" layer="91"/>
-<label x="711.2" y="172.72" size="1.778" layer="95"/>
-<pinref part="LED5-2-2" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="157.48" x2="711.2" y2="157.48" width="0.1524" layer="91"/>
-<label x="711.2" y="157.48" size="1.778" layer="95"/>
-<pinref part="LED5-2-3" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="142.24" x2="711.2" y2="142.24" width="0.1524" layer="91"/>
-<label x="711.2" y="142.24" size="1.778" layer="95"/>
-<pinref part="LED5-2-4" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="127" x2="711.2" y2="127" width="0.1524" layer="91"/>
-<label x="711.2" y="127" size="1.778" layer="95"/>
-<pinref part="LED5-2-5" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="111.76" x2="711.2" y2="111.76" width="0.1524" layer="91"/>
-<label x="711.2" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED5-2-6" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="96.52" x2="711.2" y2="96.52" width="0.1524" layer="91"/>
-<label x="711.2" y="96.52" size="1.778" layer="95"/>
-<pinref part="LED5-2-7" gate="G$1" pin="RED"/>
-</segment>
 </net>
 <net name="U2CS14" class="0">
 <segment>
 <wire x1="850.9" y1="276.86" x2="876.3" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="R62" gate="G$1" pin="2"/>
 <label x="866.14" y="276.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED4-2-2" gate="G$1" pin="BLU"/>
-<wire x1="665.48" y1="200.66" x2="655.32" y2="200.66" width="0.1524" layer="91"/>
-<label x="655.32" y="200.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="215.9" x2="655.32" y2="215.9" width="0.1524" layer="91"/>
-<label x="655.32" y="215.9" size="1.778" layer="95"/>
-<pinref part="LED4-2-1" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="185.42" x2="711.2" y2="185.42" width="0.1524" layer="91"/>
-<label x="711.2" y="185.42" size="1.778" layer="95"/>
-<pinref part="LED5-2-1" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="170.18" x2="711.2" y2="170.18" width="0.1524" layer="91"/>
-<label x="711.2" y="170.18" size="1.778" layer="95"/>
-<pinref part="LED5-2-2" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="154.94" x2="711.2" y2="154.94" width="0.1524" layer="91"/>
-<label x="711.2" y="154.94" size="1.778" layer="95"/>
-<pinref part="LED5-2-3" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="139.7" x2="711.2" y2="139.7" width="0.1524" layer="91"/>
-<label x="711.2" y="139.7" size="1.778" layer="95"/>
-<pinref part="LED5-2-4" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="124.46" x2="711.2" y2="124.46" width="0.1524" layer="91"/>
-<label x="711.2" y="124.46" size="1.778" layer="95"/>
-<pinref part="LED5-2-5" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="109.22" x2="711.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="711.2" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED5-2-6" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="93.98" x2="711.2" y2="93.98" width="0.1524" layer="91"/>
-<label x="711.2" y="93.98" size="1.778" layer="95"/>
-<pinref part="LED5-2-7" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="U2CS13" class="0">
@@ -7003,102 +5824,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R63" gate="G$1" pin="2"/>
 <label x="866.14" y="274.32" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED4-2-2" gate="G$1" pin="GRN"/>
-<wire x1="665.48" y1="198.12" x2="655.32" y2="198.12" width="0.1524" layer="91"/>
-<label x="655.32" y="198.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="665.48" y1="213.36" x2="655.32" y2="213.36" width="0.1524" layer="91"/>
-<label x="655.32" y="213.36" size="1.778" layer="95"/>
-<pinref part="LED4-2-1" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="182.88" x2="711.2" y2="182.88" width="0.1524" layer="91"/>
-<label x="711.2" y="182.88" size="1.778" layer="95"/>
-<pinref part="LED5-2-1" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="167.64" x2="711.2" y2="167.64" width="0.1524" layer="91"/>
-<label x="711.2" y="167.64" size="1.778" layer="95"/>
-<pinref part="LED5-2-2" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="152.4" x2="711.2" y2="152.4" width="0.1524" layer="91"/>
-<label x="711.2" y="152.4" size="1.778" layer="95"/>
-<pinref part="LED5-2-3" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="137.16" x2="711.2" y2="137.16" width="0.1524" layer="91"/>
-<label x="711.2" y="137.16" size="1.778" layer="95"/>
-<pinref part="LED5-2-4" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="121.92" x2="711.2" y2="121.92" width="0.1524" layer="91"/>
-<label x="711.2" y="121.92" size="1.778" layer="95"/>
-<pinref part="LED5-2-5" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="106.68" x2="711.2" y2="106.68" width="0.1524" layer="91"/>
-<label x="711.2" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED5-2-6" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="91.44" x2="711.2" y2="91.44" width="0.1524" layer="91"/>
-<label x="711.2" y="91.44" size="1.778" layer="95"/>
-<pinref part="LED5-2-7" gate="G$1" pin="GRN"/>
-</segment>
 </net>
 <net name="U2CS12" class="0">
 <segment>
 <wire x1="858.52" y1="271.78" x2="876.3" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="R64" gate="G$1" pin="2"/>
 <label x="866.14" y="271.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED5-2-8" gate="G$1" pin="RED"/>
-<wire x1="721.36" y1="81.28" x2="711.2" y2="81.28" width="0.1524" layer="91"/>
-<label x="711.2" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="66.04" x2="711.2" y2="66.04" width="0.1524" layer="91"/>
-<label x="711.2" y="66.04" size="1.778" layer="95"/>
-<pinref part="LED5-2-9" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="50.8" x2="711.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="711.2" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED5-2-10" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="35.56" x2="711.2" y2="35.56" width="0.1524" layer="91"/>
-<label x="711.2" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED5-2-11" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="20.32" x2="711.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="711.2" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED5-2-12" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="20.32" x2="764.54" y2="20.32" width="0.1524" layer="91"/>
-<label x="764.54" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED6-2-9" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="35.56" x2="764.54" y2="35.56" width="0.1524" layer="91"/>
-<label x="764.54" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED6-2-8" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="50.8" x2="764.54" y2="50.8" width="0.1524" layer="91"/>
-<label x="764.54" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED6-2-7" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="66.04" x2="764.54" y2="66.04" width="0.1524" layer="91"/>
-<label x="764.54" y="66.04" size="1.778" layer="95"/>
-<pinref part="LED6-2-6" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="U2CS11" class="0">
@@ -7107,102 +5838,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R65" gate="G$1" pin="2"/>
 <label x="866.14" y="269.24" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED5-2-8" gate="G$1" pin="BLU"/>
-<wire x1="721.36" y1="78.74" x2="711.2" y2="78.74" width="0.1524" layer="91"/>
-<label x="711.2" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="63.5" x2="711.2" y2="63.5" width="0.1524" layer="91"/>
-<label x="711.2" y="63.5" size="1.778" layer="95"/>
-<pinref part="LED5-2-9" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="48.26" x2="711.2" y2="48.26" width="0.1524" layer="91"/>
-<label x="711.2" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED5-2-10" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="33.02" x2="711.2" y2="33.02" width="0.1524" layer="91"/>
-<label x="711.2" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED5-2-11" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="17.78" x2="711.2" y2="17.78" width="0.1524" layer="91"/>
-<label x="711.2" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED5-2-12" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="17.78" x2="764.54" y2="17.78" width="0.1524" layer="91"/>
-<label x="764.54" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED6-2-9" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="33.02" x2="764.54" y2="33.02" width="0.1524" layer="91"/>
-<label x="764.54" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED6-2-8" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="48.26" x2="764.54" y2="48.26" width="0.1524" layer="91"/>
-<label x="764.54" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED6-2-7" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="63.5" x2="764.54" y2="63.5" width="0.1524" layer="91"/>
-<label x="764.54" y="63.5" size="1.778" layer="95"/>
-<pinref part="LED6-2-6" gate="G$1" pin="BLU"/>
-</segment>
 </net>
 <net name="U2CS10" class="0">
 <segment>
 <wire x1="843.28" y1="266.7" x2="876.3" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="R66" gate="G$1" pin="2"/>
 <label x="866.14" y="266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED5-2-8" gate="G$1" pin="GRN"/>
-<wire x1="721.36" y1="76.2" x2="711.2" y2="76.2" width="0.1524" layer="91"/>
-<label x="711.2" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="60.96" x2="711.2" y2="60.96" width="0.1524" layer="91"/>
-<label x="711.2" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED5-2-9" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="45.72" x2="711.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="711.2" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED5-2-10" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="30.48" x2="711.2" y2="30.48" width="0.1524" layer="91"/>
-<label x="711.2" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED5-2-11" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="721.36" y1="15.24" x2="711.2" y2="15.24" width="0.1524" layer="91"/>
-<label x="711.2" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED5-2-12" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="15.24" x2="764.54" y2="15.24" width="0.1524" layer="91"/>
-<label x="764.54" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED6-2-9" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="30.48" x2="764.54" y2="30.48" width="0.1524" layer="91"/>
-<label x="764.54" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED6-2-8" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="45.72" x2="764.54" y2="45.72" width="0.1524" layer="91"/>
-<label x="764.54" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED6-2-7" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="60.96" x2="764.54" y2="60.96" width="0.1524" layer="91"/>
-<label x="764.54" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED6-2-6" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 <net name="U2CS9" class="0">
@@ -7211,102 +5852,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R67" gate="G$1" pin="2"/>
 <label x="866.14" y="264.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED6-2-5" gate="G$1" pin="RED"/>
-<wire x1="774.7" y1="81.28" x2="764.54" y2="81.28" width="0.1524" layer="91"/>
-<label x="764.54" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="96.52" x2="764.54" y2="96.52" width="0.1524" layer="91"/>
-<label x="764.54" y="96.52" size="1.778" layer="95"/>
-<pinref part="LED6-2-4" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="111.76" x2="764.54" y2="111.76" width="0.1524" layer="91"/>
-<label x="764.54" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED6-2-3" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="127" x2="764.54" y2="127" width="0.1524" layer="91"/>
-<label x="764.54" y="127" size="1.778" layer="95"/>
-<pinref part="LED6-2-2" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="142.24" x2="764.54" y2="142.24" width="0.1524" layer="91"/>
-<label x="764.54" y="142.24" size="1.778" layer="95"/>
-<pinref part="LED6-2-1" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="111.76" x2="815.34" y2="111.76" width="0.1524" layer="91"/>
-<label x="815.34" y="111.76" size="1.778" layer="95"/>
-<pinref part="LED7-2-1" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="96.52" x2="815.34" y2="96.52" width="0.1524" layer="91"/>
-<label x="815.34" y="96.52" size="1.778" layer="95"/>
-<pinref part="LED7-2-2" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="81.28" x2="815.34" y2="81.28" width="0.1524" layer="91"/>
-<label x="815.34" y="81.28" size="1.778" layer="95"/>
-<pinref part="LED7-2-3" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="66.04" x2="815.34" y2="66.04" width="0.1524" layer="91"/>
-<label x="815.34" y="66.04" size="1.778" layer="95"/>
-<pinref part="LED7-2-4" gate="G$1" pin="RED"/>
-</segment>
 </net>
 <net name="U2CS8" class="0">
 <segment>
 <wire x1="850.9" y1="261.62" x2="876.3" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="R68" gate="G$1" pin="2"/>
 <label x="866.14" y="261.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED6-2-5" gate="G$1" pin="BLU"/>
-<wire x1="774.7" y1="78.74" x2="764.54" y2="78.74" width="0.1524" layer="91"/>
-<label x="764.54" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="93.98" x2="764.54" y2="93.98" width="0.1524" layer="91"/>
-<label x="764.54" y="93.98" size="1.778" layer="95"/>
-<pinref part="LED6-2-4" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="109.22" x2="764.54" y2="109.22" width="0.1524" layer="91"/>
-<label x="764.54" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED6-2-3" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="124.46" x2="764.54" y2="124.46" width="0.1524" layer="91"/>
-<label x="764.54" y="124.46" size="1.778" layer="95"/>
-<pinref part="LED6-2-2" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="139.7" x2="764.54" y2="139.7" width="0.1524" layer="91"/>
-<label x="764.54" y="139.7" size="1.778" layer="95"/>
-<pinref part="LED6-2-1" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="109.22" x2="815.34" y2="109.22" width="0.1524" layer="91"/>
-<label x="815.34" y="109.22" size="1.778" layer="95"/>
-<pinref part="LED7-2-1" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="93.98" x2="815.34" y2="93.98" width="0.1524" layer="91"/>
-<label x="815.34" y="93.98" size="1.778" layer="95"/>
-<pinref part="LED7-2-2" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="78.74" x2="815.34" y2="78.74" width="0.1524" layer="91"/>
-<label x="815.34" y="78.74" size="1.778" layer="95"/>
-<pinref part="LED7-2-3" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="63.5" x2="815.34" y2="63.5" width="0.1524" layer="91"/>
-<label x="815.34" y="63.5" size="1.778" layer="95"/>
-<pinref part="LED7-2-4" gate="G$1" pin="BLU"/>
 </segment>
 </net>
 <net name="U2CS7" class="0">
@@ -7315,87 +5866,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R69" gate="G$1" pin="2"/>
 <label x="866.14" y="259.08" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED6-2-5" gate="G$1" pin="GRN"/>
-<wire x1="774.7" y1="76.2" x2="764.54" y2="76.2" width="0.1524" layer="91"/>
-<label x="764.54" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="91.44" x2="764.54" y2="91.44" width="0.1524" layer="91"/>
-<label x="764.54" y="91.44" size="1.778" layer="95"/>
-<pinref part="LED6-2-4" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="106.68" x2="764.54" y2="106.68" width="0.1524" layer="91"/>
-<label x="764.54" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED6-2-3" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="121.92" x2="764.54" y2="121.92" width="0.1524" layer="91"/>
-<label x="764.54" y="121.92" size="1.778" layer="95"/>
-<pinref part="LED6-2-2" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="774.7" y1="137.16" x2="764.54" y2="137.16" width="0.1524" layer="91"/>
-<label x="764.54" y="137.16" size="1.778" layer="95"/>
-<pinref part="LED6-2-1" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="106.68" x2="815.34" y2="106.68" width="0.1524" layer="91"/>
-<label x="815.34" y="106.68" size="1.778" layer="95"/>
-<pinref part="LED7-2-1" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="91.44" x2="815.34" y2="91.44" width="0.1524" layer="91"/>
-<label x="815.34" y="91.44" size="1.778" layer="95"/>
-<pinref part="LED7-2-2" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="76.2" x2="815.34" y2="76.2" width="0.1524" layer="91"/>
-<label x="815.34" y="76.2" size="1.778" layer="95"/>
-<pinref part="LED7-2-3" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="60.96" x2="815.34" y2="60.96" width="0.1524" layer="91"/>
-<label x="815.34" y="60.96" size="1.778" layer="95"/>
-<pinref part="LED7-2-4" gate="G$1" pin="GRN"/>
-</segment>
 </net>
 <net name="U2CS6" class="0">
 <segment>
 <wire x1="858.52" y1="256.54" x2="876.3" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="R70" gate="G$1" pin="2"/>
 <label x="866.14" y="256.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED7-2-5" gate="G$1" pin="RED"/>
-<wire x1="825.5" y1="50.8" x2="815.34" y2="50.8" width="0.1524" layer="91"/>
-<label x="815.34" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="35.56" x2="815.34" y2="35.56" width="0.1524" layer="91"/>
-<label x="815.34" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED7-2-6" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="20.32" x2="815.34" y2="20.32" width="0.1524" layer="91"/>
-<label x="815.34" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED7-2-7" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="20.32" x2="863.6" y2="20.32" width="0.1524" layer="91"/>
-<label x="863.6" y="20.32" size="1.778" layer="95"/>
-<pinref part="LED8-2-3" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="35.56" x2="863.6" y2="35.56" width="0.1524" layer="91"/>
-<label x="863.6" y="35.56" size="1.778" layer="95"/>
-<pinref part="LED8-2-2" gate="G$1" pin="RED"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="50.8" x2="863.6" y2="50.8" width="0.1524" layer="91"/>
-<label x="863.6" y="50.8" size="1.778" layer="95"/>
-<pinref part="LED8-2-1" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="U2CS5" class="0">
@@ -7404,72 +5880,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R71" gate="G$1" pin="2"/>
 <label x="866.14" y="254" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED7-2-5" gate="G$1" pin="BLU"/>
-<wire x1="825.5" y1="48.26" x2="815.34" y2="48.26" width="0.1524" layer="91"/>
-<label x="815.34" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="33.02" x2="815.34" y2="33.02" width="0.1524" layer="91"/>
-<label x="815.34" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED7-2-6" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="17.78" x2="815.34" y2="17.78" width="0.1524" layer="91"/>
-<label x="815.34" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED7-2-7" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="17.78" x2="863.6" y2="17.78" width="0.1524" layer="91"/>
-<label x="863.6" y="17.78" size="1.778" layer="95"/>
-<pinref part="LED8-2-3" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="33.02" x2="863.6" y2="33.02" width="0.1524" layer="91"/>
-<label x="863.6" y="33.02" size="1.778" layer="95"/>
-<pinref part="LED8-2-2" gate="G$1" pin="BLU"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="48.26" x2="863.6" y2="48.26" width="0.1524" layer="91"/>
-<label x="863.6" y="48.26" size="1.778" layer="95"/>
-<pinref part="LED8-2-1" gate="G$1" pin="BLU"/>
-</segment>
 </net>
 <net name="U2CS4" class="0">
 <segment>
 <wire x1="843.28" y1="251.46" x2="876.3" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="R72" gate="G$1" pin="2"/>
 <label x="866.14" y="251.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED7-2-5" gate="G$1" pin="GRN"/>
-<wire x1="825.5" y1="45.72" x2="815.34" y2="45.72" width="0.1524" layer="91"/>
-<label x="815.34" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="30.48" x2="815.34" y2="30.48" width="0.1524" layer="91"/>
-<label x="815.34" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED7-2-6" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="825.5" y1="15.24" x2="815.34" y2="15.24" width="0.1524" layer="91"/>
-<label x="815.34" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED7-2-7" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="15.24" x2="863.6" y2="15.24" width="0.1524" layer="91"/>
-<label x="863.6" y="15.24" size="1.778" layer="95"/>
-<pinref part="LED8-2-3" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="30.48" x2="863.6" y2="30.48" width="0.1524" layer="91"/>
-<label x="863.6" y="30.48" size="1.778" layer="95"/>
-<pinref part="LED8-2-2" gate="G$1" pin="GRN"/>
-</segment>
-<segment>
-<wire x1="873.76" y1="45.72" x2="863.6" y2="45.72" width="0.1524" layer="91"/>
-<label x="863.6" y="45.72" size="1.778" layer="95"/>
-<pinref part="LED8-2-1" gate="G$1" pin="GRN"/>
 </segment>
 </net>
 </nets>
