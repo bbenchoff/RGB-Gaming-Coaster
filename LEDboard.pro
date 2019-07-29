@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/bench/Documents/GitHub/RGB-Gaming-Coaster/LEDboard.brd
 
-Start at      : 18:57:19 (7/26/2019)
-End at        : 16:00:00 (12/31/1969)
-Elapsed time  : 00:03:33
+Start at      : 20:03:39 (7/26/2019)
+End at        : 20:21:06 (7/26/2019)
+Elapsed time  : 00:17:22
 
-Signals       :   162   RoutingGrid: 5.53543 mil  Layers: 2
+Signals       :   162   RoutingGrid: 5.53543 mil  Layers: 4
 Connections   :   916   predefined:  0 ( 0 Vias )
 
-Router memory :   3961552
+Router memory :   2842560
 
-Passname          : TopRouter     Route
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:01:25  00:02:08
-Number of Ripups  :         0       130
-max. Level        :         0         1
-max. Total        :         0        12
+Time per pass     :  00:01:29  00:09:00  00:00:34  00:00:41  00:00:55  00:00:38  00:00:31  00:00:29  00:00:31  00:00:34  00:00:31  00:00:30  00:00:30  00:00:29
+Number of Ripups  :         0       689         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         7         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0        46         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         3       241
-Vias              :         0       103
-Resolution        :     0.3 %    26.3 %
+Routed            :        42       899       883       885       886       886       886       886       886       886       886       886       886       886
+Vias              :         0       812       779       756       747       734       722       720       722       717       710       710       709       707
+Resolution        :     4.6 %    98.1 %    96.4 %    96.6 %    96.7 %    96.7 %    96.7 %    96.7 %    96.7 %    96.7 %    96.7 %    96.7 %    96.7 %    96.7 %
 
-Final             : 26.3% finished
+Final             : 96.7% finished
