@@ -7449,8 +7449,6 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U$19" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="PWR" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="BLUE"/>
 <part name="R77" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
-<part name="R78" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="340K"/>
-<part name="U$27" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$24" library="microbuilder" deviceset="GND" device=""/>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="R79" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1.87Mohm"/>
@@ -14178,8 +14176,6 @@ of the PowerBoost 500C</text>
 <instance part="U$19" gate="G$1" x="38.1" y="73.66"/>
 <instance part="PWR" gate="G$1" x="132.08" y="83.82"/>
 <instance part="R77" gate="G$1" x="142.24" y="83.82"/>
-<instance part="R78" gate="G$1" x="22.86" y="93.98" rot="R270"/>
-<instance part="U$27" gate="G$1" x="22.86" y="101.6"/>
 <instance part="U$24" gate="G$1" x="45.72" y="50.8"/>
 <instance part="C4" gate="G$1" x="45.72" y="55.88"/>
 <instance part="R79" gate="G$1" x="101.6" y="63.5" rot="R90"/>
@@ -14366,12 +14362,9 @@ of the PowerBoost 500C</text>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="R78" gate="G$1" pin="1"/>
-<pinref part="U$27" gate="G$1" pin="VBAT"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="VBAT"/>
-<wire x1="71.12" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -14391,6 +14384,11 @@ of the PowerBoost 500C</text>
 <pinref part="B1" gate="G$1" pin="+"/>
 <wire x1="22.86" y1="63.5" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="EN"/>
+<wire x1="71.12" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<label x="58.42" y="60.96" size="1.778" layer="95"/>
+<wire x1="58.42" y1="60.96" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<junction x="58.42" y="63.5"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="50.8" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
@@ -14408,18 +14406,6 @@ of the PowerBoost 500C</text>
 <pinref part="PWR" gate="G$1" pin="C"/>
 <pinref part="R77" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ENABLE" class="0">
-<segment>
-<wire x1="38.1" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<label x="25.4" y="88.9" size="1.778" layer="95"/>
-<pinref part="R78" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="EN"/>
-<wire x1="71.12" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
-<label x="58.42" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$76" class="0">

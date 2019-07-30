@@ -4414,7 +4414,7 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <part name="L1" library="microbuilder" deviceset="INDUCTOR" device="TDK_VLC5045" value="VLC5045-6.8uH"/>
 <part name="U$1" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
-<part name="B1" library="microbuilder" deviceset="BATTERY" device="" value="1.8-5V"/>
+<part name="B1" library="microbuilder" deviceset="BATTERY" device="" value="S2B-PH-SM4-TB(LF)(SN)"/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="2.2uF"/>
 <part name="U$7" library="microbuilder" deviceset="5.0V" device=""/>
