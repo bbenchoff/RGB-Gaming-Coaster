@@ -3910,92 +3910,6 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SC59-BEC">
-<description>SC59 (SOT23) Motorola</description>
-<wire x1="1.4224" y1="0.8604" x2="1.4224" y2="-0.8604" width="0.127" layer="51"/>
-<wire x1="1.4224" y1="-0.8604" x2="-1.4224" y2="-0.8604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="-0.8604" x2="-1.4224" y2="0.8604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="0.8604" x2="1.4224" y2="0.8604" width="0.127" layer="51"/>
-<smd name="C" x="0" y="1.2" dx="1" dy="1.4" layer="1"/>
-<smd name="E" x="0.95" y="-1.2" dx="1" dy="1.4" layer="1"/>
-<smd name="B" x="-0.95" y="-1.2" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.9112" x2="0.2286" y2="1.4954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.4954" x2="1.1684" y2="-0.9112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.4954" x2="-0.7112" y2="-0.9112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PNP-DRIVER">
-<wire x1="-5.08" y1="0" x2="-4.826" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="0.762" x2="-4.572" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-4.572" y1="-0.508" x2="-4.318" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-4.318" y1="0.762" x2="-4.064" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-4.064" y1="-0.508" x2="-3.81" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0.762" x2="-3.556" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-3.556" y1="-0.508" x2="-3.302" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="0" x2="-2.286" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.286" y1="0" x2="-0.254" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.286" y1="0" x2="-2.286" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-2.286" y1="0.762" x2="-2.794" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.794" y1="1.016" x2="-1.778" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="1.27" x2="-2.794" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="-2.794" y1="1.524" x2="-1.778" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="1.778" x2="-2.794" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="-2.794" y1="2.032" x2="-1.778" y2="2.286" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.286" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.286" y1="2.54" x2="-2.286" y2="3.556" width="0.1524" layer="94"/>
-<wire x1="-2.286" y1="3.556" x2="2.54" y2="3.556" width="0.1524" layer="94"/>
-<wire x1="2.0861" y1="1.6779" x2="1.5781" y2="2.5941" width="0.1524" layer="94"/>
-<wire x1="1.5781" y1="2.5941" x2="0.5159" y2="1.478" width="0.1524" layer="94"/>
-<wire x1="0.5159" y1="1.478" x2="2.0861" y2="1.6779" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="1.808" y2="2.1239" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
-<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
-<circle x="-2.286" y="0" radius="0.254" width="0.3048" layer="94"/>
-<circle x="2.54" y="3.556" radius="0.254" width="0.3048" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="*-PNP_DRIVER-" prefix="T" uservalue="yes">
-<description>PNP Bias Resistor Transistor</description>
-<gates>
-<gate name="G$1" symbol="PNP-DRIVER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SC59-BEC" package="SC59-BEC">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name="MUN2111T1"/>
-<technology name="MUN2112T1"/>
-<technology name="MUN2113T1"/>
-<technology name="MUN2114T1"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="burr-brown" urn="urn:adsk.eagle:library:111">
 <description>&lt;b&gt;Burr-Brown Components&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -4416,22 +4330,15 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="B1" library="microbuilder" deviceset="BATTERY" device="" value="S2B-PH-SM4-TB(LF)(SN)"/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
-<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="2.2uF"/>
 <part name="U$7" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$19" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="R79" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1.87Mohm"/>
 <part name="R80" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="200K"/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
 <part name="R81" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="340K"/>
 <part name="R82" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1.87Mohm"/>
 <part name="C5" library="microbuilder" deviceset="CAP_TANTALUM" device="B/3528_REFLOW" value="100uF/6V"/>
-<part name="LBO" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="RED"/>
-<part name="R83" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
-<part name="U$20" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$11" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="Q1" library="transistor" deviceset="*-PNP_DRIVER-" device="SC59-BEC" technology="MUN2114T1" value="MMUN2133LT1G"/>
 <part name="U5" library="microbuilder" deviceset="MCP73831/2" device="" value="MCP73831T-2ACI/OT"/>
 <part name="LED3" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="ORANGE"/>
 <part name="LED4" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="GREEN"/>
@@ -11134,25 +11041,15 @@ of the PowerBoost 500C</text>
 <instance part="U$2" gate="G$1" x="63.5" y="25.4"/>
 <instance part="B1" gate="G$1" x="22.86" y="55.88" rot="R90"/>
 <instance part="U$5" gate="G$1" x="22.86" y="48.26"/>
-<instance part="C2" gate="G$1" x="106.68" y="60.96"/>
 <instance part="U$7" gate="G$1" x="124.46" y="91.44"/>
 <instance part="U$19" gate="G$1" x="38.1" y="73.66"/>
 <instance part="R79" gate="G$1" x="101.6" y="63.5" rot="R90"/>
 <instance part="R80" gate="G$1" x="101.6" y="53.34" rot="R90"/>
 <instance part="U$3" gate="G$1" x="101.6" y="25.4"/>
-<instance part="U$6" gate="G$1" x="106.68" y="53.34"/>
 <instance part="U$8" gate="G$1" x="114.3" y="53.34"/>
 <instance part="R81" gate="G$1" x="53.34" y="35.56" rot="R90"/>
 <instance part="R82" gate="G$1" x="53.34" y="58.42" rot="R90"/>
 <instance part="C5" gate="G$1" x="114.3" y="60.96"/>
-<instance part="LBO" gate="G$1" x="139.7" y="22.86" rot="R270"/>
-<instance part="R83" gate="G$1" x="139.7" y="35.56" rot="R90"/>
-<instance part="U$20" gate="G$1" x="139.7" y="17.78"/>
-<instance part="U$11" gate="G$1" x="139.7" y="55.88"/>
-<instance part="Q1" gate="G$1" x="137.16" y="45.72" smashed="yes">
-<attribute name="NAME" x="142.24" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="43.18" size="1.778" layer="96"/>
-</instance>
 <instance part="U5" gate="G$1" x="114.3" y="127"/>
 <instance part="LED3" gate="G$1" x="81.28" y="124.46"/>
 <instance part="LED4" gate="G$1" x="78.74" y="116.84" rot="R180"/>
@@ -11199,11 +11096,6 @@ of the PowerBoost 500C</text>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="58.42" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="-"/>
@@ -11212,10 +11104,6 @@ of the PowerBoost 500C</text>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="R81" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="27.94" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LBO" gate="G$1" pin="C"/>
-<pinref part="U$20" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$30" gate="G$1" pin="GND"/>
@@ -11282,10 +11170,7 @@ of the PowerBoost 500C</text>
 <wire x1="106.68" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="68.58" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="83.82" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="66.04" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
-<junction x="106.68" y="68.58"/>
 <wire x1="114.3" y1="68.58" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 <junction x="114.3" y="68.58"/>
 <pinref part="R79" gate="G$1" pin="2"/>
@@ -11325,11 +11210,6 @@ of the PowerBoost 500C</text>
 <junction x="58.42" y="63.5"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="50.8" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="VBAT"/>
-<pinref part="Q1" gate="G$1" pin="E"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="VBAT"/>
 <wire x1="142.24" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$34" gate="G$1" pin="VBAT"/>
@@ -11343,28 +11223,6 @@ of the PowerBoost 500C</text>
 <wire x1="96.52" y1="60.96" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <junction x="101.6" y="58.42"/>
-</segment>
-</net>
-<net name="LBO" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="LBO"/>
-<wire x1="96.52" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="50.8" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
-<pinref part="LBO" gate="G$1" pin="A"/>
-<pinref part="R83" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="27.94" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$78" class="0">
-<segment>
-<pinref part="R83" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$79" class="0">
