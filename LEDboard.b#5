@@ -2507,15 +2507,15 @@ design rules under a new name.</description>
 </element>
 <element name="U$4" library="adafruit" package="TQFP32-08" value="ATSAMD21E" x="0" y="19" rot="MR270"/>
 <element name="C1" library="microbuilder" package="0805-NO" value="1uF" x="-6" y="14" rot="MR0"/>
-<element name="C2" library="microbuilder" package="0805-NO" value="0.1uF" x="-34" y="-41"/>
-<element name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="CRYSTAL-SMD-3.2X1.5MM" package3d_urn="urn:adsk.eagle:package:37548/1" value="32.768kHz" x="-38" y="-40">
-<attribute name="PROD_ID" value="XTAL-13062" x="-38" y="-40" size="1.778" layer="27" display="off"/>
+<element name="C2" library="microbuilder" package="0805-NO" value="0.1uF" x="-7" y="18" rot="MR90"/>
+<element name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="CRYSTAL-SMD-3.2X1.5MM" package3d_urn="urn:adsk.eagle:package:37548/1" value="32.768kHz" x="-3" y="26" rot="MR0">
+<attribute name="PROD_ID" value="XTAL-13062" x="-3" y="26" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10pF" x="-38" y="-46">
-<attribute name="SPICEPREFIX" value="C" x="-38" y="-46" size="1.778" layer="27" display="off"/>
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10pF" x="-7" y="23" rot="MR270">
+<attribute name="SPICEPREFIX" value="C" x="-7" y="23" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10pF" x="-38" y="-51">
-<attribute name="SPICEPREFIX" value="C" x="-38" y="-51" size="1.778" layer="27" display="off"/>
+<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10pF" x="2" y="26" rot="MR180">
+<attribute name="SPICEPREFIX" value="C" x="2" y="26" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -4916,8 +4916,8 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="28"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
-<wire x1="-37.05" y1="-46" x2="-37.05" y2="-51" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.6" y1="-28.2" x2="-37.05" y2="-46" width="0" layer="19" extent="1-16"/>
+<wire x1="-7" y1="22.05" x2="2.95" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.6" y1="-28.2" x2="-7" y2="22.05" width="0" layer="19" extent="1-16"/>
 <wire x1="-0.04" y1="-5.84" x2="-0.94" y2="-5.19" width="0" layer="19" extent="16-16"/>
 <wire x1="0.86" y1="-6.99" x2="0.935" y2="-6.815" width="0" layer="19" extent="16-16"/>
 <wire x1="-0.94" y1="-6.99" x2="-0.365" y2="-6.415" width="0" layer="19" extent="16-16"/>
@@ -5050,7 +5050,7 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="-5.05" y1="14" x2="-34.95" y2="-41" width="0" layer="19" extent="1-16"/>
+<wire x1="-5.05" y1="14" x2="-7" y2="17.05" width="0" layer="19" extent="1-16"/>
 <wire x1="0.0254" y1="11.1496" x2="-5.05" y2="14" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="D+">
@@ -5113,22 +5113,22 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="U$4" pad="30"/>
 <contactref element="U$4" pad="9"/>
-<wire x1="-4.2926" y1="20.2" x2="-33.05" y2="-41" width="0" layer="19" extent="1-16"/>
+<wire x1="-4.2926" y1="20.2" x2="-7" y2="18.95" width="0" layer="19" extent="1-16"/>
 <wire x1="4.2926" y1="21.8" x2="-4.2926" y2="20.2" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$78">
 <contactref element="U$4" pad="2"/>
 <contactref element="Y1" pad="P$1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="-39.25" y1="-40" x2="-38.95" y2="-51" width="0" layer="19" extent="1-1"/>
-<wire x1="-2" y1="23.2926" x2="-39.25" y2="-40" width="0" layer="19" extent="1-16"/>
+<wire x1="-1.75" y1="26" x2="1.05" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="-2" y1="23.2926" x2="-1.75" y2="26" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$79">
 <contactref element="U$4" pad="1"/>
 <contactref element="Y1" pad="P$2"/>
 <contactref element="C3" pad="1"/>
-<wire x1="-36.75" y1="-40" x2="-38.95" y2="-46" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.8" y1="23.2926" x2="-36.75" y2="-40" width="0" layer="19" extent="1-16"/>
+<wire x1="-4.25" y1="26" x2="-7" y2="23.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.8" y1="23.2926" x2="-4.25" y2="26" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

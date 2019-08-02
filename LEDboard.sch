@@ -7773,6 +7773,8 @@ Source: AVX .. aphvc.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="diff_pairs" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="LED1-1-1" library="CircleLEDs" deviceset="IN-B101FCH" device=""/>
@@ -8087,7 +8089,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$12" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$13" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
-<part name="MCU" library="adafruit" deviceset="ATSAMD21E" device=""/>
+<part name="U3" library="adafruit" deviceset="ATSAMD21E" device=""/>
 <part name="U$6" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
@@ -14751,7 +14753,7 @@ Source: AVX .. aphvc.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="MCU" gate="G$1" x="50.8" y="48.26"/>
+<instance part="U3" gate="G$1" x="50.8" y="48.26"/>
 <instance part="U$6" gate="G$1" x="22.86" y="81.28"/>
 <instance part="C1" gate="G$1" x="27.94" y="66.04" rot="R90"/>
 <instance part="U$9" gate="G$1" x="22.86" y="10.16"/>
@@ -14764,16 +14766,16 @@ Source: AVX .. aphvc.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="D-" class="0">
+<net name="USB_N" class="1">
 <segment>
-<pinref part="MCU" gate="G$1" pin="D-"/>
+<pinref part="U3" gate="G$1" pin="D-"/>
 <wire x1="33.02" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 <label x="22.86" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="USB_P" class="1">
 <segment>
-<pinref part="MCU" gate="G$1" pin="D+"/>
+<pinref part="U3" gate="G$1" pin="D+"/>
 <wire x1="33.02" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <label x="22.86" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -14792,7 +14794,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="VCORE"/>
+<pinref part="U3" gate="G$1" pin="VCORE"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -14801,7 +14803,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="GND"/>
-<pinref part="MCU" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14817,12 +14819,12 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$77" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="MCU" gate="G$1" pin="VDD"/>
+<pinref part="U3" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$78" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="PA1"/>
+<pinref part="U3" gate="G$1" pin="PA1"/>
 <wire x1="63.5" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="53.34" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
@@ -14834,7 +14836,7 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$79" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="PA0"/>
+<pinref part="U3" gate="G$1" pin="PA0"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -14845,21 +14847,21 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="RESET"/>
+<pinref part="U3" gate="G$1" pin="RESET"/>
 <wire x1="33.02" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="SWDIO"/>
+<pinref part="U3" gate="G$1" pin="SWDIO"/>
 <wire x1="33.02" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 <label x="17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="SWCLK"/>
+<pinref part="U3" gate="G$1" pin="SWCLK"/>
 <wire x1="33.02" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="17.78" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -15091,14 +15093,14 @@ of the PowerBoost 500C</text>
 <wire x1="48.26" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D-" class="0">
+<net name="USB_N" class="1">
 <segment>
 <pinref part="J2" gate="G$1" pin="D-"/>
 <wire x1="45.72" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <label x="55.88" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="USB_P" class="1">
 <segment>
 <pinref part="J2" gate="G$1" pin="D+"/>
 <wire x1="45.72" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
