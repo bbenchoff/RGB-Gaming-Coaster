@@ -14946,7 +14946,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U$11" gate="G$1" x="78.74" y="35.56"/>
 <instance part="C3" gate="G$1" x="73.66" y="45.72"/>
 <instance part="C4" gate="G$1" x="83.82" y="45.72"/>
-<instance part="J1" gate="G$1" x="-10.16" y="25.4"/>
+<instance part="J1" gate="G$1" x="-7.62" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -15028,6 +15028,27 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="73.66" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="48.26" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <junction x="73.66" y="50.8"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="RESET"/>
+<wire x1="33.02" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+<label x="17.78" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="SWDIO"/>
+<wire x1="33.02" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<label x="17.78" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="SWCLK"/>
+<wire x1="33.02" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
+<label x="17.78" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
