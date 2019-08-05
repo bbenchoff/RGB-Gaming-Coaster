@@ -874,6 +874,86 @@ Manufacturer: Hirose&lt;br&gt;
 <hole x="2.76641875" y="-1.49608125" drill="0.7"/>
 <hole x="2.76641875" y="-1.66408125" drill="0.7"/>
 </package>
+<package name="SAMTECH_FTSH-105-01" urn="urn:adsk.eagle:footprint:37965/1" library_version="1">
+<description>&lt;h3&gt;ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.samtec.com/ftppub/cpdf/FTSH-1XX-XX-XXX-DV-XXX-MKT.pdf"&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CORTEX_DEBUG&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="1.7145" x2="3.175" y2="1.7145" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="1.7145" x2="-3.0226" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="3.0226" y1="1.7145" x2="3.175" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.7145" x2="3.0226" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-3.0226" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-2.0574" y1="1.7145" x2="-1.7526" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="-0.7874" y1="1.7145" x2="-0.4826" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="0.4826" y1="1.7145" x2="0.7874" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="1.7526" y1="1.7145" x2="2.0574" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="2.0574" y1="-1.7145" x2="1.7526" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="0.7874" y1="-1.7145" x2="0.4826" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-0.4826" y1="-1.7145" x2="-0.7874" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-1.7526" y1="-1.7145" x2="-2.0574" y2="-1.7145" width="0.2032" layer="21"/>
+<rectangle x1="-0.2032" y1="1.7145" x2="0.2032" y2="2.921" layer="51"/>
+<rectangle x1="1.0668" y1="1.7145" x2="1.4732" y2="2.921" layer="51"/>
+<rectangle x1="2.3368" y1="1.7145" x2="2.7432" y2="2.921" layer="51"/>
+<rectangle x1="-1.4732" y1="1.7145" x2="-1.0668" y2="2.921" layer="51"/>
+<rectangle x1="-2.7432" y1="1.7145" x2="-2.3368" y2="2.921" layer="51"/>
+<rectangle x1="-0.2032" y1="-2.921" x2="0.2032" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="-1.4732" y1="-2.921" x2="-1.0668" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="-2.7432" y1="-2.921" x2="-2.3368" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="1.0668" y1="-2.921" x2="1.4732" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="2.3368" y1="-2.921" x2="2.7432" y2="-1.7145" layer="51" rot="R180"/>
+<smd name="6" x="0" y="2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="8" x="1.27" y="2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="10" x="2.54" y="2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="4" x="-1.27" y="2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="2" x="-2.54" y="2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="1" x="-2.54" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="3" x="-1.27" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="5" x="0" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="7" x="1.27" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
+<smd name="9" x="2.54" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
+<text x="-1.3462" y="0.4572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.7018" y="-0.9652" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:footprint:37966/1" library_version="1">
+<description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
+&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
+&lt;li&gt;Pin pitch:1.27mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_05x2&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
+<pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
+<pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
+<pad name="2" x="-2.54" y="0.635" drill="0.508" diameter="1"/>
+<pad name="10" x="2.54" y="0.635" drill="0.508" diameter="1"/>
+<pad name="7" x="1.27" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="5" x="0" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
+<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="51"/>
+<text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="USB_MICROB_VERTICAL" urn="urn:adsk.eagle:package:38236/1" type="box" library_version="1">
@@ -935,6 +1015,35 @@ USB_MICRO-B
 <packageinstance name="USB-MICROB-PTH"/>
 </packageinstances>
 </package3d>
+<package3d name="SAMTECH_FTSH-105-01" urn="urn:adsk.eagle:package:38289/1" type="box" library_version="1">
+<description>ARM Cortex Debug Connector (10-pin)
+Specifications:
+Pin count:10
+Pin pitch:0.05"
+
+Datasheet referenced for footprint
+Example device(s):
+CORTEX_DEBUG
+</description>
+<packageinstances>
+<packageinstance name="SAMTECH_FTSH-105-01"/>
+</packageinstances>
+</package3d>
+<package3d name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:package:38290/1" type="box" library_version="1">
+<description>Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)
+tDoc (51) layer border represents maximum dimensions of plastic housing.
+Specifications:
+Pin count:10
+Pin pitch:1.27mm
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_05x2
+</description>
+<packageinstances>
+<packageinstance name="2X5-PTH-1.27MM"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="USB-5PIN" urn="urn:adsk.eagle:symbol:37890/1" library_version="1">
@@ -954,6 +1063,26 @@ USB_MICRO-B
 <pin name="GND" x="-5.08" y="-5.08" visible="pad" length="short" direction="pwr"/>
 <pin name="ID" x="-5.08" y="-2.54" visible="pad" length="short"/>
 <pin name="SHIELD" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+</symbol>
+<symbol name="CORTEX_DEBUG" urn="urn:adsk.eagle:symbol:37964/1" library_version="1">
+<description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<pin name="VCC" x="-15.24" y="5.08" length="short"/>
+<pin name="GND@3" x="-15.24" y="2.54" length="short"/>
+<pin name="GND@5" x="-15.24" y="0" length="short"/>
+<pin name="KEY" x="-15.24" y="-2.54" length="short"/>
+<pin name="GNDDTCT" x="-15.24" y="-5.08" length="short"/>
+<pin name="!RESET" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="NC/TDI" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="SWO/TDO" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="SWDCLK/TCK" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="SWDIO/TMS" x="17.78" y="5.08" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-12.7" y="-9.906" size="1.778" layer="96" font="vector">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1059,6 +1188,62 @@ USB_MICRO-B
 <attribute name="PROD_ID" value="CONN-13711" constant="no"/>
 <attribute name="VALUE" value="AMP FCI 10103594-0001LF" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CORTEX_DEBUG" urn="urn:adsk.eagle:component:38384/1" prefix="J" library_version="1">
+<description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
+&lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
+PTH and SMD connector options available.&lt;/p&gt;
+&lt;p&gt; &lt;ul&gt;&lt;a href=”http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf”&gt;General Connector Information&lt;/a&gt;
+&lt;p&gt;&lt;b&gt; Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”http://www.digikey.com/product-detail/en/cnc-tech/3220-10-0100-00/1175-1627-ND/3883661”&gt;PTH Connector&lt;/a&gt; -via Digi-Key&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13229”&gt;SparkFun PSoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13810”&gt;SparkFun T&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CORTEX_DEBUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD" package="SAMTECH_FTSH-105-01">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="10"/>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="GNDDTCT" pad="9"/>
+<connect gate="G$1" pin="KEY" pad="7"/>
+<connect gate="G$1" pin="NC/TDI" pad="8"/>
+<connect gate="G$1" pin="SWDCLK/TCK" pad="4"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
+<connect gate="G$1" pin="SWO/TDO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38289/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_PTH" package="2X5-PTH-1.27MM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="10"/>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="GNDDTCT" pad="9"/>
+<connect gate="G$1" pin="KEY" pad="7"/>
+<connect gate="G$1" pin="NC/TDI" pad="8"/>
+<connect gate="G$1" pin="SWDCLK/TCK" pad="4"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
+<connect gate="G$1" pin="SWO/TDO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38290/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -13965,9 +14150,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$13" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
 <part name="U3" library="adafruit" deviceset="ATSAMD21E" device=""/>
 <part name="U$6" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
-<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-32.768KHZ" device="SMD-3.2X1.5" package3d_urn="urn:adsk.eagle:package:37548/1" value="32.768kHz"/>
 <part name="U$11" library="microbuilder" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617@1/2" value="10pF"/>
@@ -13998,6 +14181,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CORTEX_DEBUG" device="_SMD" package3d_urn="urn:adsk.eagle:package:38289/1" value="JTAG"/>
+<part name="U$4" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
+<part name="U$14" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20944,16 +21130,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$6" gate="G$1" x="22.86" y="81.28" smashed="yes">
 <attribute name="VALUE" x="21.336" y="82.296" size="1.27" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.69" y="63.75" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
-<attribute name="VALUE" x="26.69" y="68.34" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
-</instance>
 <instance part="U$9" gate="G$1" x="22.86" y="10.16" smashed="yes">
 <attribute name="VALUE" x="21.336" y="7.62" size="1.27" layer="96"/>
-</instance>
-<instance part="C2" gate="G$1" x="30.48" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.23" y="68.83" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
-<attribute name="VALUE" x="29.23" y="73.42" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
 </instance>
 <instance part="Y1" gate="G$1" x="78.74" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="78.74" y="48.768" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -20969,6 +21147,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C4" gate="G$1" x="83.82" y="45.72" smashed="yes">
 <attribute name="NAME" x="84.836" y="46.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="84.836" y="41.529" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="-17.78" y="48.26" smashed="yes">
+<attribute name="NAME" x="-30.48" y="56.134" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-30.48" y="38.354" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="U$4" gate="G$1" x="-35.56" y="60.96" smashed="yes">
+<attribute name="VALUE" x="-37.084" y="61.976" size="1.27" layer="96"/>
+</instance>
+<instance part="U$14" gate="G$1" x="-43.18" y="12.7" smashed="yes">
+<attribute name="VALUE" x="-44.704" y="10.16" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20999,27 +21187,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$6" gate="G$1" pin="5.0V"/>
 <wire x1="22.86" y1="73.66" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="66.04" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <junction x="22.86" y="71.12"/>
-</segment>
-</net>
-<net name="N$75" class="0">
-<segment>
+<pinref part="U3" gate="G$1" pin="VDD"/>
+<wire x1="25.4" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VCORE"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="5.0V"/>
+<wire x1="-35.56" y1="53.34" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VCC"/>
+<wire x1="-33.02" y1="53.34" x2="-35.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="GND"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="33.02" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="78.74" y1="40.64" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="GND"/>
@@ -21028,12 +21212,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <junction x="78.74" y="40.64"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="U3" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$78" class="0">
@@ -21065,6 +21243,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="33.02" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="!RESET"/>
+<wire x1="0" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="7.62" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -21072,12 +21255,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="33.02" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 <label x="17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="0" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<label x="15.24" y="53.34" size="1.778" layer="95" rot="R180"/>
+<pinref part="J1" gate="G$1" pin="SWDIO/TMS"/>
+</segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SWCLK"/>
 <wire x1="33.02" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="17.78" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="0" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<label x="15.24" y="50.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="J1" gate="G$1" pin="SWDCLK/TCK"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -21102,6 +21295,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="86.36" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <label x="73.66" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GND@3"/>
+<wire x1="-33.02" y1="50.8" x2="-43.18" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="50.8" x2="-43.18" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND@5"/>
+<wire x1="-43.18" y1="48.26" x2="-43.18" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="48.26" x2="-43.18" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-43.18" y="48.26"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="17.78" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$14" gate="G$1" pin="GND"/>
+<wire x1="22.86" y1="15.24" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
+<junction x="22.86" y="15.24"/>
+<junction x="-43.18" y="15.24"/>
 </segment>
 </net>
 </nets>
