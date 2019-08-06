@@ -14637,8 +14637,6 @@ SMT- SWCH-08247</description>
 <part name="R78" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$18" library="microbuilder" deviceset="GND" device=""/>
-<part name="R83" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
-<part name="R84" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
 <part name="U$20" library="TindieBadge" deviceset="ALPSSLIDESW" device="" value="TINDIE_SWITCH"/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="R85" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="340k"/>
@@ -21626,14 +21624,6 @@ SMT- SWCH-08247</description>
 <attribute name="NAME" x="101.6" y="36.83" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="24.13" size="1.778" layer="96"/>
 </instance>
-<instance part="R83" gate="G$1" x="76.2" y="22.86" smashed="yes">
-<attribute name="NAME" x="76.2" y="24.384" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="76.2" y="21.336" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R84" gate="G$1" x="76.2" y="20.32" smashed="yes">
-<attribute name="NAME" x="76.2" y="21.844" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="76.2" y="18.796" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="R87" gate="G$1" x="96.52" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.98" y="35.56" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="96.52" y="35.56" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
@@ -21800,7 +21790,9 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <wire x1="86.36" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R83" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="PA22"/>
+<wire x1="63.5" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -21809,21 +21801,9 @@ SMT- SWCH-08247</description>
 </segment>
 <segment>
 <wire x1="86.36" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R84" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$75" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="PA22"/>
-<pinref part="R83" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
 <pinref part="U3" gate="G$1" pin="PA23"/>
-<pinref part="R84" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$85" class="0">

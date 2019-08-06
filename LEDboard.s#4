@@ -14574,6 +14574,11 @@ SMT- SWCH-08247</description>
 <part name="R77" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
 <part name="U$15" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$16" library="microbuilder" deviceset="5.0V" device=""/>
+<part name="R78" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
+<part name="U$17" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$18" library="microbuilder" deviceset="GND" device=""/>
+<part name="R83" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
+<part name="R84" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
 </parts>
 <sheets>
 <sheet>
@@ -21553,6 +21558,14 @@ SMT- SWCH-08247</description>
 <attribute name="NAME" x="86.36" y="80.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="67.31" size="1.778" layer="96"/>
 </instance>
+<instance part="R83" gate="G$1" x="76.2" y="22.86" smashed="yes">
+<attribute name="NAME" x="76.2" y="24.384" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="76.2" y="21.336" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R84" gate="G$1" x="76.2" y="20.32" smashed="yes">
+<attribute name="NAME" x="76.2" y="21.844" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="76.2" y="18.796" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="SCL,SDA">
@@ -21695,11 +21708,8 @@ SMT- SWCH-08247</description>
 <wire x1="86.36" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PA22"/>
-<wire x1="63.5" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-<label x="73.66" y="22.86" size="1.778" layer="95"/>
+<pinref part="R83" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -21707,11 +21717,22 @@ SMT- SWCH-08247</description>
 <wire x1="86.36" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PA23"/>
-<wire x1="63.5" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
-<label x="73.66" y="20.32" size="1.778" layer="95"/>
+<pinref part="R84" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="PA22"/>
+<pinref part="R83" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="PA23"/>
+<pinref part="R84" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -21837,6 +21858,16 @@ of the PowerBoost 500C</text>
 <instance part="U$16" gate="G$1" x="17.78" y="96.52" smashed="yes">
 <attribute name="VALUE" x="16.256" y="97.536" size="1.27" layer="96"/>
 </instance>
+<instance part="R78" gate="G$1" x="-5.08" y="88.9" smashed="yes">
+<attribute name="NAME" x="-5.08" y="90.424" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-5.08" y="87.376" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$17" gate="G$1" x="0" y="83.82" smashed="yes">
+<attribute name="VALUE" x="-1.524" y="81.28" size="1.27" layer="96"/>
+</instance>
+<instance part="U$18" gate="G$1" x="-10.16" y="83.82" smashed="yes">
+<attribute name="VALUE" x="-11.684" y="81.28" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21903,6 +21934,16 @@ of the PowerBoost 500C</text>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <pinref part="VREG" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="0" y1="88.9" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$17" gate="G$1" pin="GND"/>
+<pinref part="R78" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="-10.16" y1="88.9" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$18" gate="G$1" pin="GND"/>
+<pinref part="R78" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$73" class="0">
