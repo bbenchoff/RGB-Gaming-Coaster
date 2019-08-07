@@ -12668,7 +12668,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23688/1"/>
-<<<<<<< HEAD
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12697,8 +12696,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23689/2"/>
-=======
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12706,21 +12703,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="C3640" package="C3640">
-=======
-<device name="C0201" package="C0201">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23693/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23690/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12728,21 +12717,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="01005" package="C01005">
-=======
-<device name="C1808" package="C1808">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23691/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23689/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12750,7 +12731,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 </devices>
 </deviceset>
 <deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/14" prefix="R" uservalue="yes" library_version="3">
@@ -12760,19 +12740,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </gates>
 <devices>
 <device name="R0402" package="R0402">
-=======
-<device name="C3640" package="C3640">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23547/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23693/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12780,21 +12753,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R0603" package="R0603">
-=======
-<device name="01005" package="C01005">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23691/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12802,29 +12767,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R0805" package="R0805">
-=======
-</devices>
-</deviceset>
-<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/14" prefix="R" uservalue="yes" library_version="3">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
-<gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="R0402" package="R0402">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23553/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12832,21 +12781,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R0805W" package="R0805W">
-=======
-<device name="R0603" package="R0603">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23537/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12854,21 +12795,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R1206" package="R1206">
-=======
-<device name="R0805" package="R0805">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23540/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23553/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12876,21 +12809,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R1206W" package="R1206W">
-=======
-<device name="R0805W" package="R0805W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23539/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23537/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12898,21 +12823,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R1210" package="R1210">
-=======
-<device name="R1206" package="R1206">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23554/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23540/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12920,21 +12837,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R1210W" package="R1210W">
-=======
-<device name="R1206W" package="R1206W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23541/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23539/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12942,21 +12851,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R2010" package="R2010">
-=======
-<device name="R1210" package="R1210">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23551/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23554/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12964,21 +12865,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R2010W" package="R2010W">
-=======
-<device name="R1210W" package="R1210W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23542/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23541/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -12986,21 +12879,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R2012" package="R2012">
-=======
-<device name="R2010" package="R2010">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23543/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23551/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13008,21 +12893,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R2012W" package="R2012W">
-=======
-<device name="R2010W" package="R2010W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23544/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23542/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13030,21 +12907,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R2512" package="R2512">
-=======
-<device name="R2012" package="R2012">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23545/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23543/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13052,21 +12921,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R2512W" package="R2512W">
-=======
-<device name="R2012W" package="R2012W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23565/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23544/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13074,21 +12935,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R3216" package="R3216">
-=======
-<device name="R2512" package="R2512">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23557/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23545/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13096,21 +12949,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R3216W" package="R3216W">
-=======
-<device name="R2512W" package="R2512W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23548/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23565/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13118,21 +12963,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R3225" package="R3225">
-=======
-<device name="R3216" package="R3216">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23549/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23557/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13140,21 +12977,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R3225W" package="R3225W">
-=======
-<device name="R3216W" package="R3216W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23550/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23548/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13162,63 +12991,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="R5025" package="R5025">
-=======
-<device name="R3225" package="R3225">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23552/2"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23549/2"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<<<<<<< HEAD
-<device name="R5025W" package="R5025W">
-=======
-<device name="R3225W" package="R3225W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23558/1"/>
-=======
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23550/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<<<<<<< HEAD
-<device name="R6332" package="R6332">
-=======
-<device name="R5025" package="R5025">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23559/2"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23552/2"/>
 </package3dinstances>
 <technologies>
@@ -13444,7 +13222,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23489/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13452,21 +13229,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="R6332W" package="R6332W">
-=======
 <device name="0207/15" package="0207/15">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23560/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23492/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13474,21 +13243,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M0805" package="M0805">
-=======
 <device name="0207/2V" package="0207/2V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23490/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13496,21 +13257,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M1206" package="M1206">
-=======
 <device name="0207/5V" package="0207/5V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23502/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13518,21 +13271,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M1406" package="M1406">
-=======
 <device name="0207/7" package="0207/7">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23493/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13540,21 +13285,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M2012" package="M2012">
-=======
 <device name="0309/10" package="0309/10">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23561/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23567/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13562,21 +13299,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M2309" package="M2309">
-=======
 <device name="0309/12" package="0309/12">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23562/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23571/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13584,21 +13313,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M3216" package="M3216">
-=======
 <device name="0309/V" package="0309V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23563/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23572/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13606,21 +13327,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M3516" package="M3516">
-=======
 <device name="0411/12" package="0411/12">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23573/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23578/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13628,21 +13341,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="M5923" package="M5923">
-=======
 <device name="0411/15" package="0411/15">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23564/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23568/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13650,21 +13355,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0204/5" package="0204/5">
-=======
 <device name="0411/3V" package="0411V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23488/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23570/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13672,21 +13369,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0204/7" package="0204/7">
-=======
 <device name="0414/15" package="0414/15">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23498/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23579/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13694,21 +13383,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0204/2V" package="0204V">
-=======
 <device name="0414/5V" package="0414V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23495/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23574/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13716,21 +13397,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0207/10" package="0207/10">
-=======
 <device name="0617/17" package="0617/17">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23491/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23575/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13738,21 +13411,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0207/12" package="0207/12">
-=======
 <device name="0617/22" package="0617/22">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23489/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23577/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13760,21 +13425,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0207/15" package="0207/15">
-=======
 <device name="0617/5V" package="0617V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23492/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23576/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13782,21 +13439,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0207/2V" package="0207/2V">
-=======
 <device name="0922/22" package="0922/22">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23490/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23580/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13804,21 +13453,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0207/5V" package="0207/5V">
-=======
 <device name="0613/5V" package="P0613V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23502/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23582/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13826,175 +13467,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0207/7" package="0207/7">
-=======
 <device name="0613/15" package="P0613/15">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23493/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0309/10" package="0309/10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23567/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0309/12" package="0309/12">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23571/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0309/V" package="0309V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23572/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0411/12" package="0411/12">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23578/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0411/15" package="0411/15">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23568/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0411/3V" package="0411V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23570/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0414/15" package="0414/15">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23579/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0414/5V" package="0414V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23574/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0617/17" package="0617/17">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23575/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0617/22" package="0617/22">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23577/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0617/5V" package="0617V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23576/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23581/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14002,21 +13481,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0922/22" package="0922/22">
-=======
 <device name="0817/22" package="P0817/22">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23580/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23583/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14024,21 +13495,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0613/5V" package="P0613V">
-=======
 <device name="0817/7V" package="P0817V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23582/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23608/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14046,21 +13509,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0613/15" package="P0613/15">
-=======
 <device name="V234/12" package="V234/12">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23581/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23592/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14068,21 +13523,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0817/22" package="P0817/22">
-=======
 <device name="V235/17" package="V235/17">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23583/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23586/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14090,21 +13537,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0817/7V" package="P0817V">
-=======
 <device name="V526-0" package="V526-0">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23608/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23590/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14112,21 +13551,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="V234/12" package="V234/12">
-=======
 <device name="MELF0102R" package="MINI_MELF-0102R">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23592/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23591/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14134,21 +13565,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="V235/17" package="V235/17">
-=======
 <device name="MELF0102W" package="MINI_MELF-0102W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23586/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23588/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14156,21 +13579,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="V526-0" package="V526-0">
-=======
 <device name="MELF0204R" package="MINI_MELF-0204R">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23590/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23587/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14178,21 +13593,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0102R" package="MINI_MELF-0102R">
-=======
 <device name="MELF0204W" package="MINI_MELF-0204W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23591/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23584/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14200,21 +13607,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0102W" package="MINI_MELF-0102W">
-=======
 <device name="MELF0207R" package="MINI_MELF-0207R">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23588/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23585/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14222,21 +13621,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0204R" package="MINI_MELF-0204R">
-=======
 <device name="MELF0207W" package="MINI_MELF-0207W">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23587/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23597/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14244,21 +13635,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0204W" package="MINI_MELF-0204W">
-=======
 <device name="0922V" package="0922V">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23584/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23589/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14266,21 +13649,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0207R" package="MINI_MELF-0207R">
-=======
 <device name="RDH/15" package="RDH/15">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23585/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23595/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14288,21 +13663,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0207W" package="MINI_MELF-0207W">
-=======
 <device name="MELF0102AX" package="MINI_MELF-0102AX">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23597/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23594/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14310,21 +13677,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="0922V" package="0922V">
-=======
 <device name="R0201" package="R0201">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23589/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23593/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14332,21 +13691,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="RDH/15" package="RDH/15">
-=======
 <device name="VTA52" package="VTA52">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23595/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23596/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14354,21 +13705,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="MELF0102AX" package="MINI_MELF-0102AX">
-=======
 <device name="VTA53" package="VTA53">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23594/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23603/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14376,21 +13719,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="R0201" package="R0201">
-=======
 <device name="VTA54" package="VTA54">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23593/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23598/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14398,21 +13733,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VTA52" package="VTA52">
-=======
 <device name="VTA55" package="VTA55">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23596/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23606/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14420,21 +13747,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VTA53" package="VTA53">
-=======
 <device name="VTA56" package="VTA56">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23603/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23599/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14442,21 +13761,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VTA54" package="VTA54">
-=======
 <device name="VMTA55" package="VMTA55">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23598/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23600/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14464,21 +13775,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VTA55" package="VTA55">
-=======
 <device name="VMTB60" package="VMTB60">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23606/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23607/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14486,21 +13789,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VTA56" package="VTA56">
-=======
 <device name="R4527" package="R4527">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23599/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23615/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14508,21 +13803,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VMTA55" package="VMTA55">
-=======
 <device name="WSC0001" package="WSC0001">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23600/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23601/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14530,21 +13817,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="VMTB60" package="VMTB60">
-=======
 <device name="WSC0002" package="WSC0002">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23607/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23605/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14552,21 +13831,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="R4527" package="R4527">
-=======
 <device name="WSC01/2" package="WSC01/2">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23615/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23602/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14574,21 +13845,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="WSC0001" package="WSC0001">
-=======
 <device name="WSC2515" package="WSC2515">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23601/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23604/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14596,21 +13859,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="WSC0002" package="WSC0002">
-=======
 <device name="WSC4527" package="WSC4527">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23605/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23611/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14618,21 +13873,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="WSC01/2" package="WSC01/2">
-=======
 <device name="WSC6927" package="WSC6927">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23602/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23610/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14640,21 +13887,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="WSC2515" package="WSC2515">
-=======
 <device name="R1218" package="R1218">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23604/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23614/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14662,21 +13901,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="WSC4527" package="WSC4527">
-=======
 <device name="1812X7R" package="1812X7R">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23611/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23609/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14684,21 +13915,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="WSC6927" package="WSC6927">
-=======
 <device name="PRL1632" package="PRL1632">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23610/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23612/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14706,31 +13929,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 </technologies>
 </device>
-<<<<<<< HEAD
-<device name="R1218" package="R1218">
-=======
 <device name="01005" package="R01005">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<<<<<<< HEAD
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23614/1"/>
-=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23613/1"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
-<<<<<<< HEAD
-</technologies>
-</device>
-<device name="1812X7R" package="1812X7R">
-=======
 </technologies>
 </device>
 </devices>
@@ -14972,49 +14182,23 @@ SMT- SWCH-08247</description>
 </technologies>
 </device>
 <device name="KSA_SEALED" package="KSA_SEALED_TAC_SWITCH">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="S" pin="1" pad="P$1"/>
 <connect gate="S" pin="2" pad="P$2"/>
 <connect gate="S" pin="3" pad="P$3"/>
 <connect gate="S" pin="4" pad="P$4"/>
 </connects>
-<<<<<<< HEAD
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23609/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PRL1632" package="PRL1632">
-=======
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="SMD" package="TACTILE-SWITCH-SMD">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="S" pin="1" pad="1"/>
 <connect gate="S" pin="2" pad="2"/>
 <connect gate="S" pin="3" pad="3"/>
 <connect gate="S" pin="4" pad="4"/>
 </connects>
-<<<<<<< HEAD
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23612/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="01005" package="R01005">
-=======
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="SWCH-08247"/>
@@ -15071,144 +14255,16 @@ SMT- SWCH-08247</description>
 </gates>
 <devices>
 <device name="" package="SWITCH-SSSS810701">
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
-<<<<<<< HEAD
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23613/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SPICEPREFIX" value="R" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
-<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
-This library contains power, ground, and voltage-supply symbols.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DGND" urn="urn:adsk.eagle:symbol:39415/1" library_version="1">
-<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
-</symbol>
-<symbol name="VCC" urn="urn:adsk.eagle:symbol:39418/1" library_version="1">
-<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
-</deviceset>
-<deviceset name="VCC" urn="urn:adsk.eagle:component:39449/1" prefix="SUPPLY" library_version="1">
-<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Positive voltage supply (traditionally for a BJT device, C=collector).&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="supply1" urn="urn:adsk.eagle:library:371">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="+3V3" urn="urn:adsk.eagle:symbol:26950/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-=======
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </deviceset>
 </devicesets>
 </library>
@@ -15550,21 +14606,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
-<<<<<<< HEAD
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
-=======
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="5VDC"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<<<<<<< HEAD
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-=======
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <part name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R74" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -15573,24 +14619,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
-<<<<<<< HEAD
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1uF"/>
-=======
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="5VDC"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<<<<<<< HEAD
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="5VDC"/>
-=======
 <part name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -15611,7 +14644,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R87" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="200K"/>
 <part name="U$23" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
 <part name="U$24" library="microbuilder" deviceset="GND" device=""/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </parts>
 <sheets>
 <sheet>
@@ -15667,11 +14699,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="375.92" y1="33.02" x2="378.46" y2="35.56" width="0.508" layer="94"/>
 <wire x1="378.46" y1="35.56" x2="373.38" y2="35.56" width="0.508" layer="94"/>
 <wire x1="373.38" y1="35.56" x2="375.92" y2="33.02" width="0.508" layer="94"/>
-<<<<<<< HEAD
-<text x="15.24" y="368.3" size="19.05" layer="94">LED Array Left</text>
-=======
 <text x="33.02" y="368.3" size="19.05" layer="94">LED Array Left</text>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </plain>
 <instances>
 <instance part="LED1-1-1" gate="G$1" x="33.02" y="358.14" smashed="yes">
@@ -16243,25 +15271,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="276.86" y="273.304" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="276.86" y="270.256" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<<<<<<< HEAD
-<instance part="GND6" gate="1" x="223.52" y="226.06"/>
-<instance part="C7" gate="G$1" x="223.52" y="358.14"/>
-<instance part="C8" gate="G$1" x="213.36" y="358.14"/>
-<instance part="C9" gate="G$1" x="223.52" y="345.44"/>
-<instance part="C10" gate="G$1" x="213.36" y="345.44"/>
-<instance part="C11" gate="G$1" x="223.52" y="332.74"/>
-<instance part="C12" gate="G$1" x="213.36" y="332.74"/>
-<instance part="SUPPLY3" gate="G$1" x="200.66" y="370.84"/>
-<instance part="GND7" gate="1" x="213.36" y="350.52"/>
-<instance part="GND8" gate="1" x="223.52" y="350.52"/>
-<instance part="GND9" gate="1" x="213.36" y="337.82"/>
-<instance part="GND10" gate="1" x="223.52" y="337.82"/>
-<instance part="GND11" gate="1" x="223.52" y="325.12"/>
-<instance part="GND12" gate="1" x="213.36" y="325.12"/>
-<instance part="R73" gate="G$1" x="215.9" y="254" rot="R90"/>
-<instance part="R74" gate="G$1" x="218.44" y="299.72" rot="R90"/>
-<instance part="+3V2" gate="G$1" x="218.44" y="309.88"/>
-=======
 <instance part="GND6" gate="1" x="223.52" y="226.06" smashed="yes">
 <attribute name="VALUE" x="223.52" y="225.806" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -16307,7 +15316,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V2" gate="G$1" x="218.44" y="309.88" smashed="yes">
 <attribute name="VALUE" x="215.9" y="304.8" size="1.778" layer="96" rot="R90"/>
 </instance>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </instances>
 <busses>
 <bus name="SCL,SDA">
@@ -19044,35 +18052,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="G$1" pin="ADDR"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
-<<<<<<< HEAD
-<segment>
-<pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="5VDC" class="0">
-<segment>
-=======
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -19125,7 +18104,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5.0V" class="0">
 <segment>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <wire x1="200.66" y1="360.68" x2="200.66" y2="370.84" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="360.68" x2="223.52" y2="360.68" width="0.1524" layer="91"/>
@@ -19143,61 +18121,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="213.36" y="347.98"/>
 <wire x1="231.14" y1="347.98" x2="223.52" y2="347.98" width="0.1524" layer="91"/>
 <junction x="223.52" y="347.98"/>
-<<<<<<< HEAD
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="335.28" x2="223.52" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="335.28" x2="213.36" y2="335.28" width="0.1524" layer="91"/>
-<junction x="223.52" y="335.28"/>
-<wire x1="213.36" y1="335.28" x2="200.66" y2="335.28" width="0.1524" layer="91"/>
-<junction x="213.36" y="335.28"/>
-=======
 <wire x1="231.14" y1="335.28" x2="223.52" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="335.28" x2="213.36" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="335.28" x2="200.66" y2="335.28" width="0.1524" layer="91"/>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 <wire x1="200.66" y1="335.28" x2="200.66" y2="347.98" width="0.1524" layer="91"/>
 <junction x="200.66" y="347.98"/>
 <pinref part="U1" gate="G$1" pin="PVCC1"/>
 <pinref part="U1" gate="G$1" pin="PVCC2"/>
 <pinref part="U1" gate="G$1" pin="AVCC"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
-<<<<<<< HEAD
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<wire x1="228.6" y1="302.26" x2="231.14" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SDA"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<wire x1="228.6" y1="299.72" x2="231.14" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SCL"/>
-</segment>
-</net>
-<net name="N$80" class="0">
-<segment>
-<pinref part="R73" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="259.08" x2="215.9" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="RSET"/>
-</segment>
-</net>
-<net name="3V3" class="0">
-<segment>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="218.44" y1="304.8" x2="218.44" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="R74" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$82" class="0">
-<segment>
-<pinref part="R74" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="294.64" x2="231.14" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SDB"/>
-=======
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </segment>
 </net>
 </nets>
@@ -19821,25 +18753,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="114.3" y="136.144" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="114.3" y="133.096" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<<<<<<< HEAD
-<instance part="GND1" gate="1" x="60.96" y="88.9"/>
-<instance part="C13" gate="G$1" x="60.96" y="220.98"/>
-<instance part="C14" gate="G$1" x="50.8" y="220.98"/>
-<instance part="C15" gate="G$1" x="60.96" y="208.28"/>
-<instance part="C16" gate="G$1" x="50.8" y="208.28"/>
-<instance part="C17" gate="G$1" x="60.96" y="195.58"/>
-<instance part="C18" gate="G$1" x="50.8" y="195.58"/>
-<instance part="SUPPLY1" gate="G$1" x="38.1" y="233.68"/>
-<instance part="GND2" gate="1" x="50.8" y="213.36"/>
-<instance part="GND3" gate="1" x="60.96" y="213.36"/>
-<instance part="GND4" gate="1" x="50.8" y="200.66"/>
-<instance part="GND5" gate="1" x="60.96" y="200.66"/>
-<instance part="GND13" gate="1" x="60.96" y="187.96"/>
-<instance part="GND14" gate="1" x="50.8" y="187.96"/>
-<instance part="R75" gate="G$1" x="53.34" y="116.84" rot="R90"/>
-<instance part="R76" gate="G$1" x="55.88" y="162.56" rot="R90"/>
-<instance part="+3V1" gate="G$1" x="55.88" y="172.72"/>
-=======
 <instance part="GND1" gate="1" x="60.96" y="88.9" smashed="yes">
 <attribute name="VALUE" x="60.96" y="88.646" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -19885,7 +18798,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V1" gate="G$1" x="55.88" y="172.72" smashed="yes">
 <attribute name="VALUE" x="53.34" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </instances>
 <busses>
 <bus name="SCL,SDA">
@@ -22602,51 +21514,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
-<<<<<<< HEAD
-<segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="5VDC1" class="0">
-<segment>
-<wire x1="38.1" y1="223.52" x2="38.1" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
-<junction x="60.96" y="223.52"/>
-<wire x1="50.8" y1="223.52" x2="38.1" y2="223.52" width="0.1524" layer="91"/>
-<junction x="50.8" y="223.52"/>
-<wire x1="38.1" y1="223.52" x2="38.1" y2="210.82" width="0.1524" layer="91"/>
-<junction x="38.1" y="223.52"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="210.82" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="210.82" x2="60.96" y2="210.82" width="0.1524" layer="91"/>
-<junction x="50.8" y="210.82"/>
-<wire x1="68.58" y1="210.82" x2="60.96" y2="210.82" width="0.1524" layer="91"/>
-<junction x="60.96" y="210.82"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="198.12" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
-<junction x="60.96" y="198.12"/>
-<wire x1="50.8" y1="198.12" x2="38.1" y2="198.12" width="0.1524" layer="91"/>
-<junction x="50.8" y="198.12"/>
-<wire x1="38.1" y1="198.12" x2="38.1" y2="210.82" width="0.1524" layer="91"/>
-<junction x="38.1" y="210.82"/>
-<pinref part="U2" gate="G$1" pin="PVCC1"/>
-<pinref part="U2" gate="G$1" pin="PVCC2"/>
-<pinref part="U2" gate="G$1" pin="AVCC"/>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-</segment>
-=======
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -22681,8 +21548,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="SDB"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
 <net name="5.0V" class="0">
 <segment>
 <wire x1="38.1" y1="223.52" x2="38.1" y2="233.68" width="0.1524" layer="91"/>
@@ -22713,7 +21578,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </nets>
 </sheet>
 <sheet>
@@ -22976,36 +21840,6 @@ The power circuit is a rip-off
 of the PowerBoost 500C</text>
 </plain>
 <instances>
-<<<<<<< HEAD
-<instance part="U4" gate="G$1" x="83.82" y="58.42"/>
-<instance part="L1" gate="G$1" x="55.88" y="68.58"/>
-<instance part="U$1" gate="G$1" x="53.34" y="25.4"/>
-<instance part="U$2" gate="G$1" x="63.5" y="25.4"/>
-<instance part="B1" gate="G$1" x="22.86" y="55.88" rot="R90"/>
-<instance part="U$5" gate="G$1" x="22.86" y="48.26"/>
-<instance part="U$7" gate="G$1" x="124.46" y="91.44"/>
-<instance part="U$19" gate="G$1" x="38.1" y="73.66"/>
-<instance part="R79" gate="G$1" x="101.6" y="63.5" rot="R90"/>
-<instance part="R80" gate="G$1" x="101.6" y="53.34" rot="R90"/>
-<instance part="U$3" gate="G$1" x="101.6" y="25.4"/>
-<instance part="U$8" gate="G$1" x="114.3" y="53.34"/>
-<instance part="R81" gate="G$1" x="53.34" y="35.56" rot="R90"/>
-<instance part="R82" gate="G$1" x="53.34" y="58.42" rot="R90"/>
-<instance part="C5" gate="G$1" x="114.3" y="60.96"/>
-<instance part="U5" gate="G$1" x="114.3" y="127"/>
-<instance part="U$30" gate="G$1" x="58.42" y="111.76"/>
-<instance part="C6" gate="G$1" x="66.04" y="121.92"/>
-<instance part="U$31" gate="G$1" x="66.04" y="111.76"/>
-<instance part="R86" gate="G$1" x="137.16" y="127"/>
-<instance part="U$32" gate="G$1" x="142.24" y="101.6"/>
-<instance part="U$34" gate="G$1" x="142.24" y="132.08"/>
-<instance part="J2" gate="G$1" x="40.64" y="124.46" rot="MR0"/>
-<instance part="IC1" gate="G$1" x="35.56" y="99.06"/>
-<instance part="U$10" gate="G$1" x="35.56" y="81.28"/>
-<instance part="U$12" gate="G$1" x="20.32" y="106.68"/>
-<instance part="U$13" gate="G$1" x="50.8" y="106.68"/>
-<instance part="SUPPLY2" gate="G$1" x="132.08" y="88.9"/>
-=======
 <instance part="U4" gate="G$1" x="83.82" y="58.42" smashed="yes">
 <attribute name="NAME" x="73.66" y="81.28" size="1.6764" layer="95"/>
 <attribute name="VALUE" x="73.66" y="35.56" size="1.6764" layer="96"/>
@@ -23131,7 +21965,6 @@ of the PowerBoost 500C</text>
 <instance part="U$22" gate="G$1" x="127" y="48.26" smashed="yes">
 <attribute name="VALUE" x="125.476" y="49.276" size="1.27" layer="96"/>
 </instance>
->>>>>>> 609327b93c1f31a5ae825af84fa97d7a1260f27b
 </instances>
 <busses>
 </busses>
@@ -23250,11 +22083,6 @@ of the PowerBoost 500C</text>
 <pinref part="R79" gate="G$1" pin="2"/>
 <junction x="101.6" y="68.58"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="124.46" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<junction x="124.46" y="68.58"/>
-<wire x1="132.08" y1="78.74" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="132.08" y1="68.58" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="5.0V"/>
