@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14634,9 +14634,6 @@ SMT- SWCH-08247</description>
 <part name="R77" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
 <part name="U$15" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$16" library="microbuilder" deviceset="5.0V" device=""/>
-<part name="R78" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value="0 Ohm"/>
-<part name="U$17" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$18" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$20" library="TindieBadge" deviceset="ALPSSLIDESW" device="" value="TINDIE_SWITCH"/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="R85" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="340k"/>
@@ -14700,6 +14697,8 @@ SMT- SWCH-08247</description>
 <wire x1="378.46" y1="35.56" x2="373.38" y2="35.56" width="0.508" layer="94"/>
 <wire x1="373.38" y1="35.56" x2="375.92" y2="33.02" width="0.508" layer="94"/>
 <text x="33.02" y="368.3" size="19.05" layer="94">LED Array Left</text>
+<text x="76.2" y="342.9" size="6.4516" layer="91">change these to cree
+UHD1110-FKA LEDs</text>
 </plain>
 <instances>
 <instance part="LED1-1-1" gate="G$1" x="33.02" y="358.14" smashed="yes">
@@ -21944,16 +21943,6 @@ of the PowerBoost 500C</text>
 <instance part="U$16" gate="G$1" x="17.78" y="96.52" smashed="yes">
 <attribute name="VALUE" x="16.256" y="97.536" size="1.27" layer="96"/>
 </instance>
-<instance part="R78" gate="G$1" x="-5.08" y="88.9" smashed="yes">
-<attribute name="NAME" x="-5.08" y="90.424" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="-5.08" y="87.376" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="U$17" gate="G$1" x="0" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-1.524" y="81.28" size="1.27" layer="96"/>
-</instance>
-<instance part="U$18" gate="G$1" x="-10.16" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-11.684" y="81.28" size="1.27" layer="96"/>
-</instance>
 <instance part="U$20" gate="G$1" x="154.94" y="38.1" smashed="yes" rot="R180"/>
 <instance part="U$21" gate="G$1" x="167.64" y="30.48" smashed="yes">
 <attribute name="VALUE" x="166.116" y="27.94" size="1.27" layer="96"/>
@@ -22031,16 +22020,6 @@ of the PowerBoost 500C</text>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <pinref part="VREG" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="0" y1="88.9" x2="0" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="GND"/>
-<pinref part="R78" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="-10.16" y1="88.9" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="GND"/>
-<pinref part="R78" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="38.1" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
