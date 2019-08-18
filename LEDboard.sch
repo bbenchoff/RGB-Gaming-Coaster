@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21613,8 +21613,8 @@ UHD1110-FKA LEDs</text>
 <attribute name="NAME" x="-30.48" y="56.134" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-30.48" y="38.354" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U$4" gate="G$1" x="-35.56" y="60.96" smashed="yes">
-<attribute name="VALUE" x="-37.084" y="61.976" size="1.27" layer="96"/>
+<instance part="U$4" gate="G$1" x="-35.56" y="66.04" smashed="yes">
+<attribute name="VALUE" x="-37.084" y="67.056" size="1.27" layer="96"/>
 </instance>
 <instance part="U$14" gate="G$1" x="-43.18" y="12.7" smashed="yes">
 <attribute name="VALUE" x="-44.704" y="10.16" size="1.27" layer="96"/>
@@ -21673,7 +21673,7 @@ UHD1110-FKA LEDs</text>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="5.0V"/>
-<wire x1="-35.56" y1="53.34" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="53.34" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="VCC"/>
 <wire x1="-33.02" y1="53.34" x2="-35.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
