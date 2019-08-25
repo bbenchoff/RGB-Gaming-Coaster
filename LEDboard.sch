@@ -14274,7 +14274,7 @@ SMT- SWCH-08247</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.1016">
+<class number="0" name="default" width="0.1016" drill="0.1016">
 <clearance class="0" value="0.1524"/>
 </class>
 <class number="1" name="diff_pairs" width="0.254" drill="0">
