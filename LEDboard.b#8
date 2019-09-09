@@ -8,7 +8,7 @@
 </settings>
 <grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,9 +23,9 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -4628,7 +4628,8 @@ design rules under a new name.</description>
 <wire x1="-16.6116" y1="4.5212" x2="-16.51" y2="4.9784" width="0.1016" layer="1"/>
 <wire x1="-16.51" y1="4.9784" x2="-16.3576" y2="5.461" width="0.1016" layer="1"/>
 <wire x1="-16.3576" y1="5.461" x2="-16.1461125" y2="6.057009375" width="0.1016" layer="1"/>
-<wire x1="-17.42986875" y1="7.1196" x2="-19.04421875" y2="7.78828125" width="0.101" layer="15"/>
+<wire x1="-17.42986875" y1="7.1196" x2="-18.772853125" y2="7.675878125" width="0.101" layer="15"/>
+<wire x1="-18.772853125" y1="7.675878125" x2="-19.04421875" y2="7.78828125" width="0.101" layer="15"/>
 <wire x1="-15.81553125" y1="6.45091875" x2="-17.42986875" y2="7.1196" width="0.101" layer="15"/>
 <wire x1="-15.714771875" y1="6.40918125" x2="-14.201190625" y2="5.78223125" width="0.101" layer="15"/>
 <wire x1="-15.714771875" y1="6.40918125" x2="-15.81553125" y2="6.45091875" width="0.101" layer="15"/>
@@ -4669,7 +4670,7 @@ design rules under a new name.</description>
 <wire x1="-9.903996875" y1="-24.489096875" x2="-9.92965" y2="-24.55008125" width="0" layer="19" extent="2-2"/>
 <wire x1="-18.3144875" y1="-2.386484375" x2="-24.7142" y2="-3.3782" width="0" layer="19" extent="1-16"/>
 <wire x1="-16.321421875" y1="3.9592" x2="-18.3144875" y2="-2.386484375" width="0" layer="19" extent="1-16"/>
-<wire x1="-22.4921625" y1="13.993671875" x2="-19.04421875" y2="7.78828125" width="0" layer="19" extent="15-15"/>
+<wire x1="-18.772853125" y1="7.675878125" x2="-22.4921625" y2="13.993671875" width="0" layer="19" extent="15-15"/>
 <wire x1="-16.81848125" y1="19.277259375" x2="-22.4921625" y2="13.993671875" width="0" layer="19" extent="15-15"/>
 </signal>
 <signal name="U1SW9">
@@ -6594,7 +6595,8 @@ design rules under a new name.</description>
 <wire x1="-20.13060625" y1="4.1941875" x2="-19.91271875" y2="5.138259375" width="0.101" layer="1"/>
 <wire x1="-19.91271875" y1="5.138259375" x2="-19.635659375" y2="6.11391875" width="0.101" layer="1"/>
 <wire x1="-19.635659375" y1="6.11391875" x2="-19.31241875" y2="7.06921875" width="0.101" layer="1"/>
-<wire x1="-19.31241875" y1="7.06921875" x2="-18.944290625" y2="8.00288125" width="0.101" layer="1"/>
+<wire x1="-19.31241875" y1="7.06921875" x2="-19.054990625" y2="7.722115625" width="0.101" layer="1"/>
+<wire x1="-19.054990625" y1="7.722115625" x2="-18.944290625" y2="8.00288125" width="0.101" layer="1"/>
 <wire x1="-18.944290625" y1="8.00288125" x2="-18.6894375" y2="8.56660625" width="0.101" layer="1"/>
 <wire x1="-18.6894375" y1="8.56660625" x2="-18.532559375" y2="8.913609375" width="0.101" layer="1"/>
 <wire x1="-18.532559375" y1="8.913609375" x2="-18.07851875" y2="9.80011875" width="0.101" layer="1"/>
@@ -6623,7 +6625,7 @@ design rules under a new name.</description>
 <wire x1="-17.989696875" y1="-9.106684375" x2="-18.331453125" y2="-9.306265625" width="0.1016" layer="1"/>
 <wire x1="-15.51229375" y1="-12.88200625" x2="-15.827703125" y2="-13.12124375" width="0.1016" layer="1"/>
 <wire x1="-15.827703125" y1="-13.12124375" x2="-15.82265625" y2="-13.127065625" width="0.1016" layer="1"/>
-<wire x1="-20.142290625" y1="-4.143559375" x2="-30.210540625" y2="-6.2486625" width="0" layer="19" extent="1-16"/>
+<wire x1="-19.054990625" y1="7.722115625" x2="-30.210540625" y2="-6.2486625" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="U1CS18">
 <contactref element="LED4-1-11" pad="PIN2"/>
@@ -12465,7 +12467,6 @@ design rules under a new name.</description>
 <wire x1="-31.22711875" y1="-2.00788125" x2="-32.04148125" y2="-2.06736875" width="0.101" layer="15"/>
 <wire x1="-32.04148125" y1="-2.06736875" x2="-32.855840625" y2="-2.126859375" width="0.101" layer="15"/>
 <wire x1="-32.855840625" y1="-2.126859375" x2="-33.6702" y2="-2.18635" width="0.101" layer="15"/>
-<wire x1="-33.6702" y1="-2.18635" x2="-34.484559375" y2="-2.245840625" width="0.101" layer="15"/>
 </signal>
 <signal name="N$153">
 <wire x1="-14.384359375" y1="-3.09205" x2="-21.90028125" y2="-4.24671875" width="0.101" layer="15"/>
