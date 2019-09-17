@@ -14337,6 +14337,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/KMS221GLFS.pd
 <part name="U$20" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
 <part name="R83" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="200K"/>
 <part name="U$25" library="microbuilder" deviceset="5.0V" device="" value="3V3"/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14395,6 +14396,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/KMS221GLFS.pd
 <text x="33.02" y="368.3" size="19.05" layer="94">LED Array Left</text>
 <text x="76.2" y="342.9" size="6.4516" layer="91">change these to cree
 UHD1110-FKA LEDs</text>
+<text x="208.28" y="261.62" size="1.778" layer="97">ADDR connect to ground
+ADDR=00
+
+See pg. 7 of datasheet</text>
 </plain>
 <instances>
 <instance part="LED1-1-1" gate="G$1" x="33.02" y="358.14" smashed="yes">
@@ -17879,8 +17884,10 @@ UHD1110-FKA LEDs</text>
 <wire x1="167.64" y1="-99.06" x2="165.1" y2="-101.6" width="0.1524" layer="94"/>
 <wire x1="165.1" y1="-101.6" x2="170.18" y2="-101.6" width="0.1524" layer="94"/>
 <wire x1="170.18" y1="-101.6" x2="167.64" y2="-99.06" width="0.1524" layer="94"/>
-<text x="-129.54" y="241.3" size="19.05" layer="94">LED Array Right</text>
-<text x="-5.08" y="139.7" size="5.08" layer="91">Fix the address things</text>
+<text x="-121.92" y="246.38" size="19.05" layer="94">LED Array Right</text>
+<text x="45.72" y="134.62" size="1.778" layer="97">ADDR connects to vcc
+ADDR = 11
+See pg. 7 of datasheet</text>
 </plain>
 <instances>
 <instance part="LED1-2-1" gate="G$1" x="-157.48" y="254" smashed="yes">
@@ -18492,6 +18499,9 @@ UHD1110-FKA LEDs</text>
 </instance>
 <instance part="+3V1" gate="G$1" x="55.88" y="172.72" smashed="yes">
 <attribute name="VALUE" x="53.34" y="167.64" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="63.5" y="132.08" smashed="yes">
+<attribute name="VALUE" x="60.96" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -21184,13 +21194,10 @@ UHD1110-FKA LEDs</text>
 <wire x1="68.58" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="60.96" y1="106.68" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="119.38" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <junction x="60.96" y="106.68"/>
 <pinref part="R75" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="111.76" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="ADDR"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -21234,6 +21241,13 @@ UHD1110-FKA LEDs</text>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="55.88" y1="167.64" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R76" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="63.5" y1="127" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="ADDR"/>
+<wire x1="68.58" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="119.38" x2="63.5" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$84" class="0">
