@@ -1,0 +1,322 @@
+Designator,MPN,QTY,Value,Device,Package,Description,Link ,HEIGHT,MANUFACTURER_NAME,MANUFACTURER_PART_NUMBER,MF,MOUSER_PART_NUMBER,MOUSER_PRICE-STOCK,MPN,OC_FARNELL,OC_NEWARK,PROD_ID,SPICEPREFIX,VALUE
+B1,,1,S2B-PH-SM4-TB(LF)(SN),BATTERY,JSTPH2,CR1220 SMT - Digikey: 3001K-ND,,,,,,,,,,,,,
+C3,,1,10pF,C-USC0805,C0805,"CAPACITOR, American symbol",,,,,,,,,,,,C,
+C4,,1,10pF,C-USC0805,C0805,"CAPACITOR, American symbol",,,,,,,,,,,,C,
+C5,,1,100uF/6V,CAP_TANTALUMB/3528_REFLOW,EIA3528-21/B-R,Tantalum Capacitors,,,,,,,,,,,,,
+C6,,1,10µF,CAP_CERAMIC0805-NOOUTLINE,0805-NO,Ceramic Capacitors,,,,,,,,,,,,,
+C7,,1,0.1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C8,,1,1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C9,,1,0.1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C10,,1,1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C13,,1,0.1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C14,,1,1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C15,,1,0.1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+C16,,1,1uF,C-EUC0805K,C0805K,"CAPACITOR, European symbol",,,,,,,,,,,,C,
+J1,FTSH-105-01,1,JTAG,CORTEX_DEBUG_SMD,SAMTECH_FTSH-105-01,Cortex Debug Connector - 10 pin,,,,,,,,,,,,,
+J2,,1,,USB_MICRO-B_FEMALE-SMT,USB-B-MICRO-SMD,USB Type Micro-B Connector,,,,,,,,,,,CONN-11752,,
+L1,VLC5045-6.8uH,1,VLC5045-6.8uH,INDUCTORTDK_VLC5045,INDUCTOR_5X5MM_TDK_VLC5045,Inductors,,,,,,,,,,,,,
+LED1-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-15,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-16,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-17,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-18,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-19,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-20,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-21,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-22,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-1-23,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-15,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-16,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-17,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-18,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-19,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-20,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-21,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-22,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED1-2-23,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-15,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-16,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-17,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-18,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-19,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-1-20,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-15,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-16,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-17,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-18,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-19,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED2-2-20,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-15,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-16,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-1-17,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-15,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-16,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED3-2-17,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-1-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-13,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED4-2-14,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-1-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-10,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-11,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED5-2-12,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-1-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-8,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED6-2-9,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-1-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-4,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-5,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-6,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED7-2-7,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED8-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED8-1-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED8-1-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED8-2-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED8-2-2,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED8-2-3,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+LED9-1-1,UHD1110-FKA,1,,,SMD-4,,,,,,,,,,,,,,
+R1,,1,51Ω,0603-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R2,,1,20Ω,0604-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R3,,1,20Ω,0605-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R4,,1,51Ω,0606-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R5,,1,20Ω,0607-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R6,,1,20Ω,0608-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R7,,1,51Ω,0609-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R8,,1,20Ω,0610-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R9,,1,20Ω,0611-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R10,,1,51Ω,0612-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R11,,1,20Ω,0613-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R12,,1,20Ω,0614-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R13,,1,51Ω,0615-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R14,,1,20Ω,0616-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R15,,1,20Ω,0617-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R16,,1,51Ω,0618-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R17,,1,20Ω,0619-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R18,,1,20Ω,0620-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R19,,1,51Ω,0621-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R20,,1,20Ω,0622-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R21,,1,20Ω,0623-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R22,,1,51Ω,0624-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R23,,1,20Ω,0625-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R24,,1,20Ω,0626-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R25,,1,51Ω,0627-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R26,,1,20Ω,0628-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R27,,1,20Ω,0629-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R28,,1,51Ω,0630-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R29,,1,20Ω,0631-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R30,,1,20Ω,0632-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R31,,1,51Ω,0633-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R32,,1,20Ω,0634-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R33,,1,20Ω,0635-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R34,,1,51Ω,0636-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R35,,1,20Ω,0637-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R36,,1,20Ω,0638-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R37,,1,51Ω,0639-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R38,,1,20Ω,0640-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R39,,1,20Ω,0641-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R40,,1,51Ω,0642-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R41,,1,20Ω,0643-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R42,,1,20Ω,0644-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R43,,1,51Ω,0645-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R44,,1,20Ω,0646-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R45,,1,20Ω,0647-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R46,,1,51Ω,0648-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R47,,1,20Ω,0649-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R48,,1,20Ω,0650-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R49,,1,51Ω,0651-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R50,,1,20Ω,0652-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R51,,1,20Ω,0653-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R52,,1,51Ω,0654-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R53,,1,20Ω,0655-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R54,,1,20Ω,0656-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R55,,1,51Ω,0657-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R56,,1,20Ω,0658-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R57,,1,20Ω,0659-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R58,,1,51Ω,0660-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R59,,1,20Ω,0661-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R60,,1,20Ω,0662-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R61,,1,51Ω,0663-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R62,,1,20Ω,0664-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R63,,1,20Ω,0665-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R64,,1,51Ω,0666-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R65,,1,20Ω,0667-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R66,,1,20Ω,0668-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R67,,1,51Ω,0669-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R68,,1,20Ω,0670-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R69,,1,20Ω,0671-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R70,,1,51Ω,0672-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R71,,1,20Ω,0673-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R72,,1,20Ω,0603-1/10W-1%,603,14kΩ resistor,,,,,,,,,,,RES-13340,,14k
+R73,,1,10k,R-US_R0805,R0805,"RESISTOR, American symbol",,,,,,,,,,,,R,
+R74,,1,10k,R-EU_R0805,R0805,"RESISTOR, European symbol",,,,,,,,,,,,R,
+R75,,1,10k,R-US_R0805,R0805,"RESISTOR, American symbol",,,,,,,,,,,,R,
+R76,,1,10k,R-EU_R0805,R0805,"RESISTOR, European symbol",,,,,,,,,,,,R,
+R78,,1,200K,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R79,,1,1.87Mohm,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R80,,1,200K,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R81,,1,340K,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R82,,1,1.87Mohm,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R83,,1,200K,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R85,,1,340k,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+R86,,1,2k,RESISTOR0805_NOOUTLINE,0805-NO,Resistors,,,,,,,,,,,,,
+S2,,1,KMS221GLFS,KMS221GLFS,KMS221GLFS,"IP40 Side Tact Switch, SPST-NO 50 mA @ 32 V dc","IP40 Side Tact Switch, SPST-NO 50 mA @ 32 V dc",mm,C & K COMPONENTS,KMS221GLFS,,611-KMS221GLFS,https://www.mouser.com/Search/Refine.aspx?Keyword=611-KMS221GLFS,,,,,,
+S3,,1,KMS221GLFS,KMS221GLFS,KMS221GLFS,"IP40 Side Tact Switch, SPST-NO 50 mA @ 32 V dc","IP40 Side Tact Switch, SPST-NO 50 mA @ 32 V dc",mm,C & K COMPONENTS,KMS221GLFS,,611-KMS221GLFS,https://www.mouser.com/Search/Refine.aspx?Keyword=611-KMS221GLFS,,,,,,
+U$17,,1,TINDIE_SWITCH,ALPSSLIDESW,SWITCH-SSSS810701,,,,,,,,,,,,,,
+U1,IS31FL3741,1,IS31FL3741_QFN60,IS31FL3741_QFN60,QFN60,ISSI,,,,,,,,,,,,,
+U2,IS31FL3741,1,IS31FL3741_QFN60,IS31FL3741_QFN60,QFN60,ISSI,,,,,,,,,,,,,
+U3,ATSAMD21E,1,ATSAMD21E,ATSAMD21E,TQFP32-08,,,,,,,,,,,,,,
+U4,TPS61090RSAR,1,TPS61090RSAR,VREG_TPS6103X,PVQFN-16,"TPS6103x 4A Boost - 1.8-5.5V Input, Adjustable Output to 5.5V",,,,,,,,,,,,,
+U5,MCP73831/2,1,MCP73831T-2ACI/OT,MCP73831/2,SOT23-5,MCP73831/2 LIPO Charger,,,,,,,,,,,,,
+VREG,,1,REG1117,REG1117,SOT223,800mA and 1A Low Dropout (LDO) Positive Regulator,,,,,,,,REG1117,1097566,14P6981,,,
+Y1,,1,32.768kHz,CRYSTAL-32.768KHZSMD-3.2X1.5,CRYSTAL-SMD-3.2X1.5MM,32.768kHz Crystal,,,,,,,,,,,XTAL-13062,,32.768kHz

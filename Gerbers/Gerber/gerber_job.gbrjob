@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-09-18T02:25:04Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.59,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "LEDboard"
+        },
+        "Owner": "Brian Benchoff <benchoff@gmail.com>",
+        "Size": {
+            "X": 72,
+            "Y": 72
+        }
+    }
+}
