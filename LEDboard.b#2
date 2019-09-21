@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,13 +22,13 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -115,7 +115,7 @@
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
@@ -169,57 +169,6 @@
 <text x="5.88" y="-15.96" size="2.54" layer="22" font="vector" ratio="9" rot="MR0" align="center">+</text>
 <wire x1="-1.524" y1="-35.2552" x2="-2.3368" y2="-35.2044" width="0.1016" layer="21"/>
 <text x="-12.7" y="-16.51" size="1.016" layer="16" font="vector" ratio="18" rot="MR225">Benchoff '19</text>
-<wire x1="0" y1="36" x2="-36" y2="0" width="0.1524" layer="200" curve="90"/>
-<wire x1="-36" y1="0" x2="0" y2="-36" width="0.1524" layer="200" curve="90"/>
-<wire x1="0" y1="-36" x2="36" y2="0" width="0.1524" layer="200" curve="90"/>
-<wire x1="36" y1="0" x2="0" y2="36" width="0.1524" layer="200" curve="90"/>
-<wire x1="0" y1="32" x2="-32" y2="0" width="0.1524" layer="200" curve="90"/>
-<wire x1="-32" y1="0" x2="0" y2="-32" width="0.1524" layer="200" curve="90"/>
-<wire x1="0" y1="-32" x2="32" y2="0" width="0.1524" layer="200" curve="90"/>
-<wire x1="32" y1="0" x2="0" y2="32" width="0.1524" layer="200" curve="90"/>
-<wire x1="-31.5" y1="5" x2="-36" y2="5" width="0.1524" layer="200"/>
-<wire x1="-31.5" y1="-6" x2="-36.5" y2="-6" width="0.1524" layer="200"/>
-<wire x1="31.5" y1="6" x2="36.5" y2="6" width="0.1524" layer="200"/>
-<wire x1="31.5" y1="-6" x2="36.5" y2="-6" width="0.1524" layer="200"/>
-<wire x1="-5" y1="-31.5" x2="-5" y2="-36.5" width="0.1524" layer="200"/>
-<wire x1="5" y1="-31.5" x2="5" y2="-36.5" width="0.1524" layer="200"/>
-<wire x1="-0.75" y1="32" x2="-0.75" y2="28.25" width="0.1524" layer="200"/>
-<wire x1="0.25" y1="32" x2="0.25" y2="28.25" width="0.1524" layer="200"/>
-<wire x1="0" y1="28" x2="-28" y2="0" width="0.1524" layer="200" curve="90"/>
-<wire x1="-28" y1="0" x2="0" y2="-28" width="0.1524" layer="200" curve="90"/>
-<wire x1="0" y1="-28" x2="28" y2="0" width="0.1524" layer="200" curve="90"/>
-<wire x1="28" y1="0" x2="0" y2="28" width="0.1524" layer="200" curve="90"/>
-<wire x1="-31.25" y1="6.75" x2="-27" y2="6" width="0.1524" layer="200"/>
-<wire x1="-26.75" y1="6.5" x2="-32" y2="7.75" width="0.1524" layer="200"/>
-<wire x1="-31.25" y1="-7.25" x2="-26.75" y2="-6.25" width="0.1524" layer="200"/>
-<wire x1="-26.75" y1="-7" x2="-31.5" y2="-8.25" width="0.1524" layer="200"/>
-<wire x1="31.25" y1="7" x2="27" y2="6" width="0.1524" layer="200"/>
-<wire x1="26.75" y1="6.75" x2="31.5" y2="8" width="0.1524" layer="200"/>
-<wire x1="31.5" y1="-7" x2="27" y2="-6" width="0.1524" layer="200"/>
-<wire x1="26.75" y1="-6.75" x2="31.75" y2="-8" width="0.1524" layer="200"/>
-<wire x1="-5" y1="-14" x2="-5" y2="-18" width="0.1524" layer="200"/>
-<wire x1="-5" y1="-18" x2="-5" y2="-27.5" width="0.1524" layer="200"/>
-<wire x1="5" y1="-27.5" x2="5" y2="-6" width="0.1524" layer="200"/>
-<wire x1="5" y1="-6" x2="16" y2="-6" width="0.1524" layer="200"/>
-<wire x1="16" y1="-6" x2="22.5" y2="0.5" width="0.1524" layer="200"/>
-<wire x1="22.5" y1="0.5" x2="19" y2="4" width="0.1524" layer="200"/>
-<wire x1="19" y1="4" x2="19" y2="11.5" width="0.1524" layer="200"/>
-<wire x1="19" y1="11.5" x2="9.5" y2="11.5" width="0.1524" layer="200"/>
-<wire x1="9.5" y1="11.5" x2="9.5" y2="21" width="0.1524" layer="200"/>
-<wire x1="9.5" y1="21" x2="2.5" y2="28" width="0.1524" layer="200"/>
-<wire x1="-3" y1="28" x2="-12" y2="18.5" width="0.1524" layer="200"/>
-<wire x1="-12" y1="18.5" x2="-12" y2="5.5" width="0.1524" layer="200"/>
-<wire x1="-12" y1="5.5" x2="-16" y2="5.5" width="0.1524" layer="200"/>
-<wire x1="-16" y1="5.5" x2="-16.5" y2="5.5" width="0.1524" layer="200"/>
-<wire x1="-16.5" y1="5.5" x2="-22" y2="0" width="0.1524" layer="200"/>
-<wire x1="-22" y1="0" x2="-22.5" y2="-0.5" width="0.1524" layer="200"/>
-<wire x1="-22.5" y1="-0.5" x2="-18" y2="-5" width="0.1524" layer="200"/>
-<wire x1="-18" y1="-5" x2="-18" y2="-13.5" width="0.1524" layer="200"/>
-<wire x1="-18" y1="-13.5" x2="-18" y2="-14" width="0.1524" layer="200"/>
-<wire x1="-18" y1="-14" x2="-12.5" y2="-14" width="0.1524" layer="200"/>
-<wire x1="-12.5" y1="-14" x2="-5" y2="-14" width="0.1524" layer="200"/>
-<wire x1="-10" y1="-30.25" x2="-8.75" y2="-26.25" width="0.1524" layer="200"/>
-<wire x1="10" y1="-30.5" x2="8.5" y2="-26" width="0.1524" layer="200"/>
 </plain>
 <libraries>
 <library name="CircleLEDs">
